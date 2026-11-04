@@ -80,6 +80,12 @@ def preprocess(text, lemma=True, stemming=True):
         tokens = [stem(t) for t in tokens]
     return tokens
 
+
+
+
+
+
+
 if __name__ == "__main__":
     df = pd.read_parquet(r"E:\Machine_learning\NLP\Project\Hybrid_search\dataset\articles.parquet")
     texts = df["headline"] + " " + df["brief"] + " " + df["content"]
