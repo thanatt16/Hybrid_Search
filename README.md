@@ -6,7 +6,7 @@ Vyhledávač nad 1000 českými zpravodajskými články.
 
 1. **BM25 (fulltextové vyhledávání).** Nejdříve jsem implementoval klasické
    vyhledávání BM25 včetně předzpracování češtiny (odstranění interpunkce, tokenizace, lemmatizace, malá písmena, odstranění diakritiky, odstranění stopslov, stemming)
-2. **Hybridní vyhledávání.** Na základě výsledků evaluačních metrik jsem projekt
+2. **Hybridní vyhledávání.** Na základě pomocných výsledků evaluačních metrik jsem projekt
    rozšířil o hybridní vyhledávání, které kombinuje BM25 s embeddingy modelu
    `BAAI/bge-m3`. Výsledky obou metod se spojují pomocí Reciprocal Rank Fusion (RRF).
 
