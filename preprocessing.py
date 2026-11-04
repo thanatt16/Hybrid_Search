@@ -75,7 +75,6 @@ def preprocess(text, lemma=True, stemming=True):
     tokens = lowercase(tokens)
     tokens = [strip_diacritics(t) for t in tokens]
     tokens = remove_stopwords(tokens)
-    
     if stemming:
         tokens = [stem(t) for t in tokens]
     return tokens
