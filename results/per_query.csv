@@ -1,0 +1,1181 @@
+sada,query,doc_id,type,BM25 0 baseline (raw),BM25 1 tokens,BM25 2 + bez diakritiky,BM25 3 + stopwords,BM25 4 + lemma,BM25 5 + lemma + stem (full),BM25 6 stem bez lemma,embeddings (bge-m3),hybrid (RRF),hybrid RRF dense=0.6,hybrid RRF dense=0.7,hybrid RRF dense=0.8,hybrid RRF dense=0.9
+ruční(přirozené),přetížená dodávka zastavena policií na dálnici,443,lexical,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Hamáček odvolal Petříčka z ČSSD,635,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),nedostatek veřejných záchodů v Liberci,157,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),miliardář Sehnal předběhl frontu na očkování,81,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),zmocněnkyně pro lidská práva odchází z funkce,969,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),olomoučtí vědci vyvinuli materiál do roušek,17,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),vypálení Lidic nacisty 1942,636,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Asteroid Day hvězdárna Ondřejov,491,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ekologicka kryptomena misto bitcoinu,408,lexical,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),letiště Vodochody nebude,586,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),za co Češi utráceli v pandemii,104,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ČSSD chce zavřít nedůležité továrny,35,lexical,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),vláda schválila kompenzace pro podnikatele a Antivirus,970,lexical,1.0,1.0,1.0,1.0,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),zdražení hypoték a refinancování,2,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),spotřební daň na víno vinaři,588,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),nové tabulky výživného alimenty,469,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),seriál Jitřní záře Voyo,442,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+ruční(přirozené),filmový festival pro děti v Plzni,565,lexical,0.16666666666666666,0.5,0.5,0.5,1.0,1.0,1.0,0.5,1.0,1.0,0.5,0.5,0.5
+ruční(přirozené),koncert Rammstein v Praze recenze,99,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),šéf činohry Národního divadla končí,55,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),francouzská komedie Co jsme komu udělali,984,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),pokračování filmu Gray Man Netflix,23,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),výstava Josef Váchal,571,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),zemřela autorka kocoura Vavřince,471,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Jakub Pour Chicago NHL smlouva,472,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),švédský hokej fiasko na mistrovství světa,652,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Bělík kanonýr Přerovsko konec kariéry,107,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Češi otočili zápas se Švédskem na 4:2,62,lexical,0.3333333333333333,0.5,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ukrajinský fotbalový klub v Hradci Králové,982,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Pique Davis Cup kritika tenistu,16,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Murárik trenér Dobrovice,656,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),"Liberec porazil Zlín, rozhodl Rondič",522,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),nouzové přistání Ryanair v Německu,407,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),sopka Tonga tsunami fotky,581,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),seznam zahraničních agentů Rusko,108,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Morawiecki Turów Babiš Budapešť,39,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),klimaticky summit COP26 Glasgow Johnson,974,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),předávkování drogami v USA během pandemie,18,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),papež očkování akt lásky,587,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),vedra v Kanadě rekordní teploty,433,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),slachta prisaha babis spoluprace,879,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),proč nakonec nepovolili scházení menších skupin po skončení nouzového stavu,185,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Třebíčské kolečko,237,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),výstavba obecní knihovny se sálem v Ostopovicích,54,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),deváťáci dělali mikuláše a čerty pro prvňáky v Berouně,453,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),slavnostní průvod v chodských krojích při setkání místních rodáků,764,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),"rokáč v hradci zas nebude, green day až příští rok",324,colloquial,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),jeptiška zastřelená sovětským vojákem v roce 1945 bude prohlášena za blahoslavenou,774,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),televizní magazín pro ženy točil v Jablonci a v Harrachově,298,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),hrady na jihu Čech ruší vánoční trhy kvůli koronaviru,476,synonym,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),proč jsou papriky tak drahý,827,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),lidi po pádu Bohemia Energy nezvládnou zaplatit vyšší měsíční platby za elektřinu,217,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Stroukal,41,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ventilátory a klimatizace se vyprodávají kvůli vedru,584,synonym,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),letošní pokles reálných mezd podle bankéřů,179,derived,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),Peking chce aby ho Praha pustila do tendru na jadernou elektrárnu,313,paraphrase,0.0,0.0,0.0,0.0,0.25,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),centrální banka nakupuje korunu aby dál neoslabovala,196,paraphrase,0.14285714285714285,0.14285714285714285,0.16666666666666666,0.2,0.25,0.25,0.25,1.0,0.5,0.5,1.0,1.0,1.0
+ruční(přirozené),stát založí vlastní firmu na nakupování plynu,741,synonym,0.5,1.0,1.0,0.5,0.16666666666666666,0.16666666666666666,0.25,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),mal grup IPO Kellner Kretinsky,997,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),"nebudou se dělat zkoušky na řidičák, komisaři protestují",955,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Michael Peterson,880,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Kahanek Dvorak klavir komplet nahravka,369,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Hegerová Rokoko,464,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),novej doktor strange recenze,530,colloquial,0.0,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Wesphael,618,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),mezinárodní přehlídka činohry a loutkového divadla v Hradci Králové v červnu,10,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),dokumentarista Sex Pistols hájí Deppa v soudním sporu s exmanželkou,666,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),festival Nastevreno Plzen performance,306,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Cigánski Diabli,909,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ruská herečka poletí natáčet film na vesmírnou stanici,988,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),sparťani vydřeli výhru nad Boleslaví v nastavení,949,colloquial,0.0,0.0,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),hradečtí košíkáři hostí Brno v závěru dlouhodobé části ligy,449,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),"Hamšíkův návrat do Slovanu nevyjde, přestup do Göteborgu",50,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),český útočník Lightning nebyl vybrán novým klubem ze Seattlu,971,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),maminka brankáře Matouše Trmala o synově kariéře,567,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Emma McKeon sedm medali Tokio plavani,796,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),návrat hlubockého baseballu do nejvyšší soutěže,990,derived,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Vladislav Hynek,533,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Rafa porazil Řeka ve finále na antuce v Katalánsku,424,synonym,0.25,0.25,0.25,0.25,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),posílení hradeckého hokeje ruským útočníkem s minulostí v NHL,72,derived,0.14285714285714285,0.14285714285714285,0.125,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),maďarská vláda sledovala novináře izraelským spywarem,922,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),polské ženy si samy ukončují těhotenství tabletkami,850,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),německé město vystěhovalo tisíce obyvatel kvůli nevybuchlé munici,260,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Američané bombardovali proíránské ozbrojence u syrské hranice,904,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),odtajnění spisu FBI o útocích na dvojčata,715,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Tálibové získali biometrická zařízení americké armády,457,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Vinica raketovy utok 22 mrtvych,450,typo,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),útok střelce v dánském obchodním domě,501,synonym,1.0,1.0,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Severní Korea zkouška střely vypuštěné z podmořského plavidla,513,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),policie v Myanmaru střílela na lidi protestující proti převratu,64,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),šlechtici mají vracet státu vydané pozemky a zámek,155,synonym,0.25,0.3333333333333333,0.16666666666666666,0.16666666666666666,0.3333333333333333,0.3333333333333333,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),soud uznal nárok britské banky v insolvenci těžební firmy,835,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.1111111111111111,0.2,0.25,0.3333333333333333,0.5
+ruční(přirozené),MiniWestern,775,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),senzory v domovech důchodců evangelická církev,238,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Lipovska Bobosikova stret zajmu rada CT,330,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),vztyčování ocelových oblouků lávka Nymburk,784,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),obyvatelé Slavičína hlasují o lavičce a soše Panny Marie,616,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Hostovice výstavba stezky pro pěší podél silnice,379,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Babišův kluk na Krymu a ruský špioni,812,colloquial,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),skoda enyak cena prodej,894,typo,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),internetové obchody zázračné léky koronavirus kontroly,595,synonym,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),prodejci květin odmítají vládní zdůvodnění výjimky kvůli pohřbům,698,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Knihobot,678,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),soukromý železniční dopravce posiluje jízdy po lockdownu,34,synonym,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Productboard,849,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),růst příjmů domácností a propad hospodářství,28,derived,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),čínští zákazníci odmítají západní oblečení kvůli Ujgurům,159,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),čnb zase zvedla úroky o celý procento,489,colloquial,1.0,1.0,1.0,1.0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+ruční(přirozené),snížení ziskovosti Komerční banky v prvním kvartálu,660,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),letecké firmy chtějí snížit odškodné cestujícím pravidlo EU261,214,synonym,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+ruční(přirozené),Pučálková,681,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),muzem lidovych kroju Kutnohorsko,270,typo,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),proč je letošní předávání Oscarů jiné kvůli covidu,309,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Hlavenkova Zijute nove album,474,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),český film o dotazníku podle kterého se lidé zamilují,385,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),britské hudební ceny bez roušek zkouška velkých akcí,669,synonym,0.3333333333333333,0.25,0.2,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Klempíř z Jaru čte básničky v Liberci,456,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Margitta Brabec Kladrubi koncert,869,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Pekařova žena,589,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),časosběrný film Třeštíkové o sexuální pracovnici,191,synonym,0.0,0.0,0.0,0.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),prodloužení smluv hokejistů Šumperku Kohút,834,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),basketbalisti dostali naloženo od Turků,63,colloquial,0.0,0.0,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),plzeňští junioři se chystají na extraligu s mnoha sestupy,853,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),"amatéři chtějí dohrát nižší soutěže, rozhodnou politici",905,paraphrase,1.0,1.0,1.0,1.0,0.3333333333333333,0.3333333333333333,1.0,1.0,0.5,0.5,1.0,1.0,1.0
+ruční(přirozené),Vízkova sázka s Beránkem o tisícovku,344,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Lacko horko okruh kamionů Slovensko,794,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),gólman z Milovic slaví čtyřicítku a končí,349,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Hřebeč,713,short,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),navigátor poprvé za volantem Pačejov,975,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Zdarsky Vrchlabi rozhovor,283,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),íránští vojáci obsadili ropnou loď z Vietnamu,312,synonym,0.125,0.1111111111111111,0.1,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Izrael útočí na tunely Hamásu,370,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),na Novým Zélandu dochází místo v márnicích,45,colloquial,0.0,0.0,0.0,0.0,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),výbuch bomby v autě somálské hlavní město,647,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Sardinie oheň stovky lidí opustily domovy,498,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),WHO radí neslavit svátky s rodinou kvůli nové variantě,88,paraphrase,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Wangčhen,213,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),plné sjezdovky v Polsku a pokuty za porušování pravidel,987,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),očkovanost Seychel a návrat nákazy po čínské vakcíně,688,derived,0.2,0.16666666666666666,0.16666666666666666,0.14285714285714285,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),muž nahlásil smyšlený zločin aby mu policie odklidila sníh,878,paraphrase,0.0,0.1111111111111111,0.1111111111111111,0.1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),sváteční program na Helfštýnu po covidové přestávce,769,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ve Zlíně přesouvají autobusovou zastávku kvůli opravě tržnice,791,paraphrase,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),mlhavé ráno u Zlatého koně fotografie,874,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),karlova univerzita sputnik zeman odmitla,208,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),v Ostravě šlohli stovky půjčovacích kol,523,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),nový orgán pro koordinaci vakcinace při resortu zdravotnictví,846,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Ondřej Buš,787,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),jsou špitály v metropoli připravené na vlnu nové varianty covidu,707,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),dobývání pyropu v Podsedicích přestává být výnosné,574,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),chebské slavnostní otevření dnů dědictví,730,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),šmejdi na seznamkách tahaj prachy přes krypto,251,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.5,0.5,0.5,0.5,1.0
+ruční(přirozené),pražský dodavatel zvyšuje cenu zemního plynu o čtvrtinu,496,synonym,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),LinkedIn,916,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),benzinky si nahnaly marže kontrola ministerstva,483,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),zdražení řezaných kytek kvůli nedostatku,944,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),kdo převzal vedení PPF po smrti zakladatele,657,paraphrase,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),sbírání zeleniny na poli za pár korun u Olomouce,284,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),realitní ceny dál rostou navzdory dražším úvěrům,127,synonym,0.16666666666666666,0.25,0.25,0.25,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),twiter klubhouse akvizice,292,typo,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),cedok zanzibar skoda nahrada,390,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Týna Popelková,516,short,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Martin Frühwein osmadvacatý odsouzeny,933,typo,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ta komedie s hasičema co točí Krobot,301,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Vitalij Manskij,481,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),převod filmů do digitální podoby nenahradí originální pásy,486,synonym,0.0,0.0,0.0,0.1111111111111111,0.16666666666666666,0.16666666666666666,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Anna Bolavá,592,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),shoky a morty film,445,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),natáčení dvojky pohádky na hukvaldském hradě,44,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),které drama ovládlo udílení českých filmových cen za rok 2020,460,paraphrase,1.0,1.0,1.0,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Barbar Kysilková,53,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Pochettino po porážce s Citizens v semifinále LM,822,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),dreksa naštvanej na var,329,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),chorvatský obránce o českém týmu před duelem na Euru,218,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),příbramská prohra se Sigmou vlastní gól Zorvana,615,derived,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Notičky,536,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.1111111111111111
+ruční(přirozené),záložník Fastavu se vrací po operaci kolena,701,paraphrase,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),Lamela nejkrásnější branka sezony ocenění,734,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),beachvolejbalový turnaj Hluboká nad Vltavou,356,derived,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),"Federer vyletěl z Wimbledonu, Polák ho rozdrtil",931,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),mladý plzeňský obránce před výběrem do NHL,224,synonym,1.0,0.3333333333333333,0.3333333333333333,1.0,0.16666666666666666,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),čínský táta hledal unesené dítě čtvrt století na motorce,602,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),britské hostince mají nedostatek točeného moku po rozvolnění,254,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.125,0.14285714285714285,0.2,0.2,0.3333333333333333
+ruční(přirozené),glosa k rozhovoru prince Harryho a manželky u Oprah,857,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),butan ockovani druha davka,517,typo,0.0,0.0,0.0,0.0,0.5,1.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),v Kyjevě se ztratil Bělorus pomáhající uprchlíkům z Lukašenkova režimu,646,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),uniklé interní dokumenty sociální sítě o falešných účtech vlád,405,synonym,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),únosci v Nigérii zajali žáky a kantory kvůli penězům,277,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),na Kubě během demonstrací proti režimu zahynul člověk,372,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),čeští aktivisté v Kanadě protestují proti kácení pralesa,747,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Němci ruší trvalé hlídky na česko-německé hranici,696,synonym,0.14285714285714285,0.0,0.0,0.0,0.5,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),zemědělský fond zrušil tendr na kyslíkové spreje pro první pomoc,813,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),předvolební kampaň na jižní Moravě jako vesnický fotbal,228,paraphrase,0.25,0.3333333333333333,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),zuška v Třešti se stěhuje do starý školy,352,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),letňák Pardubice v srpnu jen animáky pro děcka,511,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Kalousek artróza,756,short,0.5,0.5,0.5,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Středočeský kraj chystá odstavná parkoviště u železnice Votice,210,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),jihlavsky tunel uzavirka oprava duben,173,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),jak studenti švindlovali u online přijímaček na vejšku,263,colloquial,0.2,0.25,0.25,0.25,0.2,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),hrad Svojanv statika trhliny ve zdech,820,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),hustá dvojka,870,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Avast fúzuje s Nortonem ekonom lituje,926,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),rozvoz kanabisu přes Uber v Kanadě,795,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),kafe s rostlinným mlíkem bez doplatku v kavárnách,937,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),kdo nahradil zakladatele Twitteru v čele firmy,110,paraphrase,0.5,0.3333333333333333,0.25,0.25,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ceny nemovitostí rostou nejvíc v Unii experti kritizují vládní program,186,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0.125,0.14285714285714285,0.25,0.3333333333333333
+ruční(přirozené),zjištěná porušení pracovních zákonů u kontrolovaných podniků kritika komory,462,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Spojené království pracovní povolení pro šoféry kamionů a drůbežárny,941,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+ruční(přirozené),půjčovny kánoí zdražují kvůli dražšímu benzínu,541,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+ruční(přirozené),evropští úředníci budou i po covidu pracovat z domova,67,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),britští uživatelé iPhonu žalují Apple za přemrštěnou provizi,368,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Vytásek,412,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Residnets koncert Praha Akropolis,527,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),přehlídka cirkusových artistů Ostrava Poruba srpen,29,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Párty Hárder,500,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Hello Marcel Strelnice Hradec koncert,915,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),divadlo stahuje hru protože nemá černého herce,40,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),japonský šéfdirigent plzeňských filharmoniků,544,derived,0.2,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),první český překlad pozdní prózy Woolfové,360,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),seriál HBO o sporu Woodyho Allena a Mii Farrow,463,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),KVIFF zase po covidu jak vypadají Vary,422,colloquial,0.25,0.5,0.5,0.3333333333333333,0.0,0.0,0.0,1.0,0.16666666666666666,0.25,0.3333333333333333,0.5,1.0
+ruční(přirozené),stoleté výročí fotbalového klubu Nové Sady zápas veteránů,363,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),ostudná prohra Němců se Severní Makedonií,272,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),dražba Gretzkyho trikotu pro obce po tornádu,823,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Bechný,645,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Christian Taylor achilovka Zlata tretra,444,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Bulls podlehli Grizzlies bez Satoranského,935,synonym,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Rusové chtěli místo hymny pouštět válečnou píseň na olympiádě,192,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Petr Dědek,373,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Guélor Kanga,520,short,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Šádek nemůže mít Zbrojovku i Viktorku,815,colloquial,0.5,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),EU sankcionuje běloruskou ekonomiku kvůli Lukašenkovi,811,derived,0.0,0.0,0.0,0.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),protest za ochranu klimatu v německé metropoli s Gretou,436,synonym,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),islamisté obsadili afghánské hlavní město a ambasády evakuují,804,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Fiat Chrysler obžaloba za dieselgate v Americe,488,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),klesající účinnost pfizerovské vakcíny v Izraeli,429,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),může Le Penová porazit Macrona ve druhém kole,655,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),úmrtí gravidní pacientky v polském špitále kvůli zákazu potratů,291,synonym,0.0,0.0,0.0,0.0,0.16666666666666666,0.2,1.0,1.0,0.5,0.5,0.5,1.0,1.0
+ruční(přirozené),Zelenskyj chce Ukrajinu do Severoatlantické aliance kvůli bojům na východě,928,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),Iran zeny sundavaji hidzab protest,206,typo,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční(přirozené),porota neobžalovala rochesterské strážníky po smrti Daniela Prudea,750,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,pretizena dodavka zastavena policii na dalnici,443,,0.0,0.0,1.0,1.0,0.25,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Hamacek odvolal Petricka z ČSSD,635,,0.5,0.5,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,nedostatek verejnych zachodu v Liberci,157,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,miliardar Sehnal predbehl frontu na ockovani,81,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,zmocnenkyne pro lidska prava odchazi z funkce,969,,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,olomoucti vedci vyvinuli material do rousek,17,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vypaleni Lidic nacisty 1942,636,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Asteroid Day hvezdarna Ondrejov,491,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ekologicka kryptomena misto bitcoinu,408,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,letiste Vodochody nebude,586,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,za co Česi utraceli v pandemii,104,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ČSSD chce zavrit nedulezite tovarny,35,,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vlada schvalila kompenzace pro podnikatele a Antivirus,970,,0.3333333333333333,0.3333333333333333,1.0,1.0,0.3333333333333333,0.3333333333333333,0.5,1.0,0.5,0.5,1.0,1.0,1.0
+ruční bez diakritiky,zdrazeni hypotek a refinancovani,2,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,spotrebni dan na vino vinari,588,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,nove tabulky vyzivneho alimenty,469,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,serial Jitrni zare Voyo,442,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+ruční bez diakritiky,filmovy festival pro deti v Plzni,565,,0.3333333333333333,0.3333333333333333,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,koncert Rammstein v Praze recenze,99,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,sef cinohry Narodniho divadla konci,55,,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,francouzska komedie Co jsme komu udelali,984,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,pokracovani filmu Gray Man Netflix,23,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vystava Josef Vachal,571,,0.125,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,zemrela autorka kocoura Vavrince,471,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.25,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Jakub Pour Chicago NHL smlouva,472,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,svedsky hokej fiasko na mistrovstvi sveta,652,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Belik kanonyr Prerovsko konec kariery,107,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Česi otocili zapas se Švedskem na 4:2,62,,0.0,0.0,0.5,0.3333333333333333,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ukrajinsky fotbalovy klub v Hradci Kralove,982,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Pique Davis Cup kritika tenistu,16,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Murarik trener Dobrovice,656,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,"Liberec porazil Zlin, rozhodl Rondic",522,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,nouzove pristani Ryanair v Nemecku,407,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,sopka Tonga tsunami fotky,581,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,seznam zahranicnich agentu Rusko,108,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Morawiecki Turow Babis Budapest,39,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,klimaticky summit COP26 Glasgow Johnson,974,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,predavkovani drogami v USA behem pandemie,18,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,papez ockovani akt lasky,587,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vedra v Kanade rekordni teploty,433,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,slachta prisaha babis spoluprace,879,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,proc nakonec nepovolili schazeni mensich skupin po skonceni nouzoveho stavu,185,,0.0,0.0,0.0,0.0,0.2,0.2,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Trebicske kolecko,237,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vystavba obecni knihovny se salem v Ostopovicich,54,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,devataci delali mikulase a certy pro prvnaky v Beroune,453,,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,slavnostni pruvod v chodskych krojich pri setkani mistnich rodaku,764,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,"rokac v hradci zas nebude, green day az pristi rok",324,,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,jeptiska zastrelena sovetskym vojakem v roce 1945 bude prohlasena za blahoslavenou,774,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,televizni magazin pro zeny tocil v Jablonci a v Harrachove,298,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,hrady na jihu Čech rusi vanocni trhy kvuli koronaviru,476,,0.5,0.3333333333333333,1.0,1.0,0.2,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,proc jsou papriky tak drahy,827,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,lidi po padu Bohemia Energy nezvladnou zaplatit vyssi mesicni platby za elektrinu,217,,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Stroukal,41,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ventilatory a klimatizace se vyprodavaji kvuli vedru,584,,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,letosni pokles realnych mezd podle bankeru,179,,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Peking chce aby ho Praha pustila do tendru na jadernou elektrarnu,313,,0.0,0.0,0.0,0.0,0.25,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,centralni banka nakupuje korunu aby dal neoslabovala,196,,0.0,0.0,0.16666666666666666,0.2,0.25,0.25,0.25,1.0,0.5,0.5,1.0,1.0,1.0
+ruční bez diakritiky,stat zalozi vlastni firmu na nakupovani plynu,741,,1.0,1.0,1.0,0.5,0.3333333333333333,0.3333333333333333,0.25,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,mal grup IPO Kellner Kretinsky,997,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,"nebudou se delat zkousky na ridicak, komisari protestuji",955,,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Michael Peterson,880,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Kahanek Dvorak klavir komplet nahravka,369,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Hegerova Rokoko,464,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,novej doktor strange recenze,530,,0.0,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Wesphael,618,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,mezinarodni prehlidka cinohry a loutkoveho divadla v Hradci Kralove v cervnu,10,,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,dokumentarista Sex Pistols haji Deppa v soudnim sporu s exmanzelkou,666,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,festival Nastevreno Plzen performance,306,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Ciganski Diabli,909,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ruska herecka poleti natacet film na vesmirnou stanici,988,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,spartani vydreli vyhru nad Boleslavi v nastaveni,949,,0.16666666666666666,0.16666666666666666,0.3333333333333333,0.3333333333333333,0.5,0.16666666666666666,1.0,1.0,0.5,0.5,0.5,0.5,1.0
+ruční bez diakritiky,hradecti kosikari hosti Brno v zaveru dlouhodobe casti ligy,449,,0.0,0.0,1.0,1.0,0.0,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,"Hamsikuv navrat do Slovanu nevyjde, prestup do Göteborgu",50,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cesky utocnik Lightning nebyl vybran novym klubem ze Seattlu,971,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,maminka brankare Matouse Trmala o synove kariere,567,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Emma McKeon sedm medali Tokio plavani,796,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,navrat hlubockeho baseballu do nejvyssi souteze,990,,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Vladislav Hynek,533,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Rafa porazil Řeka ve finale na antuce v Katalansku,424,,0.2,0.14285714285714285,0.25,0.25,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,posileni hradeckeho hokeje ruskym utocnikem s minulosti v NHL,72,,0.14285714285714285,0.14285714285714285,0.125,0.14285714285714285,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,madarska vlada sledovala novinare izraelskym spywarem,922,,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,polske zeny si samy ukoncuji tehotenstvi tabletkami,850,,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,nemecke mesto vystehovalo tisice obyvatel kvuli nevybuchle munici,260,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Americane bombardovali proiranske ozbrojence u syrske hranice,904,,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,odtajneni spisu FBI o utocich na dvojcata,715,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Talibove ziskali biometricka zarizeni americke armady,457,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Vinica raketovy utok 22 mrtvych,450,,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,utok strelce v danskem obchodnim dome,501,,0.0,0.0,0.3333333333333333,0.3333333333333333,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Severni Korea zkouska strely vypustene z podmorskeho plavidla,513,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,policie v Myanmaru strilela na lidi protestujici proti prevratu,64,,0.0,0.1111111111111111,1.0,1.0,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,slechtici maji vracet statu vydane pozemky a zamek,155,,0.0,0.0,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.25,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,soud uznal narok britske banky v insolvenci tezebni firmy,835,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.1111111111111111,0.16666666666666666,0.25,0.3333333333333333,0.5
+ruční bez diakritiky,MiniWestern,775,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,senzory v domovech duchodcu evangelicka cirkev,238,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Lipovska Bobosikova stret zajmu rada CT,330,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vztycovani ocelovych oblouku lavka Nymburk,784,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,obyvatele Slavicina hlasuji o lavicce a sose Panny Marie,616,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Hostovice vystavba stezky pro pesi podel silnice,379,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Babisuv kluk na Krymu a rusky spioni,812,,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,skoda enyak cena prodej,894,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,internetove obchody zazracne leky koronavirus kontroly,595,,0.0,0.3333333333333333,0.14285714285714285,0.14285714285714285,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,prodejci kvetin odmitaji vladni zduvodneni vyjimky kvuli pohrbum,698,,0.0,0.0,0.0,0.0,0.0,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Knihobot,678,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,soukromy zeleznicni dopravce posiluje jizdy po lockdownu,34,,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Productboard,849,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,rust prijmu domacnosti a propad hospodarstvi,28,,0.5,0.3333333333333333,0.5,0.5,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cinsti zakaznici odmitaji zapadni obleceni kvuli Ujgurum,159,,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cnb zase zvedla uroky o cely procento,489,,0.3333333333333333,0.3333333333333333,1.0,1.0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+ruční bez diakritiky,snizeni ziskovosti Komercni banky v prvnim kvartalu,660,,0.16666666666666666,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,letecke firmy chteji snizit odskodne cestujicim pravidlo EU261,214,,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+ruční bez diakritiky,Pucalkova,681,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.25,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,muzem lidovych kroju Kutnohorsko,270,,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,proc je letosni predavani Oscaru jine kvuli covidu,309,,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Hlavenkova Zijute nove album,474,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cesky film o dotazniku podle ktereho se lide zamiluji,385,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,britske hudebni ceny bez rousek zkouska velkych akci,669,,0.0,0.0,0.2,0.25,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Klempir z Jaru cte basnicky v Liberci,456,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Margitta Brabec Kladrubi koncert,869,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Pekarova zena,589,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,casosberny film Trestikove o sexualni pracovnici,191,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5
+ruční bez diakritiky,prodlouzeni smluv hokejistu Šumperku Kohut,834,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,basketbalisti dostali nalozeno od Turku,63,,0.0,0.0,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,plzensti juniori se chystaji na extraligu s mnoha sestupy,853,,0.25,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,"amateri chteji dohrat nizsi souteze, rozhodnou politici",905,,1.0,1.0,1.0,1.0,0.0,0.2,1.0,1.0,0.5,0.5,0.5,1.0,1.0
+ruční bez diakritiky,Vizkova sazka s Berankem o tisicovku,344,,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Lacko horko okruh kamionu Slovensko,794,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,golman z Milovic slavi ctyricitku a konci,349,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Hrebec,713,,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.1111111111111111,1.0,1.0,1.0,1.0,0.5
+ruční bez diakritiky,navigator poprve za volantem Pacejov,975,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Zdarsky Vrchlabi rozhovor,283,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,iransti vojaci obsadili ropnou lod z Vietnamu,312,,0.0,0.0,0.1,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Izrael utoci na tunely Hamasu,370,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,na Novym Zelandu dochazi misto v marnicich,45,,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,vybuch bomby v aute somalske hlavni mesto,647,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Sardinie ohen stovky lidi opustily domovy,498,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,WHO radi neslavit svatky s rodinou kvuli nove variante,88,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Wangchen,213,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,plne sjezdovky v Polsku a pokuty za porusovani pravidel,987,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ockovanost Seychel a navrat nakazy po cinske vakcine,688,,0.0,0.0,0.16666666666666666,0.14285714285714285,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,muz nahlasil smysleny zlocin aby mu policie odklidila snih,878,,0.125,0.0,0.1111111111111111,0.1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,svatecni program na Helfstynu po covidove prestavce,769,,0.5,0.25,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ve Zline presouvaji autobusovou zastavku kvuli oprave trznice,791,,0.0,0.0,1.0,1.0,0.0,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,mlhave rano u Zlateho kone fotografie,874,,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.125,0.125,0.125,0.125,0.0
+ruční bez diakritiky,karlova univerzita sputnik zeman odmitla,208,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,v Ostrave slohli stovky pujcovacich kol,523,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,novy organ pro koordinaci vakcinace pri resortu zdravotnictvi,846,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Ondrej Bus,787,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,jsou spitaly v metropoli pripravene na vlnu nove varianty covidu,707,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,dobyvani pyropu v Podsedicich prestava byt vynosne,574,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.3333333333333333,0.16666666666666666,0.1111111111111111,0.0,0.0
+ruční bez diakritiky,chebske slavnostni otevreni dnu dedictvi,730,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,smejdi na seznamkach tahaj prachy pres krypto,251,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.5,0.5,0.5,0.5,1.0
+ruční bez diakritiky,prazsky dodavatel zvysuje cenu zemniho plynu o ctvrtinu,496,,0.16666666666666666,0.16666666666666666,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,LinkedIn,916,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,benzinky si nahnaly marze kontrola ministerstva,483,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,zdrazeni rezanych kytek kvuli nedostatku,944,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,kdo prevzal vedeni PPF po smrti zakladatele,657,,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,sbirani zeleniny na poli za par korun u Olomouce,284,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,realitni ceny dal rostou navzdory drazsim uverum,127,,0.0,0.2,0.25,0.25,0.3333333333333333,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,twiter klubhouse akvizice,292,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cedok zanzibar skoda nahrada,390,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Tyna Popelkova,516,,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Martin Frühwein osmadvacaty odsouzeny,933,,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ta komedie s hasicema co toci Krobot,301,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+ruční bez diakritiky,Vitalij Manskij,481,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,prevod filmu do digitalni podoby nenahradi originalni pasy,486,,0.0,0.0,0.0,0.1111111111111111,0.2,0.2,0.2,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Anna Bolava,592,,0.25,0.25,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,shoky a morty film,445,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,nataceni dvojky pohadky na hukvaldskem hrade,44,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ktere drama ovladlo udileni ceskych filmovych cen za rok 2020,460,,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Barbar Kysilkova,53,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Pochettino po porazce s Citizens v semifinale LM,822,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,dreksa nastvanej na var,329,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.5,0.5,0.5,0.5,0.14285714285714285
+ruční bez diakritiky,chorvatsky obrance o ceskem tymu pred duelem na Euru,218,,0.0,0.0,0.0,0.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,pribramska prohra se Sigmou vlastni gol Zorvana,615,,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Noticky,536,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+ruční bez diakritiky,zaloznik Fastavu se vraci po operaci kolena,701,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Lamela nejkrasnejsi branka sezony oceneni,734,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,beachvolejbalovy turnaj Hluboka nad Vltavou,356,,1.0,1.0,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,"Federer vyletel z Wimbledonu, Polak ho rozdrtil",931,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,mlady plzensky obrance pred vyberem do NHL,224,,0.0,0.0,0.3333333333333333,1.0,0.2,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cinsky tata hledal unesene dite ctvrt stoleti na motorce,602,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,britske hostince maji nedostatek toceneho moku po rozvolneni,254,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1111111111111111,0.14285714285714285,0.16666666666666666,0.25,0.3333333333333333
+ruční bez diakritiky,glosa k rozhovoru prince Harryho a manzelky u Oprah,857,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,butan ockovani druha davka,517,,0.0,0.0,0.0,0.0,0.5,1.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,v Kyjeve se ztratil Belorus pomahajici uprchlikum z Lukasenkova rezimu,646,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,unikle interni dokumenty socialni site o falesnych uctech vlad,405,,0.0,0.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,unosci v Nigerii zajali zaky a kantory kvuli penezum,277,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,na Kube behem demonstraci proti rezimu zahynul clovek,372,,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,cesti aktiviste v Kanade protestuji proti kaceni pralesa,747,,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Nemci rusi trvale hlidky na cesko-nemecke hranici,696,,0.0,0.0,0.0,0.0,0.25,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,zemedelsky fond zrusil tendr na kyslikove spreje pro prvni pomoc,813,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,predvolebni kampan na jizni Morave jako vesnicky fotbal,228,,0.0,0.0,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,zuska v Tresti se stehuje do stary skoly,352,,0.0,0.0,1.0,1.0,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,letnak Pardubice v srpnu jen animaky pro decka,511,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Kalousek artroza,756,,0.5,0.5,0.5,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Stredocesky kraj chysta odstavna parkoviste u zeleznice Votice,210,,0.16666666666666666,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,jihlavsky tunel uzavirka oprava duben,173,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,jak studenti svindlovali u online prijimacek na vejsku,263,,0.25,0.3333333333333333,0.25,0.25,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,hrad Svojanv statika trhliny ve zdech,820,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,husta dvojka,870,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Avast fuzuje s Nortonem ekonom lituje,926,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,rozvoz kanabisu pres Uber v Kanade,795,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,kafe s rostlinnym mlikem bez doplatku v kavarnach,937,,0.2,0.2,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,kdo nahradil zakladatele Twitteru v cele firmy,110,,1.0,0.5,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ceny nemovitosti rostou nejvic v Unii experti kritizuji vladni program,186,,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.0,0.14285714285714285,0.16666666666666666,0.25,0.3333333333333333
+ruční bez diakritiky,zjistena poruseni pracovnich zakonu u kontrolovanych podniku kritika komory,462,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Spojene kralovstvi pracovni povoleni pro sofery kamionu a drubezarny,941,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,pujcovny kanoi zdrazuji kvuli drazsimu benzinu,541,,0.0,0.0,1.0,1.0,0.25,1.0,1.0,0.0,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.14285714285714285,0.0
+ruční bez diakritiky,evropsti urednici budou i po covidu pracovat z domova,67,,1.0,1.0,1.0,1.0,0.16666666666666666,0.125,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,britsti uzivatele iPhonu zaluji Apple za premrstenou provizi,368,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Vytasek,412,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Residnets koncert Praha Akropolis,527,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,prehlidka cirkusovych artistu Ostrava Poruba srpen,29,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Party Harder,500,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Hello Marcel Strelnice Hradec koncert,915,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,divadlo stahuje hru protoze nema cerneho herce,40,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,japonsky sefdirigent plzenskych filharmoniku,544,,0.0,0.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,prvni cesky preklad pozdni prozy Woolfove,360,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,serial HBO o sporu Woodyho Allena a Mii Farrow,463,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,KVIFF zase po covidu jak vypadaji Vary,422,,0.25,0.5,0.5,0.3333333333333333,0.0,0.0,0.0,1.0,0.25,0.5,0.5,0.5,1.0
+ruční bez diakritiky,stolete vyroci fotbaloveho klubu Nove Sady zapas veteranu,363,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,ostudna prohra Nemcu se Severni Makedonii,272,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,drazba Gretzkyho trikotu pro obce po tornadu,823,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Bechny,645,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Christian Taylor achilovka Zlata tretra,444,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Bulls podlehli Grizzlies bez Satoranskeho,935,,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Rusove chteli misto hymny poustet valecnou pisen na olympiade,192,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Petr Dedek,373,,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Guelor Kanga,520,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Šadek nemuze mit Zbrojovku i Viktorku,815,,0.0,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,EU sankcionuje beloruskou ekonomiku kvuli Lukasenkovi,811,,0.0,0.0,0.0,0.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,protest za ochranu klimatu v nemecke metropoli s Gretou,436,,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,islamiste obsadili afghanske hlavni mesto a ambasady evakuuji,804,,0.2,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Fiat Chrysler obzaloba za dieselgate v Americe,488,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,klesajici ucinnost pfizerovske vakciny v Izraeli,429,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,muze Le Penova porazit Macrona ve druhem kole,655,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,umrti gravidni pacientky v polskem spitale kvuli zakazu potratu,291,,0.0,0.0,0.0,0.0,0.2,0.2,1.0,1.0,0.5,0.5,0.5,1.0,1.0
+ruční bez diakritiky,Zelenskyj chce Ukrajinu do Severoatlanticke aliance kvuli bojum na vychode,928,,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,Iran zeny sundavaji hidzab protest,206,,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+ruční bez diakritiky,porota neobzalovala rochesterske strazniky po smrti Daniela Prudea,750,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Francie Prezidentské volby Marine le pen,655,,0.5,0.5,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Česká republika Jihomoravský kraj Knihovny,54,,0.0,0.125,0.1111111111111111,0.1111111111111111,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.5,1.0,1.0,0.5,0.5,0.5
+keywords (auto),Zdeněk svěrák Spider-man Česko,268,,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,0.5,0.5,1.0,1.0,1.0
+keywords (auto),Německo Investice Bitcoin,251,,0.0,0.0,0.0,0.0,0.3333333333333333,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Miloš forman Miroslav krobot Anna polívková,301,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Ondřej pivec Grammy award Covid-19,274,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Kuchyňský Olej Čerpací,728,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Opava Tomáš satoranský Svitava,452,,0.0,0.0,0.0,0.0,0.16666666666666666,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,0.5
+keywords (auto),Plzeňský kraj Ústecký kraj Lounsko,386,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Nhl New jersey devils Roman málek,177,,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Petr vondráček Aneta langerová Petr janda,702,,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Nigérie Únos Abuja,277,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Skotsko Jaroslav šilhavý Fk zenit sankt-petěrburg,218,,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.25,0.5,0.5,0.5,0.3333333333333333,0.3333333333333333
+keywords (auto),Sucho Usa Klima,570,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Ukrajina Válka rusko-ukrajina Rusko,211,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Německo Ekonomika Hdp,93,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Liev Schreiber Karlovy,883,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Norsko Mistrovství světa ve fotbale Katar,554,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Josef minařík Český krumlov Slušovice,503,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.25,1.0,1.0,1.0,1.0,0.5
+keywords (auto),Hudba Jóhann jóhannsson Hollywood,996,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Rusko Krmivo Inspekce,612,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Jan fischer Vláda Eva zamrazilová,927,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Český statistický úřad Jídlo Bydlení,695,,0.16666666666666666,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Afghánistán Ministerstvo zahraničí Armáda čr,684,,0.5,1.0,1.0,1.0,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+keywords (auto),Egypt Egyptské muzeum v káhiře Káhira,33,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Minimální mzda Evropská unie Česko,314,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Odcházení Film Václav,777,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Český statistický úřad Pohonné látky Vladimír klimeš,484,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,0.1111111111111111,1.0,0.5,0.25,0.16666666666666666,0.14285714285714285
+keywords (auto),Čína Aljaška Petr kellner,792,,0.0,0.2,0.2,0.25,1.0,1.0,1.0,0.14285714285714285,1.0,0.3333333333333333,0.25,0.2,0.16666666666666666
+keywords (auto),Taliban Invaze Afghánistán,598,,0.0,0.5,1.0,1.0,1.0,1.0,1.0,0.25,0.5,0.3333333333333333,0.3333333333333333,0.25,0.25
+keywords (auto),Woody allen Mia farrow Michael žantovský,463,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Čína Francie Kurt cobain,984,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Volejbal Karlovarsko Čez,613,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Hc sparta Bílí tygři liberec Florida panthers,458,,0.0,0.0,0.0,0.0,1.0,1.0,0.5,0.0,0.1,0.0,0.0,0.0,0.0
+keywords (auto),Česká republika Základní umělecká škola (zuš) Praha,126,,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Železnice Správa železniční dopravní cesty České dráhy,470,,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.25,0.25,0.14285714285714285,0.2,0.2,0.2,0.16666666666666666,0.16666666666666666
+keywords (auto),Martin dvořák Dopravní podnik Ivo rittig,757,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Johnny depp Julien temple Hudební skupina,666,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Jan košťálek Hc čsob pojišťovna pardubice Dominik frodl,887,,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Ústecký kraj Martin hausenblas Eva outlá,379,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Fbi Vláda Usa,715,,0.0,0.5,0.5,0.5,0.5,0.5,0.5,0.3333333333333333,0.5,1.0,1.0,1.0,0.5
+keywords (auto),Peter handke Zdeněk adamec Nobelova cena,575,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Velikonoce Koronavirus Český svaz pivovarů a sladoven,751,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Chorvatsko Maďarsko Německo,951,,0.3333333333333333,0.25,0.25,0.25,1.0,1.0,1.0,0.0,0.14285714285714285,0.125,0.0,0.0,0.0
+keywords (auto),Kinematografie Paříž Film,842,,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,0.25,1.0,0.5,0.5,0.5,0.3333333333333333
+keywords (auto),Praha Středočeský kraj Městská policie praha,650,,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Chudoba Asie Balkán,153,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Španělsko Německo Polsko,114,,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Středočeský kraj Sedlčany Policie,843,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Mexiko Věznice Zlatý globus,105,,0.0,0.0,0.0,0.0,1.0,1.0,0.3333333333333333,0.0,0.25,0.25,0.16666666666666666,0.16666666666666666,0.16666666666666666
+keywords (auto),Koalice Saúdská arábie Associated press,729,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,0.25,0.5,0.5,0.5,0.3333333333333333,0.25
+keywords (auto),Josef abrhám Libuše šafránková Herec,994,,0.14285714285714285,0.5,0.5,0.5,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+keywords (auto),Vlašim Na Koupáku,836,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Homeoffice Práce z domova Práce na dálku,67,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Poradna: léky na předpis Poradna: volně prodejné léky Elektronika,104,,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Jake gyllenhaal Prima zoom Mount everest,296,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Bělorusko Evropská unie Alexandr lukašenko,811,,0.0,0.25,0.25,0.25,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Plzeň Dukla praha Karel šmíd,91,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Bělorusko Sankce Evropská unie,327,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+keywords (auto),Spojené státy americké Itálie Německo,740,,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Hokej Motor Novotný,760,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+keywords (auto),Hypoteční úvěr Úvěr Bydlení,676,,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.3333333333333333,0.5,0.5,0.5,0.5,0.3333333333333333
+keywords (auto),Herec Divadlo Martin mcdonagh,40,,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.16666666666666666
+keywords (auto),French open Barbora krejčíková Finále,766,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Film Divadlo na fidlovačce Šimon caban,46,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Dominik stroukal Investice Spoření,41,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Alexej navalnyj Reuters Moskevský kreml,376,,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+keywords (auto),Kuba Protest Usa,372,,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Tipsport Extraliga Hokeje,555,,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,0.5,1.0,0.3333333333333333,0.5,0.5,0.5,0.5,0.5
+keywords (auto),Harry potter J. k. rowlingová Daniel radcliffe,611,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+keywords (auto),Benzín Motorová nafta Palivo,572,,0.0,0.25,0.3333333333333333,0.25,1.0,1.0,1.0,0.3333333333333333,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+keywords (auto),Ukrajina Vojsko Přesun,485,,0.1,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Dynamo pardubice Pardubický kraj San jose sharks,779,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Líšeň Ludmila macešková Fc vysočina jihlava,487,,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Bulharsko Parlamentní volby Volby,837,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Jozef chovanec Roman berbr Fotbalová asociace čr (fačr),419,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Evropská unie Nejvyšší kontrolní úřad (nkú) Ministerstvo pro místní rozvoj,300,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Tomáš vaclík Fotbal Olympiakos pireus fc,568,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Rusko Covid-19 Pandemie,468,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Český Brod Kouřim,438,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.14285714285714285,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Praha Analýza Česko,139,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Opera Cena divadelní kritiky Jan zahradníček,74,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Tomáš satoranský New orleans hornets Los angeles clippers,943,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),České aerolinie Smartwings Městský soud v praze,242,,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+keywords (auto),Český statistický úřad Evropa Praha,944,,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.1,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Nemovitost Nemovitosti Prodej nemovitostí,150,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Roman dragoun Josef buchta B-side band,736,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Válka rusko-ukrajina Ukrajina Bělorusko,524,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Česká republika Praha Divadla,959,,0.16666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Michal horáček Hana hegerová Revoluce,759,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Francie Velká británie Severní irsko,455,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Pfizer Koronavirus Izrael,429,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Filmový festival 55. mezinárodní filmový festival karlovy vary Karlovy vary,561,,0.5,0.2,0.2,0.2,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,0.5
+keywords (auto),Idnes tv - podcasty Karel havlíček Rozstřel,112,,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,0.5
+keywords (auto),Tenis Davis cup Fotbal,16,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Středoafrická republika Zdravotnictví Siriri,798,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Velká británie Evropská unie Vízum,941,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Ac sparta praha Sk slavia praha Slovácko,954,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Ombudsman Univerzita Pohlavní zneužívání,675,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Petr fousek Korupce Roman berbr,800,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Polsko Netflix Orgasmus,906,,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Mateusz morawiecki Důl turów Budapešť,39,,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Divadlo Kultura Magazín.aktuálně.cz,279,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Tradice Národní divadlo v praze Divadelní fakulta akademie múzických umění,417,,0.5,0.2,0.2,0.2,0.3333333333333333,0.3333333333333333,0.16666666666666666,0.125,1.0,0.3333333333333333,0.25,0.25,0.14285714285714285
+keywords (auto),Barrandovský most Barrandov Oprava,89,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Umění Výstava Malování,305,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Rumunsko Festival berlinale Jiří konečný,807,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Velká británie Indie Spojené státy americké,818,,0.0,0.0,0.0,0.0,0.25,0.25,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Covid-19 Koronavirus Pandemie,109,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Lesy české republiky Šumava Krkonoše,626,,0.0,0.0,0.0,0.0,0.14285714285714285,0.125,0.125,0.0,0.125,0.125,0.1111111111111111,0.0,0.0
+keywords (auto),Ac sparta praha Glen kamara Jaroslav tvrdík,753,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Francie Velká británie Řecko,890,,1.0,0.25,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Pelhřimov Rekord Křest,335,,0.0,0.0,0.0,0.0,1.0,1.0,0.5,0.0,0.5,0.5,0.5,0.2,0.0
+keywords (auto),Hokej Milan antoš David moravec,746,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Eutanazie Švýcarsko Evropa,690,,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Francie Paříž Lékaři bez hranic,420,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Central intelligence agency Rusko Fbi,103,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.5,0.2,0.16666666666666666,0.0,0.0
+keywords (auto),Televizní seriál Tv nova Netflix,963,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.1111111111111111,0.125,0.125,0.14285714285714285,0.2
+keywords (auto),Motor české budějovice Jihočeský kraj Karel pražák,246,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Doksy Tuchlovice Sk kladno,392,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Metallica Sokol Nejdek,99,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.14285714285714285,0.14285714285714285,0.0,0.0,0.0
+keywords (auto),Čssd Jan hamáček Tomáš petříček,635,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Lodě Plavidlo Chemikálie,973,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Volejbal Karlovarsko Čez,771,,0.5,0.5,0.5,0.5,0.5,0.2,0.2,0.5,0.5,0.5,0.5,0.5,0.5
+keywords (auto),Ústecký kraj Komunální odpad Úštěk,259,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Premiéra Mezinárodní hudební festival lípa musica Stabat mater,87,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Kutná Hora Gask,397,,0.0,1.0,1.0,1.0,1.0,0.5,1.0,0.0,0.5,0.5,0.1111111111111111,0.0,0.0
+keywords (auto),Simone biles Gymnastika Olympiáda,864,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Nymburk Výročí Miroslav macháček,829,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Airbnb Krize Bydlení,900,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Film Cate blanchettová Jablko,680,,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Orchestr Tokio Česká filharmonie,544,,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Královská rodina Monarchie Princ,898,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Rusko Jan hamáček Vítězslav pivoňka,428,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Malajsie Spojené arabské emiráty Miloš vystrčil,11,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.16666666666666666,0.1111111111111111,0.0,0.0,0.0
+keywords (auto),Írán Teherán Velká británie,947,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Baťa Obuvnictví Ševci,130,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Jihomoravský kraj Masarykova univerzita Hospodářská komora čr,402,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Ukrajina Nato Rusko,434,,0.5,0.5,0.5,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.25,0.3333333333333333,0.25,0.25,0.25,0.25
+keywords (auto),Středočeský kraj Labe Trója,784,,0.25,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+keywords (auto),Francie Itálie Španělsko,4,,1.0,1.0,1.0,1.0,0.25,0.25,0.25,0.25,1.0,1.0,1.0,1.0,0.5
+keywords (auto),Fotbal Fortuna liga Zlín,522,,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,1.0,0.5,1.0,1.0,1.0,0.5,0.5
+keywords (auto),Mali Evropská unie Lubomír metnar,911,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Who Epidemie Nemoc,908,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Karel holas Čechomor Hudební skupina,264,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Dovolená Vodáci Zdražení,541,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Taylor swift Ye (kanye west) Grammy award,936,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+keywords (auto),Krym Rusko Ukrajina,875,,0.5,0.5,0.5,0.5,0.5,0.3333333333333333,0.3333333333333333,0.5,0.3333333333333333,1.0,1.0,1.0,0.5
+keywords (auto),Francie Afp Ipsos,195,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.16666666666666666,0.5,0.5,0.3333333333333333,0.25,0.2
+keywords (auto),Jan hamáček Martin netolický Česká pošta,426,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Recenze Drama Spisovatel,550,,0.0,0.2,0.2,0.2,0.14285714285714285,0.14285714285714285,0.16666666666666666,1.0,0.5,0.5,1.0,1.0,1.0
+keywords (auto),Karol mondek Sk dynamo české budějovice Sfc opava,789,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Olomoucký kraj Sex Olomouc,459,,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Michal dvořák Drfg Turné,106,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.25,0.2,0.1111111111111111,0.0,0.0
+keywords (auto),Radim fiala (herec) David matásek Vladimír polívka,188,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Itálie Rakousko Jihlava,432,,0.1,0.1,0.1,0.1111111111111111,1.0,1.0,1.0,0.16666666666666666,1.0,1.0,0.5,0.5,0.3333333333333333
+keywords (auto),Korda Rodina Sebastian,786,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Vlastislav bříza Martin hájek Michal mička,382,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Comic Con Praha,267,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Pavel bém Jan hřebejk Jan kačer,168,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Polsko Pavel novotný Ivan bartoš (česká pirátská strana),948,,0.0,0.0,0.0,0.0,0.5,1.0,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Vakcína Seychely Covid-19,688,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Notičky Fotbalová asociace čr (fačr) Petr fousek,75,,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+keywords (auto),Fc bayern mnichov Borussia dortmund Bielefeld,961,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Taylor swiftová Grammy award Love story,776,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Zlín Rekonstrukce Tržiště,791,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Chotouň Svatoprokopská Pouť,703,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Hana hegerová Jiří suchý Petr malásek,464,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Koronavirus Koronavirus česko Koronavirus v česku,339,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Netflix Virus Dobrodružství,365,,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Potrat Interrupce Polsko,925,,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+keywords (auto),Ester ledecká Finále Lenzerheide,82,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Robert lewandowski Patrik schick Fifa,734,,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Vysočina Vysočina Žďársko,677,,0.2,0.2,0.2,0.2,0.0,0.25,0.25,0.0,0.1,0.0,0.0,0.0,0.0
+keywords (auto),Ústecký kraj Petr globočník Litvínov,317,,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.25,0.25,0.25,0.14285714285714285,0.0
+keywords (auto),Restaurování Kuks Litomyšl,265,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Čez Dukovany Stavba,583,,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Rusko Elektřina Dukovany,797,,0.2,0.5,0.5,0.5,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,0.5
+keywords (auto),Afghánistán Kábul Usa,804,,1.0,1.0,1.0,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Severní makedonie Uli hoeness Ilkay gündogan,272,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.2,1.0,1.0,1.0,1.0,1.0
+keywords (auto),1. fk příbram Rakousko Fc viktoria plzeň,423,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Festival Annecy Režisér,119,,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Evropská unie Microsoft Osobní data,658,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Vladimir putin Rusko Prezident,227,,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+keywords (auto),Woody allen Kniha Film,505,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Rusko Alexej anatoljevič navalnyj Volby,326,,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Česká spořitelna Čsob - československá obchodní banka Finanční úřad,198,,0.3333333333333333,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Würzburg Erfurt Policie,96,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Svatá ludmila Soňa červená Jan zástěra,668,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Velikonoce Koronavirus Respirator ffp3,166,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Dolar Netflix Federální úřad pro vyšetřování (fbi),60,,0.0,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.3333333333333333,0.25,0.25,0.0,0.3333333333333333,0.16666666666666666,0.125,0.1,0.0
+keywords (auto),Očkování Formule 1 Bahrajn,97,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Olympijské hry 2020 Atletika Skok daleký,920,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Hudba Anežský klášter Soutěž,882,,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Maďarsko Moldavsko Rumunsko,388,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Ekonomika Aktuálně.cz Daně,665,,0.0,0.14285714285714285,0.0,0.1,0.0,0.0,0.0,0.5,0.25,0.3333333333333333,0.3333333333333333,0.5,0.5
+keywords (auto),Evropská unie Daniel beneš Čez,175,,0.0,1.0,1.0,1.0,0.5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+keywords (auto),Opava Brno Nymburk,553,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Írán Hidžáb Islám,206,,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+keywords (auto),Maďarsko Péter márki-zay Viktor orbán,205,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),češka na dovolené v jižní africe zrovna když tam objevili novou variantu covidu,19,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.0,0.5,0.5,0.5,1.0,1.0
+těžké (500),"spolková republika zmírňuje restrikce, otevírají prodejny květin a knih navzdory anglické variantě",22,synonym,0.0,0.0,0.0,0.0,0.1,0.3333333333333333,0.2,0.5,0.5,0.5,0.5,0.5,0.5
+těžké (500),kdo získal pulitzera za reportáže o policejní vraždě v minneapolisu,27,question,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),slovenskej lekovej urad nevi co se sputnkem,36,typo,0.0,0.0,0.0,0.0,0.0,0.25,0.2,0.5,0.5,0.5,0.5,0.5,0.5
+těžké (500),"izraelské zkrácení platnosti covidového průkazu, nutnost přeočkování",56,derived,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.16666666666666666
+těžké (500),plénum ve štrasburku konečně odklepl unijní digitální osvědčení pro letní výlety do ciziny,94,paraphrase,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+těžké (500),"v durynsku nějakej chlap pobodal dva chlapy, chytli ho doma",96,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.25,0.3333333333333333,0.3333333333333333
+těžké (500),varšava ruší kárný senát nejvyššího soudu kvůli penězům od bruselu,101,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),sun li tun vyhozen z cinske partaje,102,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),ve které zemi na pyrenejském poloostrově je nejvíc naočkovaných a stejně se čekají řady na booster,109,question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.25,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+těžké (500),evakuační let z afghánistánu dorazil do kbel s velvyslancem balounem,111,paraphrase,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),koment proč je dobře pro čechy že makaron porazil le penku,120,colloquial,0.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),astrazenka verdikt brusel dodavky do podzimu,122,typo,0.2,0.16666666666666666,0.125,0.1111111111111111,0.125,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kris rok pozitivni test nabadal americany,125,typo,0.1,0.1,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),izraelský útok srovnal se zemí mrakodrap s kancelářemi zahraničních médií,135,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),francouzi zakládají kooperativní samoobsluhy kde nakupující zároveň brigádničí,141,paraphrase,0.0,0.0,0.0,0.0,0.25,0.25,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"sdílená intervenční brigáda bloku sedmadvacítky, praha mezi navrhovateli",156,synonym,0.0,0.5,0.5,0.5,0.3333333333333333,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kulebova kritika berlína za váhání s dodávkami zbraní,163,derived,0.25,0.16666666666666666,0.16666666666666666,0.14285714285714285,0.5,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak zareagovalo česko na vynucené přistání ryanairu v bělorusku,170,question,0.5,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),ten kluk z mariupolu co fotil v ocelárnách než ho zajali rusáci,171,colloquial,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"jeruzalém spouští posilující dávku, indická varianta žene nákazy nahoru",178,synonym,0.0,0.0,0.0,0.0,0.125,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),číňani strčili do výběhu hlídacího hafana a tvrdili že je to šedák,181,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zhroucený obytný dům v surfside u miami,194,derived,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),baradr talibanci se pobili o zasluhy,197,typo,0.0,0.0,0.0,0.0,0.25,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"reportérka na předvolební akci protivníků fideszu, země rozpolcená zášti",205,paraphrase,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),la plama vulkan prestal chrlit lavu,207,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),vagnerovci maj dostat prachy za odstranění ukrajinskýho prezidenta,211,colloquial,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jurgen konings ukryval se v lese van ranst,219,typo,0.0,1.0,1.0,1.0,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jaká novela dovolí šéfovi kremlu vládnout až do roku 2036,227,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zabití sedmi kurdů v anatolské konyi, resortní šéf popírá nenávistný motiv",243,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéf ruských záchranářů zahynul na cvičení v norilsku když zachraňoval člověka,252,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),bruselská dohoda o bezplatném covidovém certifikátu,278,derived,0.5,0.5,0.25,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),dva angličané a marocký bojovník dostali hrdelní trest od proruských loutek v donbasu,288,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.5,1.0,1.0,1.0
+těžké (500),"jak reagovali sousedé na odhalení výbuchů ve skladu munice, nejrychlejší bratislava",289,question,0.3333333333333333,0.25,1.0,1.0,0.5,0.5,0.2,0.3333333333333333,1.0,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333
+těžké (500),"celej libanon den bez šťávy, centrálka dala prachy na naftu",297,colloquial,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kreml nařídil sedm nepracovních dní, cestovky hlásí boom poptávky",302,synonym,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),maďarská povinnost vakcinace lékařů a sester,318,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"rusové poslední den vybírají zákonodárce, kritici kremlu mluví o nespravedlivém klání",326,paraphrase,0.0,0.5,0.5,0.3333333333333333,0.5,0.5,0.14285714285714285,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),holoucanka minsk chysta protiopatreni proti bruselu,327,typo,0.0,1.0,0.16666666666666666,0.2,0.3333333333333333,0.3333333333333333,0.25,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v monterrey podvodná klinika píchala lidem padělek, v polsku krém na vrásky",328,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"svatej otec zas za běženci na lesbosu, kritika starýho kontinentu",354,colloquial,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),americký výzkum: imunitní bílkovina dokonale zastaví rodinu sars virů,362,synonym,0.0,1.0,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"naši lezci zaseklí na kopci v pákistánu, helikoptéra nestihla než padla noc",364,colloquial,0.125,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"nejznámější ruský politický vězeň má horečku a kašle, odvezli ho na marodku",376,synonym,0.25,0.1111111111111111,0.1111111111111111,0.1111111111111111,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),bývalý mariňák evakuoval z afghánistánu svůj útulek se čtyřnohými mazlíčky na heathrow,377,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),ardernova prodluzuje lokdaun aucland,414,typo,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"plameny ničí chaty kousek od athén, odsun klášterů i vesničanů",430,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč washington na podzim 2021 bil na poplach kvůli hromadění ruské armády,434,question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.25,0.25,0.3333333333333333,0.5,0.5
+těžké (500),pamatnik holocaustu victoria tower gardnes londyn,439,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kurc krivy svedectvi nechce odstoupit,461,typo,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"rekord zemřelých na koronavirus za jediný den v ruské federaci, skoro devět stovek",468,synonym,0.0,0.0,0.0,0.0,0.0,0.1111111111111111,0.25,1.0,0.3333333333333333,0.5,0.5,0.5,1.0
+těžké (500),výročí roku 1991 kdy se lublaň a záhřeb odtrhly od bělehradu,478,paraphrase,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),čínský satelit se o chlup vyhnul trosce sestřelené sondy z moskvy,480,synonym,0.3333333333333333,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),čím jeruzalém uhradil damašku propuštění své občanky,495,question,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),gréta ve skotsku: politici jen kecaj a nic nedělaj,521,colloquial,0.0,0.2,0.5,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"minský vládce tvrdí že kyjev vypálil rakety na jeho zemi, důkazy nepředložil",524,paraphrase,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),dobrovolný zdravotník z laa an der thaya líčí pomoc po tornádu na břeclavsku,535,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),babča u moskvy dělala volský oka na pomníku padlých,560,colloquial,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéf kremlu se v telefonu omluvil bennettovi za lavrovův výrok o hitlerově původu,569,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),rozbor německého listu o kořenech afghánských radikálů po odchodu sovětů,598,paraphrase,0.0,0.0,0.0,0.0,0.16666666666666666,0.14285714285714285,0.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0
+těžké (500),dany fenstr myanmar odsouzen,603,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),týpek s bizoníma rohama co vlez do kongresu se přiznal,624,colloquial,0.14285714285714285,0.25,0.25,0.25,0.2,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),stockholmský riksdag svrhl kabinet sociálních demokratů,627,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nizozemská expozice nálezů z potopené země pod severním mořem,633,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),mary stuartova popravena na treti rano,638,typo,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+těžké (500),obletování běloruska leteckými dopravci po incidentu s irským letadlem,648,derived,0.125,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéfové sedmadvacítky chtějí zpevnit vnější obvod bloku kvůli minskému diktátorovi,654,synonym,0.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"první evakuační přílet z afghánistánu do kbel, čtyřicet šest občanů",684,derived,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),co navrhuje imunolog hel s kolegy v lancetu aby kontinent nezaplavily další kmeny,686,question,0.0,0.0,0.0,0.0,0.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),exprezident usa zrušil svůj web s příspěvky po necelých čtyřech týdnech,693,paraphrase,1.0,0.5,0.5,0.1111111111111111,0.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),člen oath keepers doznal konspiraci kvůli šturmu kongresu,711,synonym,0.0,0.5,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"záplavy v siamu zatopily desítky tisíc domů, bouře dianmu",720,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),húsijská popravčí četa zastřelila odsouzené kvůli dronovému útoku na předáka,729,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),stažení eritrejských vojsk z tigrajské oblasti,744,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč západní vlády nechtějí posílat politiky na olympiádu do číny 2022,761,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"chasidská pouť na hoře meron, desítky obětí v davu",770,synonym,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéf kremlu v interview pro americkou televizi mluvil o strachu z nepokojů jako po floydovi a chválil nového amerického prezidenta,772,paraphrase,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kazimir guverner nbs obvineni uplatky,778,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),diplomaté židovského státu a palestinců v praze se přou o bombardování pásma,780,paraphrase,0.0,0.1111111111111111,0.1111111111111111,0.1111111111111111,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+těžké (500),"záhadný sofijský překupník arzenálu, firma emco, muniční sklad na zlínsku",783,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),čeští odborníci s karmelitány obnovují zbídačenou zemi uprostřed černého kontinentu,798,paraphrase,0.0,0.0,0.0,0.0,0.3333333333333333,0.25,0.5,0.5,1.0,1.0,1.0,1.0,1.0
+těžké (500),matovič kvůli ruský vakcíně padl a statisíce dávek se válej v regálech,799,colloquial,1.0,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),prázdné regály v anglických obchodech kvůli karanténě personálu,824,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),sigal z akčňáků vstoupil do putinovský partaje,831,colloquial,0.2,0.2,0.2,0.2,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"trifonovův volební úspěch v bulharsku, showman před borisovem",837,derived,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),pchjongjang vypálil střelu u přístavu sinpcho,838,synonym,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč nikdo nechce dodávat topné oleje rusům v irské metropoli,847,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ve spojeném království dochází nafta na benzínkách, chybí šoféři kamionů",852,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1111111111111111,0.125,0.16666666666666666,0.25,1.0
+těžké (500),francouzské zkrácení karantény na sedm dní,860,derived,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jakub vlček po záchraně z hory napsal a je to,876,paraphrase,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"anglické hospody otevřely venkovní posezení, řečtí středoškoláci zpátky v lavicích",890,synonym,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0,0.5,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),kvůli opičkám ženevská zdravotní agentura spustila max poplach,908,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),"český obrněný vůz v africe narazil na nástražný systém, nikdo nezraněn",911,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.1,0.16666666666666666,0.5
+těžké (500),"příběh holčičky, kterou kalifornský pachatel s manželkou věznil skoro dvacet roků",914,paraphrase,0.0,0.0,0.0,0.0,0.1,0.1,0.1,1.0,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0
+těžké (500),hlavní poradce bílého domu pro nákazy je opatrně optimistický k nové jihoafrické mutaci,918,paraphrase,0.0,0.0,0.0,0.0,0.0,0.1,0.1111111111111111,1.0,0.3333333333333333,0.3333333333333333,0.5,0.5,1.0
+těžké (500),tajvan zvedl vlastní mašiny proti 49 čínskejm bombarďákům,921,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),agentura osn pro zdraví proti očkovacím průkazům na přejezdy hranic,952,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.14285714285714285,0.3333333333333333
+těžké (500),"brazilského vůdce může čekat sesazení, generálové odstoupili",967,paraphrase,0.0,0.16666666666666666,0.14285714285714285,0.14285714285714285,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),francouzský jachtař přežil noc pod převrácenou plachetnicí v bublině,976,paraphrase,1.0,1.0,1.0,1.0,0.5,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),turuv hornici demonstrace pred evropskym soudnim dvorem,993,typo,0.0,0.0,1.0,1.0,0.0,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),altenr dedicove honorar advokat socialni demokracie predbezny nazor,32,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"oheň v domácnosti v Praze 10 poslal do špitálu batolata, přiletěla helikoptéra",51,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.25,0.3333333333333333,1.0,1.0,1.0
+těžké (500),"stolpersteine pro oběti šoa ve Valašských Kloboucích, rodiny Haasovi a Wachsmannovi",68,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kolik dávek proti influenze vyjednal Vojtěch na sezonu 2021,80,question,0.16666666666666666,0.16666666666666666,0.14285714285714285,0.0,0.3333333333333333,0.3333333333333333,0.125,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),vládní strana Pekarové chce kvůli deficitu privatizovat erární nemovitosti a podniky,113,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"vrchol celostátní přehlídky lidušek, 600 účinkujících u Senátu",126,paraphrase,1.0,1.0,1.0,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),vysokomýtský tunel zadání zakázky design and build,132,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"chebská radnice zlevnila stavební parcely, nikdo o ně neměl zájem",144,synonym,0.3333333333333333,0.25,0.25,0.3333333333333333,0.14285714285714285,0.1,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),oprvaa stoky turanka 21 tydnu zavreno trolejbusy jinudy,146,typo,0.16666666666666666,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéf sociků zas nepřišel před senátory kvůli tripu do ruska,151,colloquial,0.1,0.125,0.1,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"čeladenská hudební pohoda v beskydech u řeky, line-up 2022",164,paraphrase,0.1,0.25,0.25,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dva tiráky se napálily na dvojce u blučiny, jeden to nepřežil",169,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),falšované doklady o bezinfekčnosti u čechů na bavorské hranici,180,synonym,0.0,1.0,1.0,1.0,0.5,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"úprava bývalého vojenského cvičiště Červeňák vyjde na desítky mega, rozložená do etap",184,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),lístky na regionální spoje v okolí metropole dražší o 25 procent,201,synonym,0.5,0.5,0.5,0.5,0.5,0.25,0.14285714285714285,1.0,0.5,0.5,0.5,1.0,1.0
+těžké (500),Kratochvíl: šéf ANO se kamarádí s budapešťským vládcem kvůli domácímu publiku,203,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"únorový volební model, sociálnědemokratický propad pod 5 %, pirátsko-starostovský těsný odstup",209,derived,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),fim o vyslouzilem cirkusovem koni anna conova nelisova,212,typo,0.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"hradní festival zas prodává lupeny, na bezděz a hradec nad moravicí pustěj víc lidí",223,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),po roce zase smí rodina za ležícími příbuznými v kroměřížském špitále,225,paraphrase,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"vrchní zdravotnice severočeských špitálů žádají veřejnost o vakcinaci, jsou vyčerpané",231,paraphrase,0.2,0.25,0.3333333333333333,0.3333333333333333,0.2,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),ostravská čipová jízdenka propojena se sousedním regionem kolem Zlína,233,synonym,0.0,0.0,0.0,0.0,0.5,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"nahatej zfetovanej chlap běhal po déjedničce u troubska, policajty měl za čerty",244,colloquial,0.0,1.0,1.0,1.0,0.5,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"práce čtyř tuzemských badatelů ve špičkovém odborném žurnálu, jak zvýšit proočkovanost sdělením o shodě lékařů",245,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"Kulhánkův kraj si bere bankovní rámec 2,5 mld na předfinancování eurodotací",258,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v úštěku si popelnice vyvážej sami, pořídili si popelářák",259,colloquial,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"rodinný klenotnický podnik od Železnobrodska, ručně dělaný šperk pro baletku Klimentovou",286,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),EDF a KHNP chtějí do zakázky na atomový reaktor na Vysočině bez partnerů,299,synonym,1.0,1.0,1.0,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),stitray prasaci farma u vranovky obec vyhrala spor s firmou petrin,308,typo,0.0,0.0,1.0,1.0,0.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč kybernetický útok na ředitelství silnic zbrzdil silniční okruh kolem pardubic,310,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"loosovy plzeňské interiéry, natáčení snímku režiséra kisila",311,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),Bivoj chce stavět vlastní tělocvičnu pro mladé hráče kvůli nedostatku tréninkových hodin,317,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kolem zastávek nové trasy podzemky na jih Prahy vyrostou rezidenční lokality a mrakodrap,323,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),od srpna do anglie bez izolace po dvou dávkách? a které státy přešly do rizikové skupiny,333,question,0.5,0.5,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zazobanej betonář březina se doma nudí, tak kandiduje na prezidenta – fejeton",334,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),pribil nejvetsi sbirka autogramu astronatu gagarin,335,typo,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v Praze funguje služba, kde se darují nepotřebné skříně a pračky chudým rodinám",336,paraphrase,0.3333333333333333,0.25,0.25,0.3333333333333333,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dravec skončil po kolizi s elektrickým vedením bez perutě, zůstane natrvalo v rajhradské stanici",351,paraphrase,0.2,0.2,0.16666666666666666,0.2,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"andrej si dělal srandu z kontrolorů, že prej objevili kolumbův kontinent, bordel s rouškama",353,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.16666666666666666,0.14285714285714285,0.0,0.0,0.0
+těžké (500),"úvaha, proč protibabišovský tábor nevede kampaň osobně v terénu",361,paraphrase,0.25,0.25,0.25,0.3333333333333333,0.14285714285714285,0.14285714285714285,0.25,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"liberečáci chtějí, aby varšavská sankce za turowský důl šla na obnovu regionu",374,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nezletily kluk pobodal mlaidka v simkove ulici hk letecka zachranka,378,typo,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),chlap z tymakova venoval uspory na umelou nohu rodine po vichrcii,386,typo,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"lýkožrout a vykácené jehličnany v Lužických horách, holiny podél cest",401,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),masarykovské převzetí farmacie od veterinářů a brněnský biotech,402,derived,0.1111111111111111,0.0,0.0,0.14285714285714285,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"devatenáctiletý kluk sexuálně napadl známou z hlavního nádraží v Olomouci, utekla bez oblečení",459,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"konec strany zakladatele Milionu chvilek, akademik z MU: přišla ve špatnou chvíli",504,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.25,0.3333333333333333,0.5,0.5,0.5
+těžké (500),jak si redlovi lidé platili příznivé články u parlamentek,512,question,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),v pardubickým muzeu ukazujou mince a denárovej poklad z desátýho století,538,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),bebjak flim s johnem hannahem o prchu z koncentraku,547,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ústavní soudci zneplatnili část covidových zákazů pro krámy a provozovny, svévolný výběr",548,synonym,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"mražený mořský potvory bez etiket ve sapě, veterka hrozí mastnou pokutou",552,colloquial,0.0,0.0,0.0,0.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"líčení s útočníkem z Kostnického náměstí skončilo za šedesát minut, přistoupil na trest",558,synonym,0.5,0.5,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ušatou odtáhli na velkou opravu, vlastní párou zpátky na podzim 2023",566,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kolik hospod šidilo hosty během KVIFF 2022, naúčtovaná voda",579,question,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"šéf protokolu tvrdí, že udílení řádů ke vzniku republiky půjde postaru, ač je hlava státu hospitalizovaná",582,paraphrase,0.25,0.25,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.125,0.16666666666666666,0.5,0.5
+těžké (500),"doktor bartka uspel u nejvisi justice, zabijacka kauza znovu",594,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),prymulovo doporučení krátkodobého zpřísnění místo rozvolňování,601,derived,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),pražská radnice nechá prověřit novou rezidenční zástavbu na jihu Černého Mostu,605,synonym,0.16666666666666666,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kdo vyhrál tendr na objízdnou silnici kolem pardubic, proč vyřadili budimex a metrostav",639,question,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"bývalí strážci zákona považují za přiměřený postup hlídky v severočeském městě, kde zemřel romský muž",641,paraphrase,0.1111111111111111,0.0,0.0,0.14285714285714285,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"opilá dvojka si to rozdávala ve vrchlickýho sadech, plivla po strážníkách",650,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"hlava statu opet nepovysila sefa tajne sluzby kouldeku, sesty pokus vlady",653,typo,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"smrtelný úraz, farmářská mechanizace rozdrtila sedmačtyřicátníka o hospodářskou budovu, Kněžice",662,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zlatnické centrum ředitelovo odsouzení za vykradení trezoru,673,derived,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),vysoké školy zavádějí důvěrníky kvůli sexuálnímu harašení studentek,675,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),dvě ženy ze Žďárska vyrobily stovky miniaturních folklorních oděvů pro hračky,677,paraphrase,0.2,0.2,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč šéf resortu vzdělávání nechal prověřit cermat kvůli drahým kontraktům,683,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),malí běženci z války často skončí u pediatra s horečkou kvůli vyčerpání z putování,685,synonym,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"liberecká technika o tisícovku uchazečů víc, rekord u zdravotnických oborů",714,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),drážní inženýři zkoušeli mobilní systém varující mašinfíru před protijedoucí soupravou na lokálkách,719,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"komouš grebeníček dřepěl v parlamentu od devadesátýho šestýho, rekord z jihomoravskýho kraje",723,colloquial,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nová cyklotrasa v krumlově k železnici podél polečnice za 32 mega,738,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),regeneron a lily asi nezaberou na omicorn,752,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak v praze zaplatit stání v rezidentní zóně pro hosta za desetikorunu na hodinu,754,question,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"bývalý boss pražské MHD žádá od republiky kompenzaci, dekáda od aféry s penězi z tiketů do karibiku",757,paraphrase,0.0,0.125,0.1111111111111111,0.14285714285714285,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"pětice protibabišovských stran chce v létě svrhnout kabinet, mimořádná schůze sněmovny",762,synonym,0.14285714285714285,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"svatoludmilská tetínská poutní slavnost, neprůjezdnost pro auta",765,derived,0.25,0.2,0.2,0.2,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),stablvoice renesancni panske sidlo poprve pro navstevniky,773,typo,0.0,0.0,0.0,0.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ministr obchodu Havlíček: covidová bitva, zavření továren by připravilo podniky o kontrakty",785,synonym,0.25,0.25,0.25,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.125,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),"brněnská zoologická, natočené snímky afrických šelem pro vr brýle",803,derived,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v plzeňským a karlovarským to v úterý bude pořádně fučet, meteoroši varujou",808,colloquial,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),"libotnice aviarni influenca, uhyn kurat pres vanoce h5n1",809,typo,0.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),vláda nepodpořila pouštění nevakcinovaných na pracoviště jen s potvrzením o bezinfekčnosti,819,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"šéf vlády zvažuje pořízení moskevské očkovací látky, zájem o ni má 65 států",828,paraphrase,0.1111111111111111,0.1111111111111111,0.16666666666666666,0.16666666666666666,0.0,0.0,0.0,1.0,0.14285714285714285,0.2,0.25,0.5,1.0
+těžké (500),macháčkovo stoleté výročí nymburský vzpomínkový týden,829,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"sdružení příznivců hlavy státu s adresou v sídle prezidenta musí doložit hospodaření, klíčový sponzor kampaně",839,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dospívající s kudlou chtěl po školácích prachy, obviněn z loupeže, sedlčansko",843,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),rekordní zavěšená lávka přes údolí mlýnského potoka mezi Slamníkem a Chlumem,851,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kdo by převzal pravomoci hlavy státu kdyby hospitalizovaný zeman nemohl vykonávat funkci,868,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),ostravská zoo pošle mladou samičku vzácného supa do pohoří Maestrazgo k vypuštění,888,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kokešův designovej haseňák s chytrou elektronikou chce dobejt zahraničí,896,colloquial,0.0,0.0,0.0,0.0,0.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"cimicki svedectvi obeti, advokatka hrda",913,typo,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"olomoucká galerie připravuje přehlídku o stavitelství, výzva pro projektanty",929,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.16666666666666666,0.25,0.3333333333333333,0.3333333333333333,0.5
+těžké (500),"ke kadeřnici stačí antigenovka z fabriky, padesátpětiletí se můžou zapsat na vpich",930,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1111111111111111,0.25,0.25,0.5,1.0
+těžké (500),"plzeňská fakultka staví výškovou budovu pro operační obory, resort ji nezastaví",939,synonym,0.0,0.0,0.0,0.0,0.25,0.5,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kde stáhnout covid pas z ocko.uzis.cz a do jakých států s ním můžu na dovolenou,951,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v listopadu na Sněžku jen po svých, kabinovka z Pece stojí kvůli servisu, o sobotách a nedělích jezdí",968,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"toyta kolin nema dost antigenich testu pro delniky, povinost v podnicich",981,typo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0
+těžké (500),"středočeské radní pozastavení přivaděče k dé jedenáctce u klánovic, úspěch protestujících",986,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč naši reprezentanti před velšany neklečeli na trávníku,21,question,0.16666666666666666,0.5,0.5,0.3333333333333333,0.3333333333333333,0.25,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dobročinný fotbálek s aukcí pro hendikepované v hradci, 14. ročník",31,paraphrase,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),duhové nasvícení mnichovské arény jako protest proti maďarskému zákonu na euru,48,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),německá koučka praštila zvíře na olympiádě v moderním pětiboji a vyhodili ji,61,colloquial,0.5,0.5,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ledecka pred vrcholem sezony ve svycarsku, obavy o pocasi a zdravi",82,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),česká ženská házená zdolala sousedy ze slovenska 24:23 na světovém šampionátu,84,synonym,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dcery koloce pojedou evropsky naskar, nejmladsi zavodnice v historii",85,typo,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hráči házené z plzně přejeli armádní tým v prvním duelu o finále 31:23,91,synonym,0.25,1.0,1.0,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hamík vyhrál doma silverstone i přes penalizaci za sundání maxe,95,colloquial,0.1,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),líšeňský kouč zklamán vyrovnáním opavanů z penalty v poslední minutě,115,derived,0.0,0.0,0.0,0.0,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),jak oslavil trenér letenských konec dlouhé série bez výhry nad slavií,123,question,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zabranskej junior z varu poprvy v repre pred mistrakem,129,typo,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"budějce urvali mountfield v rozstřelu 3:2, hrálo se bez tří útočníků",131,colloquial,0.25,0.2,0.5,0.5,0.5,0.5,0.16666666666666666,0.2,1.0,1.0,1.0,1.0,1.0
+těžké (500),britský závodník z williamsu míří ke stříbrným šípům místo bottase,143,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"vesnický klub po lockdownech ztratil hráče, místo kopané jezdí s partnerkami na výlety a bojí se vakcíny",174,paraphrase,0.0,0.0,0.0,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),golfisté z hluboké nad vltavou slaví návrat mezi elitu,183,synonym,0.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jablonecký postup do čtvrtfinále poháru díky třem trefám pilaře,187,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"východočeští házenkáři u tabulkového souseda z beskyd, oba mají 19 bodů",189,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kdo vyhrál hokejové mistrovství světa 2021 v lotyšsku po prodloužení s finy,204,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),třebíčskej gólman kojotů parádně odchytal debut v nhl u šavlí,222,colloquial,0.0,0.25,0.25,0.25,0.25,0.16666666666666666,0.16666666666666666,0.5,1.0,1.0,0.5,0.5,0.5
+těžké (500),osmatřicetiletý centr se po dvou dekádách vrací do jihočeského extraligového týmu kvůli marodce,234,synonym,0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.1,0.2
+těžké (500),"historický článek o sezoně 1981, kdy jihočeský hokej skončil těsně druhý za ostravskými",246,paraphrase,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"hrají budějovice doma s týmem z uherského hradiště, který rozstřílel letnou 4:0?",266,question,0.0,0.5,0.5,0.5,1.0,1.0,0.3333333333333333,0.0,1.0,0.5,0.3333333333333333,0.2,0.14285714285714285
+těžké (500),"fotbalisté z blanenska bez hvězd vedou jihomoravskou krajskou soutěž, kouč tvrdí že úroveň stoupá",269,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"hammers potrápili pepovo city, coufalovi se to odrazilo do vlastní sítě",273,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,0.5
+těžké (500),"tucet nejbohatších klubů vyhlásil vlastní odtrženou soutěž, evropská federace zuří",281,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),milovický ofenzivní hráč vzpomíná na partu z ostré a postup do divize,282,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dva redaktoři se přou, zda si argentinská hvězda zasloužila sedmé ocenění nejlepšího hráče roku",290,paraphrase,0.0,0.0,0.0,0.0,0.5,0.3333333333333333,0.16666666666666666,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),kvaca bily tygri nejlepsi golman extraligy nezpychne,307,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hokejový arbitr odmítá podezření ze zneužití grantu na žákovský turnaj v hradci králové,325,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"seznamácký expert hodnotí, jak legendy z minulosti pomohly šilhavého týmu vyřadit oranjes",338,paraphrase,0.0,0.5,0.5,0.5,0.5,0.5,0.5,0.0,0.3333333333333333,0.3333333333333333,0.25,0.16666666666666666,0.125
+těžké (500),bývalý tenisový junior z prštic hraje za univerzitní tým v tennessee,348,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jihočeskej fotbalista ve 44 si dal thajskej box v gerbeře a prohrál na body,366,colloquial,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jarosik vyhozenej ze slovinskyho klubu po 4 mesicich,367,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dva sousedé z vesnic u brna ovládli olympijský trap, zlato i stříbro po 89 letech",384,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"uzávěrka letních přestupů na kladensku, kanonýr z braškova mění dres",392,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),závěrečné interview se šestinásobným vítězem rallye paříž–dakar s tatrovkou,394,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"bejvalej útočník z nhl naštvanej po nakládačce 0:10, trhačům zakázal trénovat",418,colloquial,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),policejní záznamy: místopředseda svazu manipuloval bývalým sparťanským kapitánem v čele komise sudích,419,paraphrase,0.3333333333333333,0.5,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"letní přípravný program příbramských po sestupu, rakouské soustředění",423,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),bezecky par z rancirova treninkovej kemp u bolzana,432,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hanáčtí zubři pomáhali v mikulčicích po živelní katastrofě,441,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak se žije neratovickému vodnímu lyžaři v orlandu s ročním synem,447,question,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"gólman letenských zůstává, rodina se rozrostla na sedm lidí",458,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"jihlavská porážka v brně penaltou v nastavení, kameníkova nespokojenost",487,derived,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak se 28 českých hendikepovaných závodníků chystá na cestu na hry do asie,515,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),uherskohradistsky fotbaliste prohrali se slovinci 1:3 posledni pripravak pred jarem,545,typo,0.14285714285714285,0.125,0.0,0.0,0.0,0.125,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"opavská posila ze švédska, brněnská obava z doskoku",553,derived,0.5,0.5,0.2,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),po čtrnáctidenní covidové přestávce čeká karlovarské hokejisty duel s plzní,555,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),náš gólman z eura zdrhá ze španělska do pirea,568,colloquial,0.0,1.0,1.0,1.0,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+těžké (500),"přestup české reprezentantky od kladivářů k blues, velkolepá uvítací ceremonie",576,synonym,0.0,0.0,0.0,0.0,0.0,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),na mělnicku chytal za lužec hokejovej brankář a stejně vyhráli,580,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),letí český fighter do emirátů jako záloha pro souboj o pás?,593,question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.14285714285714285,0.16666666666666666,0.25
+těžké (500),"letenští hrají ve skotsku odvetu, klub radí fanouškům skrývat klubové barvy",607,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),varsti volejbaliste porazili duklu liberec v prvnim superpoharu,613,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),semifinálová prohra české hráčky se sedmnáctiletou američankou na parmském antukovém turnaji,614,derived,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),suomi přetlačili němce o gól a ve finále v lotyšsku čeká kanada,623,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"votroci v zimní přípravě konečně udrželi čisté konto, porazili béčko sparty 2:0",631,paraphrase,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jihočeská soutěž neprofesionálních hokejistů pojmenovaná po rybnících se po covidu rozjede znovu,644,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"jalubí vs stříbrnice, okresní finále poháru na ligovym stadionu, celá dědina jede fandit",664,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),mladí baseballisté z vysočiny vyhráli moravské kolo a postupují na republikový šampionát,667,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"tradiční letní fotbalový turnaj lázeňských obcí z podkrkonoší, čtyřicátý čtvrtý",674,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"náš forvard newyorčanů dal bleskům dvě šťavnatý, 6:2 ve finále východu",689,colloquial,0.5,1.0,0.3333333333333333,0.3333333333333333,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"bergamský tým vyřazen madridským velkoklubem v champions league, pech a sporné pískání",694,synonym,1.0,0.5,0.5,0.5,0.2,0.2,0.25,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"výčet slavných incidentů s urážkami černých hráčů, balotelli a další",699,paraphrase,0.0,0.14285714285714285,0.1,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"pele uzdraveni po chirurgickym zakroku, slape na stacionarnim kole",705,typo,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),desetimilionová oprava fotbalového trávníku na opavsku odhalila válečnou munici,709,paraphrase,0.0,0.1111111111111111,0.1,0.1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kde odehráli naši zápas s estonci místo tallinnu,718,question,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"mladý útočník ze sokolova si splnil sen hrát za chemiky, kterým odmala fandil",721,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"prospal odchází do zámoří, na lavičku jihočechů usedá odchovanec s novými asistenty",726,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),bývalý prvoligový útočník příbrami a bohemky střílí za nováčka z mirovic,732,paraphrase,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"antos dvacet let od zlata 2001, upadek ceskeho hokeje",746,typo,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"pověsí rodák z pelhřimova, mistr světa 2010, brusle na hřebík?",760,question,0.5,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.3333333333333333,0.2,0.2,0.2,0.1111111111111111
+těžké (500),volejbalisté z varů dostali v evropském poháru srbského soupeře z kraljeva,771,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),radilův návrat do pardubic z ruska,779,derived,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"díl seriálu o fotbalistovi z doks, kterého pronásledovaly úrazy, začínal v bělé pod bezdězem",782,paraphrase,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"rodina bývalého tenisty petra, dcery golfistky a syn tenista sbírají trofeje",786,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"slezani konečně bodovali v budějcích 1:0, záložník měl doma rodinný trable",789,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"s kým se utkají severočeši ve třetím kole kvalifikace evropské ligy, celtic nebo midtjylland?",790,question,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"semanova pred svetovym sampionatem v emiratech, nemoc a zanet dasni",793,typo,0.0,0.0,0.3333333333333333,0.3333333333333333,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéf fačr o úplatkářské kauze a pomalém postupu disciplinárky,800,synonym,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),finálová účast bouzkové po výhře nad kanaďankou,801,derived,0.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"letní přípravné zápasy komárovských, výhra nad divizním berounem a v poháru čeká žižkov",802,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"sokol z liberecké čtvrti, původní stadion s výčepem musel ustoupit makru, daňový dluh 8,5 milionu",810,synonym,0.0,0.16666666666666666,0.25,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"vlasim prohrala na zizkove 1:3, konec serie bez porazky",816,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),útočník svoboda pálí za lídra přeboru na vysočině jeden hattrick za druhým,830,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),šéf letenských získal podíl v londýnských hammers,854,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),devatenáctiletej nigerijec poprvý viděl sníh na testu u votroků a vybojoval smlouvu,859,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),simone bilesova se vraci na kladine v tokiu po dusevnich problemech,864,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"africký útočník z police nad metují vzpomíná, jak po něm fanoušci házeli ovoce",872,paraphrase,0.125,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),"satoranskej zpatky v repre, kvalifikacni okno na mistrak 2023 v basketu",885,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nymburští košíkáři dostali v losu evropské soutěže fiba soupeře z izmiru,892,synonym,0.0,0.2,0.2,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),aukce hraných národních trikotů z hokejového šampionátu v lotyšsku,902,synonym,0.5,0.5,0.5,0.5,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),bráchové z berouna zaplavali v liberci na českým poháru parádně,912,colloquial,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kdo bral olympijské zlato v dálce, řecký skokan přes kubánce díky druhému pokusu?",920,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),čeští reprezentanti po prohře s albionem 0:1 netuší protivníka pro vyřazovací boje evropského šampionátu,924,synonym,0.16666666666666666,0.25,0.25,0.25,0.0,0.0,0.0,1.0,0.0,0.14285714285714285,0.16666666666666666,0.3333333333333333,1.0
+těžké (500),trenér hokejových dětí v děčíně napsal otevřený dopis radnici kvůli zavřeným tělocvičnám,953,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"bavoři padli u eintrachtu, bvb nasázela královsky modrým čtyřku",961,colloquial,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"micankuv tym makes vyhral tcr eastern europe, lamborghini trofeo",991,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"sadílkova trefa rozhodla boleslavské utkání pro liberečany, hostování z eindhovenu",995,derived,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hodnocení letní frašky herecké dvojice dykových,26,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v hradci bude přes prázdniny hledačka po muzeích a divadlech, vymyslel to drak",42,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak dopadla recenze dokumentu o aféře varsity blues s úplatky za studium,60,question,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kritici vybrali finalisty, spolek jedl má čtyři šance s představením o katolickém spisovateli",74,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"britský elektro duo rozjelo pařbu na metronome, nostalgie devadesátek",79,colloquial,0.3333333333333333,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zesnul bývalý manžel špinarové, rakovina plic",83,paraphrase,0.0,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"severočeský hudební festival chystá taneční dílo komponisty z itálie, premiéra v děčíně",87,synonym,0.0,0.0,0.0,0.0,0.14285714285714285,0.5,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),animanie detske animovane filmicky rekordnich 700 prihlasek,92,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nový marvelovský čaroděj překonal tržby netopýřího muže,100,synonym,0.0,0.2,0.14285714285714285,0.14285714285714285,1.0,1.0,0.125,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),lucka chystá šňůru se symfoňákem a fotkovou knížkou,106,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.25,0.25,0.3333333333333333,1.0,1.0
+těžké (500),jak vzpomínají bočan a další filmaři na zemřelého představitele prince ze tří oříšků,117,question,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),otevření biografů bez popcornu podle zaorálkova plánu,121,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),druhá sezóna satiry o ruské carevně kateřině,128,synonym,0.0,0.25,0.14285714285714285,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nová inscenace na smíchově o vzájemném nepřátelství mužů a žen od spitfire company,142,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"biografy po covidu bojují s nízkou návštěvností, propad tržeb z 2,6 miliardy",152,paraphrase,0.2,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"skonala filmová princezna ze tří oříšků, choť abrháma",167,paraphrase,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"smuteční obřad za satirika vodňanského, dorazil exprimátor",168,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kellyho porota uznala vinnym, hrozí mu basa do smrti",172,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kriminální seriál primy s matáskem končí sezónu, bude další",188,synonym,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kuřácké scény ve francouzské kinematografii, onkologický výzkum",195,synonym,1.0,1.0,1.0,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kluci z jihlavy chytali v norsku a udělali z toho biják,236,colloquial,0.0,0.2,0.2,0.2,0.25,0.2,0.2,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kdy budou online jarní reprízy dokumentárního festivalu z jihlavy,247,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nahko folk soul hipie koncert v lucerne,256,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),divadelní přehlídka v moravské metropoli dostala od hygieny zelenou hrát pro diváky,261,paraphrase,0.0,0.16666666666666666,0.16666666666666666,0.1,0.0,0.0,0.0,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),oprava barokních soch v lese u kuksu dokončena,265,synonym,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),na komiksovým srazu v praze vystavěj sporťák škodovku z upírskýho filmu,267,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),fotky vytištěných scén z pelíšků a vratných lahví přímo na místech natáčení,268,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),černobílé milostné drama o mileniálech z pařížské čtvrti,276,synonym,1.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"umrel parizek, heavymetalovy bicista a medialni byznysmen",280,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak si vedl gyllenhaal v pořadu muž vs divočina s bearem gryllsem,296,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),první výstava malíře hoferika ze sobotky,305,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),při skenování starých kodexů v klementinu našli středověkou polyfonii z paříže,332,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hodnocení desky good woman sesterského tria z británie,337,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"v brně bude čtyři dny muzika na každým rohu, hraje i dusilová",346,colloquial,0.1,0.1,0.0,0.0,0.0,0.2,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),zdrcující hodnocení diskotékové desky grohlovy kapely přejmenované na dee gees,350,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),australská hvězda přesouvá štáb akční netflixovky do české metropole,355,synonym,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"úmrtí kritika folla, havlova kamaráda",359,derived,0.0,0.0,0.0,0.0,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),britská veřejnoprávka zrušila pořady kvůli úmrtí královnina manžela a sklidila stížnosti,387,paraphrase,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ocenění mladých kreslířů v kutnohorské galerii, přišel vnuk hanzelky",397,paraphrase,0.0,0.16666666666666666,0.2,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kdo překládá francouzskou knihu v bytě po jestřábovi na žižkově,403,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),chazarskej slovik mikulasek pavic,404,typo,0.0,0.0,1.0,0.5,0.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),bezosův e-shop pohltí filmovou společnost s řvoucím lvem,410,synonym,1.0,1.0,1.0,1.0,1.0,0.25,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),mozartovská opera o svůdníkovi nastudovaná německými tvůrci pro televizní přenos,411,derived,0.0,0.0,0.0,0.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),britští rockeři s collinsem po čtrnácti letech znovu koncertují,425,paraphrase,0.1111111111111111,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),tatafest jilove benefit na rakovinu nirvana revivl,435,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),pohádky pro děti zmizí z dvojky a poběží jen na dětském kanálu,479,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),shakespearova tragédie o dánském princi v režii dočekala,497,synonym,0.0,0.2,0.16666666666666666,0.2,0.14285714285714285,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jakou sbírku esejů vydá allen a kde natočí jubilejní snímek,505,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),tylr the creatr call me if you get lost,509,typo,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),rozhovor s bosňanem zahirovičem o čapkovské epidemii,528,derived,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.125,0.25,1.0
+těžké (500),tuzemská ritchieovská krimikomedie se starým golfem,529,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1,0.16666666666666666,0.2,0.25,0.5
+těžké (500),machacek fotky kazdy den kniha potkal sem,540,typo,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),recenze knihy dvou autorů o nahrazení lidské práce stroji a budoucnosti bez zaměstnání,543,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"novácká detektivka z posázaví, konečně se tam nepřehrává",556,colloquial,0.0,0.25,0.125,0.14285714285714285,0.5,0.5,0.125,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),srpnové zahájení varské filmové akce s ohlédnutím do minulosti od roku 1946,561,paraphrase,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kájova kniha o jeho životě se hned vyprodala,562,colloquial,0.0,0.125,0.125,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kniha fotografa a filmaře, který prochodil moravské hory a mluvil se třemi sty lidmi",577,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),beny cristo pisnicka omega rotterdam,608,typo,0.0,1.0,0.5,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"milostný snímek s hathawayovou o rozchodu během karantény, posudek",609,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.5,0.5,1.0,1.0
+těžké (500),"tvůrci továrny na debilno udělali parodickou biografii zemanova tiskového tajemníka, ten je nadšený",620,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),románová prvotina delonova potomka o zkaženém dospívání,632,derived,0.0,0.0,0.0,0.0,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ve varech zas červenej koberec, přišli i kopáči, hvězda zaoralová",634,colloquial,0.2,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"argentinská parodie na ješitné filmové hvězdy, hraje banderas",640,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),roman holi solova deska samply prezidenta,642,typo,0.0,0.5,0.25,0.25,0.5,0.5,1.0,0.0,1.0,1.0,1.0,0.3333333333333333,0.3333333333333333
+těžké (500),96letá operní pěvkyně ztvární kněžnu ludmilu na hradě,668,synonym,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),nejnákladnější netflixová produkce se bude v létě točit v pražských ulicích,670,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.16666666666666666,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),snímek jabka řeckého debutanta o epidemii amnézie,680,derived,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jarní hudební festival v praze pustí posluchače do smetanovy síně,691,synonym,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.3333333333333333,0.25,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),mejdan s impulzem mirai jelen konfety,702,typo,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"cinestar nepustí lidi do kin, dokud nebude moct žrát popcorn při filmu",706,colloquial,0.25,0.5,0.5,0.5,0.2,0.2,0.3333333333333333,1.0,0.3333333333333333,0.5,0.5,1.0,1.0
+těžké (500),kdo zazpívá v česku orchestrální dílo inspirované albem bowieho,708,question,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dokumentaristka o tom, jak ji dojaly příběhy obětí jihomoravské smršti",725,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"herec javorský o ztvárnění amerického mistra hororu, audio rozhovor",737,synonym,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"hobzikův první celovečerák o dealerech, odstavených policajtech a mafiánovi",763,paraphrase,0.0,0.0,0.0,0.0,0.0,0.14285714285714285,0.14285714285714285,1.0,0.5,0.5,0.5,0.5,1.0
+těžké (500),"taylorka nahrála znova starou desku, aby měla práva",776,colloquial,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),starší interview s představitelem kancléře riegera z havlova filmu,777,paraphrase,0.0,0.0,0.0,0.0,0.3333333333333333,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),vondruškova detektivka spiknutí oběšenců hodnocení,781,derived,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),který snímek radu judeho získal zlatého medvěda v berlíně,807,question,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),starší z bratrů coenových sám zfilmoval shakespearovu skotskou hru,814,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kalus orchestr stefanie klip valka,817,typo,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),autorka čarodějnického učně chystá příběh o vánočním čuníkovi pro děti,818,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),lenny a týpek z linkinů spolu udělali singl,821,colloquial,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),vlašimský koncert vořežprutu a losování s haškovou cenou,836,derived,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),assayasova minisérie o natáčení remaku němého krimi z roku 1915,842,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0
+těžké (500),schulhoffův hudební mýtus o svůdníkovi v režii katalánce bieita,858,synonym,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"třetí kanál čt pro důchodce už není pokus, zůstává natrvalo",862,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"dechař, kterému na škole rozmluvili smyčce, vystoupí v anežském klášteře",882,paraphrase,0.5,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"americkej herec s ukrajinskými kořeny ve varech, na prezidenta je moc dlouhej",883,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),proč se bohnická kulturní akce nemůže konat uvnitř léčebny,889,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),sexyfy polskej netflix serial o apce na vyvrcholeni,906,typo,0.0,0.3333333333333333,1.0,1.0,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),měli muzikanti na únorové akci v národním divadle honorář,907,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),lynda vysta cinoherni klub ondra sokol,923,typo,0.0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0
+těžké (500),"jazzově školený batiste vede kandidátky na americké hudební ceny, za ním bieber",936,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),západočeský symfonický orchestr chystá novou sezónu s beethovenem a dvořákem,938,synonym,1.0,1.0,1.0,1.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),grohlova rocková skupina vydává taneční poctu bratrům gibbovým,940,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),látalův dokument o folkaři nedvědovi,945,derived,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),tipy na sobotní tv program když hraje česko s belgií kvalifikaci,958,paraphrase,0.0,0.16666666666666666,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),adéla elbel a další vtipálci zahrajou v nymburským biáku,977,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),smrt abrahama rok po safrankove,994,typo,0.0,0.0,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),amelie syba vyhra apolo,999,typo,0.0,1.0,0.5,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),odpuštění penále dlužníkům nabízejí i komerční peněžní ústavy,3,synonym,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),vlaky z hlavního města do moravské metropole pojedou o půl hodiny déle oklikou přes Vysočinu,6,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"co předvede česká expozice na světové přehlídce v emirátech, třeba systém sawer",11,question,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.1111111111111111,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),bruncklik a jilek billbordy podminecny trest,37,typo,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),supermarkety v Anglii kvůli holčičce z Walesu vyřadí magazíny pro děti s umělohmotnými přílohami,58,paraphrase,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kabinet Fialy zvedne dávku na nájem kvůli drahé elektřině a plynu,73,synonym,0.0,0.0,0.0,0.0,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"polovina byznysmenů má za idol premiéra a v covidu nevidí šanci, anketa",86,paraphrase,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zdražení úvěrů po zvýšení sazby o 125 bodů nejvíc od devadesátých let,90,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"výkon hospodářství SRN loni plus 2,7 % oživení po covidu",93,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zalando teď vykupuje a prodává obnošený hadry,114,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),prouza žádá po kabinetu kompenzace pro zamčené krámy po verdiktu ústavních soudců,118,paraphrase,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),fynerdale holdings spor modri mak vyhra statu,133,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"superboháči za koronaviru rekordně navýšili jmění, návrh zdanění klouzavou sazbou",136,synonym,1.0,1.0,1.0,0.5,0.3333333333333333,0.5,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),samotesty na covid se daj koupit u kasy v kauflandu,137,colloquial,0.16666666666666666,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zdražení novostaveb v hlavním městě o 9,4 % meziročně, 118 tisíc za metr",139,derived,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"kde jsou v republice nejlacinější nemovitosti k bydlení, uhelné revíry na severu?",150,question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.1,0.2
+těžké (500),OSN: drahota základních komodit srazila 71 milionů do bídy,153,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zeman podepsl deficit rozpoctu 500 mld danovy balicek,154,typo,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"tuzemská produkce ve třetím kvartálu vyskočila o 3,1 % díky útratám domácností",158,synonym,0.25,0.25,0.25,0.25,0.14285714285714285,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"ta hrbolatá dé jednička u antošovic, stavaři spravěj jen malej kus",160,colloquial,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),za zavřenejch obchodů lidi frčej na přelivech na háro přes net,166,colloquial,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.5,0.5,0.5,1.0
+těžké (500),tomayerova nemocnce uspory energii 365 milonu,175,typo,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kvótové řešení pro ženské manažerky, Česko za průměrem EU deloitte",216,derived,0.125,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),které dny v roce mají hypermarkety nad 200 metrů zavřeno?,221,question,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"stát hlídá přirážky benzínek, denní hlášení cen paliv",235,synonym,0.5,1.0,1.0,1.0,1.0,1.0,0.16666666666666666,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"živnostníci dostanou tisícovku denně místo pětistovky, horní komora souhlasila",239,paraphrase,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.125,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),insolvenční soud dovolil českým aerolinkám a sesterskému dopravci zápočet závazků po 72 mil,242,paraphrase,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zemáky budou dražší i když sou teď v akci, tvrdí sedlák z agrární komory",262,colloquial,0.0,0.3333333333333333,0.3333333333333333,0.25,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),d55 moravsky pisek bzenc stavebni povoleni pravomocne,293,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"auditoři: stát netuší kolik vybudoval cyklotras, náklady se liší až třicetkrát",300,synonym,0.1,0.1111111111111111,0.1111111111111111,0.0,0.25,0.25,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),varšava ustupuje s poplatkem z inzerce po protestu soukromých novin a televizí,304,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"lidi by si klidně cvakli víc, aby moh pejsek s nima do letadla",320,colloquial,0.0,0.0,0.0,0.0,0.14285714285714285,0.1111111111111111,0.3333333333333333,1.0,0.5,0.5,0.5,0.5,1.0
+těžké (500),největší ekonomiky světa v Itálii dohoda o spodní hranici zdanění korporací,321,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"sdružení dopravců A4E lobuje, aby cestující dostávali méně peněz když jim letadlo nepoletí",331,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),cpi propery group snizeni emisi o 30 % do 2030,340,typo,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"lepší výhled bankéřů pro tuzemské hospodářství 3,4 a 4,5 procenta",341,synonym,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),hrozí po zákazu ruské ropy v Evropě nedostatek nafty?,345,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"unijní dozor nad stabilitou varuje, že státní podpory firem z covidu se musí včas utlumit",380,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"chorvatský sabor odhlasoval přijetí eura, dvojí cenovky v kunách",381,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),michal micka insolvnce 120 mil c2h,382,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"Kyjev dodává proud do unie, menší potřeba ruských zdrojů, 100 MW",388,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),poslanci prosadili novou legislativu o povolování výstavby místo normy z roku 2006,395,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kolínský výrobce kyanidů oznámil nákup těžařského segmentu od Američanů za 11,3 mld",398,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,0.5,0.5,0.5
+těžké (500),kvůli chybějícím polovodičům přijdou čeští výrobci vozů o 200 miliard,416,paraphrase,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),amazn italie stavka 22 brezna odbory,421,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),ctp grup ipo amsterdm,466,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zdražování v dubnu nejrychlejší od září, paliva a cigarety, 3,1",484,synonym,1.0,1.0,1.0,1.0,0.5,0.5,0.25,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),digitální mince dohnaly pád po zákazu obchodování v Pekingu,507,paraphrase,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"mražený mořský plody z ekvádoru z netu jsou závadný, vibrio",508,colloquial,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"pražské malé pivovárky stojí, místní nechodí a cizinci nejezdí",519,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.14285714285714285,0.2,0.3333333333333333,1.0,1.0
+těžké (500),"označení domácích přístrojů třídami A až G bez plusů, qr kód",532,derived,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),ministr průmyslu představil 13 bodů podpory proti energetické drahotě,534,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"kolínský nádraží bezbariérovej přístup zase nikdo nepostaví, zrušili tendr",537,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"polský terminál na zkapalněný plyn ve Svinoústí, třetí nádrž, náhrada za ruské dodávky",549,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),primagra a mlekarna hlinko zaloba agrofer,557,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),svatý stolec etické investování bez zbrojařů a potratů,564,synonym,1.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kolik lidi utratí za dárky pod stromek a berou si na to úvěr?,573,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"nový jaderný reaktor zaplatí kompletně vláda, energetická firma se nepodílí",583,synonym,0.5,0.5,0.5,0.5,0.5,0.5,0.3333333333333333,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),vláda chce proplácet podnikům samotesty pro lidi v práci včetně kloktání,590,paraphrase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.16666666666666666,0.16666666666666666,0.2,0.3333333333333333,0.5
+těžké (500),koho viní budoucí předseda vlády z krachů prodejců elektřiny a proč nechce snížit daň?,606,question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.16666666666666666,0.16666666666666666,0.2,0.3333333333333333,0.5
+těžké (500),moskevská potravinová kontrola stopla vývoz krmné směsi z ČR,612,synonym,0.0,0.0,0.0,0.0,0.5,0.3333333333333333,0.3333333333333333,1.0,0.5,0.5,1.0,1.0,1.0
+těžké (500),"počet nezaměstnaných v únoru stagnoval na 4,3, maláčová",619,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"bitcoin spad za tejden skoro o čtvrtinu, nejhorší tejden za rok",622,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),dudenhöffer: celosvětově vznikne kvůli polovodičům o 5 mil vozů míň,628,paraphrase,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),koruna šla dolu když zeman dal michla do čnb,630,colloquial,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),havlíček se s opozicí shodl na znovuotevření krámů od pondělí,649,paraphrase,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jiri frantisek rozhovor exp dubaj pisecna boure,651,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,0.5,0.5
+těžké (500),dluhva brzda nrr verejny finace,661,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zvednutí stropu tržeb pro paušálníky na dva miliony,665,synonym,0.25,0.2,0.2,0.125,0.0,0.0,0.0,1.0,0.25,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0
+těžké (500),"lidi vsázej na volby u bookmakerů, někdo dal 1500 euro na okamuru",682,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"osamostatnění mladých do 35 let ve městech, viníkem investoři",692,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"květnová drahota šestnáct procent, potraviny a bydlení",695,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),rianair british airways vysetrovani vouchery,704,typo,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"natural za 37,20 a nafta skoro stejně, už to nepude nahoru",722,colloquial,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),použitý fritovací tuk se bude odevzdávat u pump a v Litvínově z něj udělají plasty,728,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),jak mě můžou okrást když prodávám na bazoši přes platbu na kartu?,733,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kaspersky microsoft exchnage utok magistrat,740,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),řepkový výnos nejmenší od roku 2007 podle statistiků,743,derived,0.0,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kdy kolínská chemička uzavřela koupi amerického byznysu za 521 mil. dolarů?,749,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"zelený pivo na velikonoce bude i přes zavřený hospody, z okýnka",751,colloquial,0.2,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),lobkowic vysoky chlumec pivovr zavira,755,typo,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"jihomoravská vinařství 31 ocenění v Paříži, nejlepší znojemský podnik",758,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kolik dnes stojí metr v sídlištním bytě a o kolik je dražší než loni?,768,question,0.2,0.5,0.5,1.0,1.0,1.0,0.1,0.3333333333333333,1.0,1.0,1.0,0.5,0.3333333333333333
+těžké (500),moskevská burza a rubl rostou díky energetické krizi,788,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"splátková společnost PPF zrušila půlku pracovních míst, Bartoníček",792,synonym,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"vyloučení ruských a čínských dodavatelů z jaderného tendru, nízkouhlíkový zákon",797,derived,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),liberecký hejtman doufá v mimosoudní vyrovnání o polskou uhelnou jámu,806,paraphrase,0.1111111111111111,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.5,0.5,0.5,1.0,0.5,1.0,1.0,1.0,1.0
+těžké (500),"podíl dam v boardech tuzemských společností klesl na 10,4",825,synonym,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1111111111111111,0.14285714285714285,0.16666666666666666,0.25,0.5
+těžké (500),ikonka apky amazonu vypadala jak fousy toho nácka,832,colloquial,0.0,1.0,1.0,1.0,1.0,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),kvůli covidu nesmí prodejny prodávat ani v pátek před Velikonocemi,848,paraphrase,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"průměrný výdělek ve 4. kvartálu 38 525 korun, reálně +3,8",856,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"na Ruzyni chybí lidi na prohlídky, cestující si postojí ve frontě",866,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),do kdy musí živnostník poslat přehled na čssz a pojišťovnu?,873,question,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"nájemné kleslo na hodnoty z roku 2018, ceny ojetého bydlení +22,5 %",877,synonym,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),microsoft ukázal novou verzi operačního systému s tlačítkem start uprostřed,884,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"Biden pohřbil kanadsko-americké potrubí Keystone XL, TC Energy stavbu ukončuje",897,paraphrase,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),"rekordní ziskovost Tesly ve druhém kvartálu, Model 3 a Y",910,derived,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),závod Pfizeru v Kansasu pouštěl léky bez testů podle amerických inspektorů,950,synonym,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+těžké (500),zakladatel amazonu souhlasí s dražším zdaněním korporací kvůli opravám cest,985,paraphrase,0.0,0.0,0.0,0.0,0.0,0.16666666666666666,0.16666666666666666,1.0,0.5,0.5,0.5,1.0,1.0
+těžké (500),mattel prodává angličáky hot wheels jako nft za krypto,998,colloquial,0.3333333333333333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

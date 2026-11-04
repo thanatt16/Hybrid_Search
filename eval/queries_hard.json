@@ -1,0 +1,2502 @@
+[
+  {
+    "query": "češka na dovolené v jižní africe zrovna když tam objevili novou variantu covidu",
+    "doc_id": 19,
+    "type": "paraphrase"
+  },
+  {
+    "query": "spolková republika zmírňuje restrikce, otevírají prodejny květin a knih navzdory anglické variantě",
+    "doc_id": 22,
+    "type": "synonym"
+  },
+  {
+    "query": "kdo získal pulitzera za reportáže o policejní vraždě v minneapolisu",
+    "doc_id": 27,
+    "type": "question"
+  },
+  {
+    "query": "slovenskej lekovej urad nevi co se sputnkem",
+    "doc_id": 36,
+    "type": "typo"
+  },
+  {
+    "query": "izraelské zkrácení platnosti covidového průkazu, nutnost přeočkování",
+    "doc_id": 56,
+    "type": "derived"
+  },
+  {
+    "query": "plénum ve štrasburku konečně odklepl unijní digitální osvědčení pro letní výlety do ciziny",
+    "doc_id": 94,
+    "type": "paraphrase"
+  },
+  {
+    "query": "v durynsku nějakej chlap pobodal dva chlapy, chytli ho doma",
+    "doc_id": 96,
+    "type": "colloquial"
+  },
+  {
+    "query": "varšava ruší kárný senát nejvyššího soudu kvůli penězům od bruselu",
+    "doc_id": 101,
+    "type": "synonym"
+  },
+  {
+    "query": "sun li tun vyhozen z cinske partaje",
+    "doc_id": 102,
+    "type": "typo"
+  },
+  {
+    "query": "ve které zemi na pyrenejském poloostrově je nejvíc naočkovaných a stejně se čekají řady na booster",
+    "doc_id": 109,
+    "type": "question"
+  },
+  {
+    "query": "evakuační let z afghánistánu dorazil do kbel s velvyslancem balounem",
+    "doc_id": 111,
+    "type": "paraphrase"
+  },
+  {
+    "query": "koment proč je dobře pro čechy že makaron porazil le penku",
+    "doc_id": 120,
+    "type": "colloquial"
+  },
+  {
+    "query": "astrazenka verdikt brusel dodavky do podzimu",
+    "doc_id": 122,
+    "type": "typo"
+  },
+  {
+    "query": "kris rok pozitivni test nabadal americany",
+    "doc_id": 125,
+    "type": "typo"
+  },
+  {
+    "query": "izraelský útok srovnal se zemí mrakodrap s kancelářemi zahraničních médií",
+    "doc_id": 135,
+    "type": "synonym"
+  },
+  {
+    "query": "francouzi zakládají kooperativní samoobsluhy kde nakupující zároveň brigádničí",
+    "doc_id": 141,
+    "type": "paraphrase"
+  },
+  {
+    "query": "sdílená intervenční brigáda bloku sedmadvacítky, praha mezi navrhovateli",
+    "doc_id": 156,
+    "type": "synonym"
+  },
+  {
+    "query": "kulebova kritika berlína za váhání s dodávkami zbraní",
+    "doc_id": 163,
+    "type": "derived"
+  },
+  {
+    "query": "jak zareagovalo česko na vynucené přistání ryanairu v bělorusku",
+    "doc_id": 170,
+    "type": "question"
+  },
+  {
+    "query": "ten kluk z mariupolu co fotil v ocelárnách než ho zajali rusáci",
+    "doc_id": 171,
+    "type": "colloquial"
+  },
+  {
+    "query": "jeruzalém spouští posilující dávku, indická varianta žene nákazy nahoru",
+    "doc_id": 178,
+    "type": "synonym"
+  },
+  {
+    "query": "číňani strčili do výběhu hlídacího hafana a tvrdili že je to šedák",
+    "doc_id": 181,
+    "type": "colloquial"
+  },
+  {
+    "query": "zhroucený obytný dům v surfside u miami",
+    "doc_id": 194,
+    "type": "derived"
+  },
+  {
+    "query": "baradr talibanci se pobili o zasluhy",
+    "doc_id": 197,
+    "type": "typo"
+  },
+  {
+    "query": "reportérka na předvolební akci protivníků fideszu, země rozpolcená zášti",
+    "doc_id": 205,
+    "type": "paraphrase"
+  },
+  {
+    "query": "la plama vulkan prestal chrlit lavu",
+    "doc_id": 207,
+    "type": "typo"
+  },
+  {
+    "query": "vagnerovci maj dostat prachy za odstranění ukrajinskýho prezidenta",
+    "doc_id": 211,
+    "type": "colloquial"
+  },
+  {
+    "query": "jurgen konings ukryval se v lese van ranst",
+    "doc_id": 219,
+    "type": "typo"
+  },
+  {
+    "query": "jaká novela dovolí šéfovi kremlu vládnout až do roku 2036",
+    "doc_id": 227,
+    "type": "question"
+  },
+  {
+    "query": "zabití sedmi kurdů v anatolské konyi, resortní šéf popírá nenávistný motiv",
+    "doc_id": 243,
+    "type": "synonym"
+  },
+  {
+    "query": "šéf ruských záchranářů zahynul na cvičení v norilsku když zachraňoval člověka",
+    "doc_id": 252,
+    "type": "paraphrase"
+  },
+  {
+    "query": "bruselská dohoda o bezplatném covidovém certifikátu",
+    "doc_id": 278,
+    "type": "derived"
+  },
+  {
+    "query": "dva angličané a marocký bojovník dostali hrdelní trest od proruských loutek v donbasu",
+    "doc_id": 288,
+    "type": "synonym"
+  },
+  {
+    "query": "jak reagovali sousedé na odhalení výbuchů ve skladu munice, nejrychlejší bratislava",
+    "doc_id": 289,
+    "type": "question"
+  },
+  {
+    "query": "celej libanon den bez šťávy, centrálka dala prachy na naftu",
+    "doc_id": 297,
+    "type": "colloquial"
+  },
+  {
+    "query": "kreml nařídil sedm nepracovních dní, cestovky hlásí boom poptávky",
+    "doc_id": 302,
+    "type": "synonym"
+  },
+  {
+    "query": "maďarská povinnost vakcinace lékařů a sester",
+    "doc_id": 318,
+    "type": "derived"
+  },
+  {
+    "query": "rusové poslední den vybírají zákonodárce, kritici kremlu mluví o nespravedlivém klání",
+    "doc_id": 326,
+    "type": "paraphrase"
+  },
+  {
+    "query": "holoucanka minsk chysta protiopatreni proti bruselu",
+    "doc_id": 327,
+    "type": "typo"
+  },
+  {
+    "query": "v monterrey podvodná klinika píchala lidem padělek, v polsku krém na vrásky",
+    "doc_id": 328,
+    "type": "paraphrase"
+  },
+  {
+    "query": "svatej otec zas za běženci na lesbosu, kritika starýho kontinentu",
+    "doc_id": 354,
+    "type": "colloquial"
+  },
+  {
+    "query": "americký výzkum: imunitní bílkovina dokonale zastaví rodinu sars virů",
+    "doc_id": 362,
+    "type": "synonym"
+  },
+  {
+    "query": "naši lezci zaseklí na kopci v pákistánu, helikoptéra nestihla než padla noc",
+    "doc_id": 364,
+    "type": "colloquial"
+  },
+  {
+    "query": "nejznámější ruský politický vězeň má horečku a kašle, odvezli ho na marodku",
+    "doc_id": 376,
+    "type": "synonym"
+  },
+  {
+    "query": "bývalý mariňák evakuoval z afghánistánu svůj útulek se čtyřnohými mazlíčky na heathrow",
+    "doc_id": 377,
+    "type": "paraphrase"
+  },
+  {
+    "query": "ardernova prodluzuje lokdaun aucland",
+    "doc_id": 414,
+    "type": "typo"
+  },
+  {
+    "query": "plameny ničí chaty kousek od athén, odsun klášterů i vesničanů",
+    "doc_id": 430,
+    "type": "synonym"
+  },
+  {
+    "query": "proč washington na podzim 2021 bil na poplach kvůli hromadění ruské armády",
+    "doc_id": 434,
+    "type": "question"
+  },
+  {
+    "query": "pamatnik holocaustu victoria tower gardnes londyn",
+    "doc_id": 439,
+    "type": "typo"
+  },
+  {
+    "query": "kurc krivy svedectvi nechce odstoupit",
+    "doc_id": 461,
+    "type": "typo"
+  },
+  {
+    "query": "rekord zemřelých na koronavirus za jediný den v ruské federaci, skoro devět stovek",
+    "doc_id": 468,
+    "type": "synonym"
+  },
+  {
+    "query": "výročí roku 1991 kdy se lublaň a záhřeb odtrhly od bělehradu",
+    "doc_id": 478,
+    "type": "paraphrase"
+  },
+  {
+    "query": "čínský satelit se o chlup vyhnul trosce sestřelené sondy z moskvy",
+    "doc_id": 480,
+    "type": "synonym"
+  },
+  {
+    "query": "čím jeruzalém uhradil damašku propuštění své občanky",
+    "doc_id": 495,
+    "type": "question"
+  },
+  {
+    "query": "gréta ve skotsku: politici jen kecaj a nic nedělaj",
+    "doc_id": 521,
+    "type": "colloquial"
+  },
+  {
+    "query": "minský vládce tvrdí že kyjev vypálil rakety na jeho zemi, důkazy nepředložil",
+    "doc_id": 524,
+    "type": "paraphrase"
+  },
+  {
+    "query": "dobrovolný zdravotník z laa an der thaya líčí pomoc po tornádu na břeclavsku",
+    "doc_id": 535,
+    "type": "paraphrase"
+  },
+  {
+    "query": "babča u moskvy dělala volský oka na pomníku padlých",
+    "doc_id": 560,
+    "type": "colloquial"
+  },
+  {
+    "query": "šéf kremlu se v telefonu omluvil bennettovi za lavrovův výrok o hitlerově původu",
+    "doc_id": 569,
+    "type": "paraphrase"
+  },
+  {
+    "query": "rozbor německého listu o kořenech afghánských radikálů po odchodu sovětů",
+    "doc_id": 598,
+    "type": "paraphrase"
+  },
+  {
+    "query": "dany fenstr myanmar odsouzen",
+    "doc_id": 603,
+    "type": "typo"
+  },
+  {
+    "query": "týpek s bizoníma rohama co vlez do kongresu se přiznal",
+    "doc_id": 624,
+    "type": "colloquial"
+  },
+  {
+    "query": "stockholmský riksdag svrhl kabinet sociálních demokratů",
+    "doc_id": 627,
+    "type": "synonym"
+  },
+  {
+    "query": "nizozemská expozice nálezů z potopené země pod severním mořem",
+    "doc_id": 633,
+    "type": "paraphrase"
+  },
+  {
+    "query": "mary stuartova popravena na treti rano",
+    "doc_id": 638,
+    "type": "typo"
+  },
+  {
+    "query": "obletování běloruska leteckými dopravci po incidentu s irským letadlem",
+    "doc_id": 648,
+    "type": "derived"
+  },
+  {
+    "query": "šéfové sedmadvacítky chtějí zpevnit vnější obvod bloku kvůli minskému diktátorovi",
+    "doc_id": 654,
+    "type": "synonym"
+  },
+  {
+    "query": "první evakuační přílet z afghánistánu do kbel, čtyřicet šest občanů",
+    "doc_id": 684,
+    "type": "derived"
+  },
+  {
+    "query": "co navrhuje imunolog hel s kolegy v lancetu aby kontinent nezaplavily další kmeny",
+    "doc_id": 686,
+    "type": "question"
+  },
+  {
+    "query": "exprezident usa zrušil svůj web s příspěvky po necelých čtyřech týdnech",
+    "doc_id": 693,
+    "type": "paraphrase"
+  },
+  {
+    "query": "člen oath keepers doznal konspiraci kvůli šturmu kongresu",
+    "doc_id": 711,
+    "type": "synonym"
+  },
+  {
+    "query": "záplavy v siamu zatopily desítky tisíc domů, bouře dianmu",
+    "doc_id": 720,
+    "type": "synonym"
+  },
+  {
+    "query": "húsijská popravčí četa zastřelila odsouzené kvůli dronovému útoku na předáka",
+    "doc_id": 729,
+    "type": "paraphrase"
+  },
+  {
+    "query": "stažení eritrejských vojsk z tigrajské oblasti",
+    "doc_id": 744,
+    "type": "derived"
+  },
+  {
+    "query": "proč západní vlády nechtějí posílat politiky na olympiádu do číny 2022",
+    "doc_id": 761,
+    "type": "question"
+  },
+  {
+    "query": "chasidská pouť na hoře meron, desítky obětí v davu",
+    "doc_id": 770,
+    "type": "synonym"
+  },
+  {
+    "query": "šéf kremlu v interview pro americkou televizi mluvil o strachu z nepokojů jako po floydovi a chválil nového amerického prezidenta",
+    "doc_id": 772,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kazimir guverner nbs obvineni uplatky",
+    "doc_id": 778,
+    "type": "typo"
+  },
+  {
+    "query": "diplomaté židovského státu a palestinců v praze se přou o bombardování pásma",
+    "doc_id": 780,
+    "type": "paraphrase"
+  },
+  {
+    "query": "záhadný sofijský překupník arzenálu, firma emco, muniční sklad na zlínsku",
+    "doc_id": 783,
+    "type": "synonym"
+  },
+  {
+    "query": "čeští odborníci s karmelitány obnovují zbídačenou zemi uprostřed černého kontinentu",
+    "doc_id": 798,
+    "type": "paraphrase"
+  },
+  {
+    "query": "matovič kvůli ruský vakcíně padl a statisíce dávek se válej v regálech",
+    "doc_id": 799,
+    "type": "colloquial"
+  },
+  {
+    "query": "prázdné regály v anglických obchodech kvůli karanténě personálu",
+    "doc_id": 824,
+    "type": "synonym"
+  },
+  {
+    "query": "sigal z akčňáků vstoupil do putinovský partaje",
+    "doc_id": 831,
+    "type": "colloquial"
+  },
+  {
+    "query": "trifonovův volební úspěch v bulharsku, showman před borisovem",
+    "doc_id": 837,
+    "type": "derived"
+  },
+  {
+    "query": "pchjongjang vypálil střelu u přístavu sinpcho",
+    "doc_id": 838,
+    "type": "synonym"
+  },
+  {
+    "query": "proč nikdo nechce dodávat topné oleje rusům v irské metropoli",
+    "doc_id": 847,
+    "type": "question"
+  },
+  {
+    "query": "ve spojeném království dochází nafta na benzínkách, chybí šoféři kamionů",
+    "doc_id": 852,
+    "type": "synonym"
+  },
+  {
+    "query": "francouzské zkrácení karantény na sedm dní",
+    "doc_id": 860,
+    "type": "derived"
+  },
+  {
+    "query": "jakub vlček po záchraně z hory napsal a je to",
+    "doc_id": 876,
+    "type": "paraphrase"
+  },
+  {
+    "query": "anglické hospody otevřely venkovní posezení, řečtí středoškoláci zpátky v lavicích",
+    "doc_id": 890,
+    "type": "synonym"
+  },
+  {
+    "query": "kvůli opičkám ženevská zdravotní agentura spustila max poplach",
+    "doc_id": 908,
+    "type": "colloquial"
+  },
+  {
+    "query": "český obrněný vůz v africe narazil na nástražný systém, nikdo nezraněn",
+    "doc_id": 911,
+    "type": "synonym"
+  },
+  {
+    "query": "příběh holčičky, kterou kalifornský pachatel s manželkou věznil skoro dvacet roků",
+    "doc_id": 914,
+    "type": "paraphrase"
+  },
+  {
+    "query": "hlavní poradce bílého domu pro nákazy je opatrně optimistický k nové jihoafrické mutaci",
+    "doc_id": 918,
+    "type": "paraphrase"
+  },
+  {
+    "query": "tajvan zvedl vlastní mašiny proti 49 čínskejm bombarďákům",
+    "doc_id": 921,
+    "type": "colloquial"
+  },
+  {
+    "query": "agentura osn pro zdraví proti očkovacím průkazům na přejezdy hranic",
+    "doc_id": 952,
+    "type": "synonym"
+  },
+  {
+    "query": "brazilského vůdce může čekat sesazení, generálové odstoupili",
+    "doc_id": 967,
+    "type": "paraphrase"
+  },
+  {
+    "query": "francouzský jachtař přežil noc pod převrácenou plachetnicí v bublině",
+    "doc_id": 976,
+    "type": "paraphrase"
+  },
+  {
+    "query": "turuv hornici demonstrace pred evropskym soudnim dvorem",
+    "doc_id": 993,
+    "type": "typo"
+  },
+  {
+    "query": "altenr dedicove honorar advokat socialni demokracie predbezny nazor",
+    "doc_id": 32,
+    "type": "typo"
+  },
+  {
+    "query": "oheň v domácnosti v Praze 10 poslal do špitálu batolata, přiletěla helikoptéra",
+    "doc_id": 51,
+    "type": "paraphrase"
+  },
+  {
+    "query": "stolpersteine pro oběti šoa ve Valašských Kloboucích, rodiny Haasovi a Wachsmannovi",
+    "doc_id": 68,
+    "type": "synonym"
+  },
+  {
+    "query": "kolik dávek proti influenze vyjednal Vojtěch na sezonu 2021",
+    "doc_id": 80,
+    "type": "question"
+  },
+  {
+    "query": "vládní strana Pekarové chce kvůli deficitu privatizovat erární nemovitosti a podniky",
+    "doc_id": 113,
+    "type": "paraphrase"
+  },
+  {
+    "query": "vrchol celostátní přehlídky lidušek, 600 účinkujících u Senátu",
+    "doc_id": 126,
+    "type": "paraphrase"
+  },
+  {
+    "query": "vysokomýtský tunel zadání zakázky design and build",
+    "doc_id": 132,
+    "type": "derived"
+  },
+  {
+    "query": "chebská radnice zlevnila stavební parcely, nikdo o ně neměl zájem",
+    "doc_id": 144,
+    "type": "synonym"
+  },
+  {
+    "query": "oprvaa stoky turanka 21 tydnu zavreno trolejbusy jinudy",
+    "doc_id": 146,
+    "type": "typo"
+  },
+  {
+    "query": "šéf sociků zas nepřišel před senátory kvůli tripu do ruska",
+    "doc_id": 151,
+    "type": "colloquial"
+  },
+  {
+    "query": "čeladenská hudební pohoda v beskydech u řeky, line-up 2022",
+    "doc_id": 164,
+    "type": "paraphrase"
+  },
+  {
+    "query": "dva tiráky se napálily na dvojce u blučiny, jeden to nepřežil",
+    "doc_id": 169,
+    "type": "colloquial"
+  },
+  {
+    "query": "falšované doklady o bezinfekčnosti u čechů na bavorské hranici",
+    "doc_id": 180,
+    "type": "synonym"
+  },
+  {
+    "query": "úprava bývalého vojenského cvičiště Červeňák vyjde na desítky mega, rozložená do etap",
+    "doc_id": 184,
+    "type": "paraphrase"
+  },
+  {
+    "query": "lístky na regionální spoje v okolí metropole dražší o 25 procent",
+    "doc_id": 201,
+    "type": "synonym"
+  },
+  {
+    "query": "Kratochvíl: šéf ANO se kamarádí s budapešťským vládcem kvůli domácímu publiku",
+    "doc_id": 203,
+    "type": "paraphrase"
+  },
+  {
+    "query": "únorový volební model, sociálnědemokratický propad pod 5 %, pirátsko-starostovský těsný odstup",
+    "doc_id": 209,
+    "type": "derived"
+  },
+  {
+    "query": "fim o vyslouzilem cirkusovem koni anna conova nelisova",
+    "doc_id": 212,
+    "type": "typo"
+  },
+  {
+    "query": "hradní festival zas prodává lupeny, na bezděz a hradec nad moravicí pustěj víc lidí",
+    "doc_id": 223,
+    "type": "colloquial"
+  },
+  {
+    "query": "po roce zase smí rodina za ležícími příbuznými v kroměřížském špitále",
+    "doc_id": 225,
+    "type": "paraphrase"
+  },
+  {
+    "query": "vrchní zdravotnice severočeských špitálů žádají veřejnost o vakcinaci, jsou vyčerpané",
+    "doc_id": 231,
+    "type": "paraphrase"
+  },
+  {
+    "query": "ostravská čipová jízdenka propojena se sousedním regionem kolem Zlína",
+    "doc_id": 233,
+    "type": "synonym"
+  },
+  {
+    "query": "nahatej zfetovanej chlap běhal po déjedničce u troubska, policajty měl za čerty",
+    "doc_id": 244,
+    "type": "colloquial"
+  },
+  {
+    "query": "práce čtyř tuzemských badatelů ve špičkovém odborném žurnálu, jak zvýšit proočkovanost sdělením o shodě lékařů",
+    "doc_id": 245,
+    "type": "synonym"
+  },
+  {
+    "query": "Kulhánkův kraj si bere bankovní rámec 2,5 mld na předfinancování eurodotací",
+    "doc_id": 258,
+    "type": "paraphrase"
+  },
+  {
+    "query": "v úštěku si popelnice vyvážej sami, pořídili si popelářák",
+    "doc_id": 259,
+    "type": "colloquial"
+  },
+  {
+    "query": "rodinný klenotnický podnik od Železnobrodska, ručně dělaný šperk pro baletku Klimentovou",
+    "doc_id": 286,
+    "type": "synonym"
+  },
+  {
+    "query": "EDF a KHNP chtějí do zakázky na atomový reaktor na Vysočině bez partnerů",
+    "doc_id": 299,
+    "type": "synonym"
+  },
+  {
+    "query": "stitray prasaci farma u vranovky obec vyhrala spor s firmou petrin",
+    "doc_id": 308,
+    "type": "typo"
+  },
+  {
+    "query": "proč kybernetický útok na ředitelství silnic zbrzdil silniční okruh kolem pardubic",
+    "doc_id": 310,
+    "type": "question"
+  },
+  {
+    "query": "loosovy plzeňské interiéry, natáčení snímku režiséra kisila",
+    "doc_id": 311,
+    "type": "derived"
+  },
+  {
+    "query": "Bivoj chce stavět vlastní tělocvičnu pro mladé hráče kvůli nedostatku tréninkových hodin",
+    "doc_id": 317,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kolem zastávek nové trasy podzemky na jih Prahy vyrostou rezidenční lokality a mrakodrap",
+    "doc_id": 323,
+    "type": "synonym"
+  },
+  {
+    "query": "od srpna do anglie bez izolace po dvou dávkách? a které státy přešly do rizikové skupiny",
+    "doc_id": 333,
+    "type": "question"
+  },
+  {
+    "query": "zazobanej betonář březina se doma nudí, tak kandiduje na prezidenta – fejeton",
+    "doc_id": 334,
+    "type": "colloquial"
+  },
+  {
+    "query": "pribil nejvetsi sbirka autogramu astronatu gagarin",
+    "doc_id": 335,
+    "type": "typo"
+  },
+  {
+    "query": "v Praze funguje služba, kde se darují nepotřebné skříně a pračky chudým rodinám",
+    "doc_id": 336,
+    "type": "paraphrase"
+  },
+  {
+    "query": "dravec skončil po kolizi s elektrickým vedením bez perutě, zůstane natrvalo v rajhradské stanici",
+    "doc_id": 351,
+    "type": "paraphrase"
+  },
+  {
+    "query": "andrej si dělal srandu z kontrolorů, že prej objevili kolumbův kontinent, bordel s rouškama",
+    "doc_id": 353,
+    "type": "colloquial"
+  },
+  {
+    "query": "úvaha, proč protibabišovský tábor nevede kampaň osobně v terénu",
+    "doc_id": 361,
+    "type": "paraphrase"
+  },
+  {
+    "query": "liberečáci chtějí, aby varšavská sankce za turowský důl šla na obnovu regionu",
+    "doc_id": 374,
+    "type": "paraphrase"
+  },
+  {
+    "query": "nezletily kluk pobodal mlaidka v simkove ulici hk letecka zachranka",
+    "doc_id": 378,
+    "type": "typo"
+  },
+  {
+    "query": "chlap z tymakova venoval uspory na umelou nohu rodine po vichrcii",
+    "doc_id": 386,
+    "type": "typo"
+  },
+  {
+    "query": "lýkožrout a vykácené jehličnany v Lužických horách, holiny podél cest",
+    "doc_id": 401,
+    "type": "synonym"
+  },
+  {
+    "query": "masarykovské převzetí farmacie od veterinářů a brněnský biotech",
+    "doc_id": 402,
+    "type": "derived"
+  },
+  {
+    "query": "devatenáctiletý kluk sexuálně napadl známou z hlavního nádraží v Olomouci, utekla bez oblečení",
+    "doc_id": 459,
+    "type": "synonym"
+  },
+  {
+    "query": "konec strany zakladatele Milionu chvilek, akademik z MU: přišla ve špatnou chvíli",
+    "doc_id": 504,
+    "type": "paraphrase"
+  },
+  {
+    "query": "jak si redlovi lidé platili příznivé články u parlamentek",
+    "doc_id": 512,
+    "type": "question"
+  },
+  {
+    "query": "v pardubickým muzeu ukazujou mince a denárovej poklad z desátýho století",
+    "doc_id": 538,
+    "type": "colloquial"
+  },
+  {
+    "query": "bebjak flim s johnem hannahem o prchu z koncentraku",
+    "doc_id": 547,
+    "type": "typo"
+  },
+  {
+    "query": "ústavní soudci zneplatnili část covidových zákazů pro krámy a provozovny, svévolný výběr",
+    "doc_id": 548,
+    "type": "synonym"
+  },
+  {
+    "query": "mražený mořský potvory bez etiket ve sapě, veterka hrozí mastnou pokutou",
+    "doc_id": 552,
+    "type": "colloquial"
+  },
+  {
+    "query": "líčení s útočníkem z Kostnického náměstí skončilo za šedesát minut, přistoupil na trest",
+    "doc_id": 558,
+    "type": "synonym"
+  },
+  {
+    "query": "ušatou odtáhli na velkou opravu, vlastní párou zpátky na podzim 2023",
+    "doc_id": 566,
+    "type": "colloquial"
+  },
+  {
+    "query": "kolik hospod šidilo hosty během KVIFF 2022, naúčtovaná voda",
+    "doc_id": 579,
+    "type": "question"
+  },
+  {
+    "query": "šéf protokolu tvrdí, že udílení řádů ke vzniku republiky půjde postaru, ač je hlava státu hospitalizovaná",
+    "doc_id": 582,
+    "type": "paraphrase"
+  },
+  {
+    "query": "doktor bartka uspel u nejvisi justice, zabijacka kauza znovu",
+    "doc_id": 594,
+    "type": "typo"
+  },
+  {
+    "query": "prymulovo doporučení krátkodobého zpřísnění místo rozvolňování",
+    "doc_id": 601,
+    "type": "derived"
+  },
+  {
+    "query": "pražská radnice nechá prověřit novou rezidenční zástavbu na jihu Černého Mostu",
+    "doc_id": 605,
+    "type": "synonym"
+  },
+  {
+    "query": "kdo vyhrál tendr na objízdnou silnici kolem pardubic, proč vyřadili budimex a metrostav",
+    "doc_id": 639,
+    "type": "question"
+  },
+  {
+    "query": "bývalí strážci zákona považují za přiměřený postup hlídky v severočeském městě, kde zemřel romský muž",
+    "doc_id": 641,
+    "type": "paraphrase"
+  },
+  {
+    "query": "opilá dvojka si to rozdávala ve vrchlickýho sadech, plivla po strážníkách",
+    "doc_id": 650,
+    "type": "colloquial"
+  },
+  {
+    "query": "hlava statu opet nepovysila sefa tajne sluzby kouldeku, sesty pokus vlady",
+    "doc_id": 653,
+    "type": "typo"
+  },
+  {
+    "query": "smrtelný úraz, farmářská mechanizace rozdrtila sedmačtyřicátníka o hospodářskou budovu, Kněžice",
+    "doc_id": 662,
+    "type": "synonym"
+  },
+  {
+    "query": "zlatnické centrum ředitelovo odsouzení za vykradení trezoru",
+    "doc_id": 673,
+    "type": "derived"
+  },
+  {
+    "query": "vysoké školy zavádějí důvěrníky kvůli sexuálnímu harašení studentek",
+    "doc_id": 675,
+    "type": "synonym"
+  },
+  {
+    "query": "dvě ženy ze Žďárska vyrobily stovky miniaturních folklorních oděvů pro hračky",
+    "doc_id": 677,
+    "type": "paraphrase"
+  },
+  {
+    "query": "proč šéf resortu vzdělávání nechal prověřit cermat kvůli drahým kontraktům",
+    "doc_id": 683,
+    "type": "question"
+  },
+  {
+    "query": "malí běženci z války často skončí u pediatra s horečkou kvůli vyčerpání z putování",
+    "doc_id": 685,
+    "type": "synonym"
+  },
+  {
+    "query": "liberecká technika o tisícovku uchazečů víc, rekord u zdravotnických oborů",
+    "doc_id": 714,
+    "type": "synonym"
+  },
+  {
+    "query": "drážní inženýři zkoušeli mobilní systém varující mašinfíru před protijedoucí soupravou na lokálkách",
+    "doc_id": 719,
+    "type": "paraphrase"
+  },
+  {
+    "query": "komouš grebeníček dřepěl v parlamentu od devadesátýho šestýho, rekord z jihomoravskýho kraje",
+    "doc_id": 723,
+    "type": "colloquial"
+  },
+  {
+    "query": "nová cyklotrasa v krumlově k železnici podél polečnice za 32 mega",
+    "doc_id": 738,
+    "type": "paraphrase"
+  },
+  {
+    "query": "regeneron a lily asi nezaberou na omicorn",
+    "doc_id": 752,
+    "type": "typo"
+  },
+  {
+    "query": "jak v praze zaplatit stání v rezidentní zóně pro hosta za desetikorunu na hodinu",
+    "doc_id": 754,
+    "type": "question"
+  },
+  {
+    "query": "bývalý boss pražské MHD žádá od republiky kompenzaci, dekáda od aféry s penězi z tiketů do karibiku",
+    "doc_id": 757,
+    "type": "paraphrase"
+  },
+  {
+    "query": "pětice protibabišovských stran chce v létě svrhnout kabinet, mimořádná schůze sněmovny",
+    "doc_id": 762,
+    "type": "synonym"
+  },
+  {
+    "query": "svatoludmilská tetínská poutní slavnost, neprůjezdnost pro auta",
+    "doc_id": 765,
+    "type": "derived"
+  },
+  {
+    "query": "stablvoice renesancni panske sidlo poprve pro navstevniky",
+    "doc_id": 773,
+    "type": "typo"
+  },
+  {
+    "query": "ministr obchodu Havlíček: covidová bitva, zavření továren by připravilo podniky o kontrakty",
+    "doc_id": 785,
+    "type": "synonym"
+  },
+  {
+    "query": "brněnská zoologická, natočené snímky afrických šelem pro vr brýle",
+    "doc_id": 803,
+    "type": "derived"
+  },
+  {
+    "query": "v plzeňským a karlovarským to v úterý bude pořádně fučet, meteoroši varujou",
+    "doc_id": 808,
+    "type": "colloquial"
+  },
+  {
+    "query": "libotnice aviarni influenca, uhyn kurat pres vanoce h5n1",
+    "doc_id": 809,
+    "type": "typo"
+  },
+  {
+    "query": "vláda nepodpořila pouštění nevakcinovaných na pracoviště jen s potvrzením o bezinfekčnosti",
+    "doc_id": 819,
+    "type": "paraphrase"
+  },
+  {
+    "query": "šéf vlády zvažuje pořízení moskevské očkovací látky, zájem o ni má 65 států",
+    "doc_id": 828,
+    "type": "paraphrase"
+  },
+  {
+    "query": "macháčkovo stoleté výročí nymburský vzpomínkový týden",
+    "doc_id": 829,
+    "type": "derived"
+  },
+  {
+    "query": "sdružení příznivců hlavy státu s adresou v sídle prezidenta musí doložit hospodaření, klíčový sponzor kampaně",
+    "doc_id": 839,
+    "type": "synonym"
+  },
+  {
+    "query": "dospívající s kudlou chtěl po školácích prachy, obviněn z loupeže, sedlčansko",
+    "doc_id": 843,
+    "type": "synonym"
+  },
+  {
+    "query": "rekordní zavěšená lávka přes údolí mlýnského potoka mezi Slamníkem a Chlumem",
+    "doc_id": 851,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kdo by převzal pravomoci hlavy státu kdyby hospitalizovaný zeman nemohl vykonávat funkci",
+    "doc_id": 868,
+    "type": "question"
+  },
+  {
+    "query": "ostravská zoo pošle mladou samičku vzácného supa do pohoří Maestrazgo k vypuštění",
+    "doc_id": 888,
+    "type": "synonym"
+  },
+  {
+    "query": "kokešův designovej haseňák s chytrou elektronikou chce dobejt zahraničí",
+    "doc_id": 896,
+    "type": "colloquial"
+  },
+  {
+    "query": "cimicki svedectvi obeti, advokatka hrda",
+    "doc_id": 913,
+    "type": "typo"
+  },
+  {
+    "query": "olomoucká galerie připravuje přehlídku o stavitelství, výzva pro projektanty",
+    "doc_id": 929,
+    "type": "synonym"
+  },
+  {
+    "query": "ke kadeřnici stačí antigenovka z fabriky, padesátpětiletí se můžou zapsat na vpich",
+    "doc_id": 930,
+    "type": "colloquial"
+  },
+  {
+    "query": "plzeňská fakultka staví výškovou budovu pro operační obory, resort ji nezastaví",
+    "doc_id": 939,
+    "type": "synonym"
+  },
+  {
+    "query": "kde stáhnout covid pas z ocko.uzis.cz a do jakých států s ním můžu na dovolenou",
+    "doc_id": 951,
+    "type": "question"
+  },
+  {
+    "query": "v listopadu na Sněžku jen po svých, kabinovka z Pece stojí kvůli servisu, o sobotách a nedělích jezdí",
+    "doc_id": 968,
+    "type": "paraphrase"
+  },
+  {
+    "query": "toyta kolin nema dost antigenich testu pro delniky, povinost v podnicich",
+    "doc_id": 981,
+    "type": "typo"
+  },
+  {
+    "query": "středočeské radní pozastavení přivaděče k dé jedenáctce u klánovic, úspěch protestujících",
+    "doc_id": 986,
+    "type": "derived"
+  },
+  {
+    "query": "proč naši reprezentanti před velšany neklečeli na trávníku",
+    "doc_id": 21,
+    "type": "question"
+  },
+  {
+    "query": "dobročinný fotbálek s aukcí pro hendikepované v hradci, 14. ročník",
+    "doc_id": 31,
+    "type": "paraphrase"
+  },
+  {
+    "query": "duhové nasvícení mnichovské arény jako protest proti maďarskému zákonu na euru",
+    "doc_id": 48,
+    "type": "synonym"
+  },
+  {
+    "query": "německá koučka praštila zvíře na olympiádě v moderním pětiboji a vyhodili ji",
+    "doc_id": 61,
+    "type": "colloquial"
+  },
+  {
+    "query": "ledecka pred vrcholem sezony ve svycarsku, obavy o pocasi a zdravi",
+    "doc_id": 82,
+    "type": "typo"
+  },
+  {
+    "query": "česká ženská házená zdolala sousedy ze slovenska 24:23 na světovém šampionátu",
+    "doc_id": 84,
+    "type": "synonym"
+  },
+  {
+    "query": "dcery koloce pojedou evropsky naskar, nejmladsi zavodnice v historii",
+    "doc_id": 85,
+    "type": "typo"
+  },
+  {
+    "query": "hráči házené z plzně přejeli armádní tým v prvním duelu o finále 31:23",
+    "doc_id": 91,
+    "type": "synonym"
+  },
+  {
+    "query": "hamík vyhrál doma silverstone i přes penalizaci za sundání maxe",
+    "doc_id": 95,
+    "type": "colloquial"
+  },
+  {
+    "query": "líšeňský kouč zklamán vyrovnáním opavanů z penalty v poslední minutě",
+    "doc_id": 115,
+    "type": "derived"
+  },
+  {
+    "query": "jak oslavil trenér letenských konec dlouhé série bez výhry nad slavií",
+    "doc_id": 123,
+    "type": "question"
+  },
+  {
+    "query": "zabranskej junior z varu poprvy v repre pred mistrakem",
+    "doc_id": 129,
+    "type": "typo"
+  },
+  {
+    "query": "budějce urvali mountfield v rozstřelu 3:2, hrálo se bez tří útočníků",
+    "doc_id": 131,
+    "type": "colloquial"
+  },
+  {
+    "query": "britský závodník z williamsu míří ke stříbrným šípům místo bottase",
+    "doc_id": 143,
+    "type": "synonym"
+  },
+  {
+    "query": "vesnický klub po lockdownech ztratil hráče, místo kopané jezdí s partnerkami na výlety a bojí se vakcíny",
+    "doc_id": 174,
+    "type": "paraphrase"
+  },
+  {
+    "query": "golfisté z hluboké nad vltavou slaví návrat mezi elitu",
+    "doc_id": 183,
+    "type": "synonym"
+  },
+  {
+    "query": "jablonecký postup do čtvrtfinále poháru díky třem trefám pilaře",
+    "doc_id": 187,
+    "type": "derived"
+  },
+  {
+    "query": "východočeští házenkáři u tabulkového souseda z beskyd, oba mají 19 bodů",
+    "doc_id": 189,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kdo vyhrál hokejové mistrovství světa 2021 v lotyšsku po prodloužení s finy",
+    "doc_id": 204,
+    "type": "question"
+  },
+  {
+    "query": "třebíčskej gólman kojotů parádně odchytal debut v nhl u šavlí",
+    "doc_id": 222,
+    "type": "colloquial"
+  },
+  {
+    "query": "osmatřicetiletý centr se po dvou dekádách vrací do jihočeského extraligového týmu kvůli marodce",
+    "doc_id": 234,
+    "type": "synonym"
+  },
+  {
+    "query": "historický článek o sezoně 1981, kdy jihočeský hokej skončil těsně druhý za ostravskými",
+    "doc_id": 246,
+    "type": "paraphrase"
+  },
+  {
+    "query": "hrají budějovice doma s týmem z uherského hradiště, který rozstřílel letnou 4:0?",
+    "doc_id": 266,
+    "type": "question"
+  },
+  {
+    "query": "fotbalisté z blanenska bez hvězd vedou jihomoravskou krajskou soutěž, kouč tvrdí že úroveň stoupá",
+    "doc_id": 269,
+    "type": "paraphrase"
+  },
+  {
+    "query": "hammers potrápili pepovo city, coufalovi se to odrazilo do vlastní sítě",
+    "doc_id": 273,
+    "type": "colloquial"
+  },
+  {
+    "query": "tucet nejbohatších klubů vyhlásil vlastní odtrženou soutěž, evropská federace zuří",
+    "doc_id": 281,
+    "type": "synonym"
+  },
+  {
+    "query": "milovický ofenzivní hráč vzpomíná na partu z ostré a postup do divize",
+    "doc_id": 282,
+    "type": "derived"
+  },
+  {
+    "query": "dva redaktoři se přou, zda si argentinská hvězda zasloužila sedmé ocenění nejlepšího hráče roku",
+    "doc_id": 290,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kvaca bily tygri nejlepsi golman extraligy nezpychne",
+    "doc_id": 307,
+    "type": "typo"
+  },
+  {
+    "query": "hokejový arbitr odmítá podezření ze zneužití grantu na žákovský turnaj v hradci králové",
+    "doc_id": 325,
+    "type": "synonym"
+  },
+  {
+    "query": "seznamácký expert hodnotí, jak legendy z minulosti pomohly šilhavého týmu vyřadit oranjes",
+    "doc_id": 338,
+    "type": "paraphrase"
+  },
+  {
+    "query": "bývalý tenisový junior z prštic hraje za univerzitní tým v tennessee",
+    "doc_id": 348,
+    "type": "paraphrase"
+  },
+  {
+    "query": "jihočeskej fotbalista ve 44 si dal thajskej box v gerbeře a prohrál na body",
+    "doc_id": 366,
+    "type": "colloquial"
+  },
+  {
+    "query": "jarosik vyhozenej ze slovinskyho klubu po 4 mesicich",
+    "doc_id": 367,
+    "type": "typo"
+  },
+  {
+    "query": "dva sousedé z vesnic u brna ovládli olympijský trap, zlato i stříbro po 89 letech",
+    "doc_id": 384,
+    "type": "paraphrase"
+  },
+  {
+    "query": "uzávěrka letních přestupů na kladensku, kanonýr z braškova mění dres",
+    "doc_id": 392,
+    "type": "paraphrase"
+  },
+  {
+    "query": "závěrečné interview se šestinásobným vítězem rallye paříž–dakar s tatrovkou",
+    "doc_id": 394,
+    "type": "synonym"
+  },
+  {
+    "query": "bejvalej útočník z nhl naštvanej po nakládačce 0:10, trhačům zakázal trénovat",
+    "doc_id": 418,
+    "type": "colloquial"
+  },
+  {
+    "query": "policejní záznamy: místopředseda svazu manipuloval bývalým sparťanským kapitánem v čele komise sudích",
+    "doc_id": 419,
+    "type": "paraphrase"
+  },
+  {
+    "query": "letní přípravný program příbramských po sestupu, rakouské soustředění",
+    "doc_id": 423,
+    "type": "derived"
+  },
+  {
+    "query": "bezecky par z rancirova treninkovej kemp u bolzana",
+    "doc_id": 432,
+    "type": "typo"
+  },
+  {
+    "query": "hanáčtí zubři pomáhali v mikulčicích po živelní katastrofě",
+    "doc_id": 441,
+    "type": "synonym"
+  },
+  {
+    "query": "jak se žije neratovickému vodnímu lyžaři v orlandu s ročním synem",
+    "doc_id": 447,
+    "type": "question"
+  },
+  {
+    "query": "gólman letenských zůstává, rodina se rozrostla na sedm lidí",
+    "doc_id": 458,
+    "type": "synonym"
+  },
+  {
+    "query": "jihlavská porážka v brně penaltou v nastavení, kameníkova nespokojenost",
+    "doc_id": 487,
+    "type": "derived"
+  },
+  {
+    "query": "jak se 28 českých hendikepovaných závodníků chystá na cestu na hry do asie",
+    "doc_id": 515,
+    "type": "paraphrase"
+  },
+  {
+    "query": "uherskohradistsky fotbaliste prohrali se slovinci 1:3 posledni pripravak pred jarem",
+    "doc_id": 545,
+    "type": "typo"
+  },
+  {
+    "query": "opavská posila ze švédska, brněnská obava z doskoku",
+    "doc_id": 553,
+    "type": "derived"
+  },
+  {
+    "query": "po čtrnáctidenní covidové přestávce čeká karlovarské hokejisty duel s plzní",
+    "doc_id": 555,
+    "type": "paraphrase"
+  },
+  {
+    "query": "náš gólman z eura zdrhá ze španělska do pirea",
+    "doc_id": 568,
+    "type": "colloquial"
+  },
+  {
+    "query": "přestup české reprezentantky od kladivářů k blues, velkolepá uvítací ceremonie",
+    "doc_id": 576,
+    "type": "synonym"
+  },
+  {
+    "query": "na mělnicku chytal za lužec hokejovej brankář a stejně vyhráli",
+    "doc_id": 580,
+    "type": "colloquial"
+  },
+  {
+    "query": "letí český fighter do emirátů jako záloha pro souboj o pás?",
+    "doc_id": 593,
+    "type": "question"
+  },
+  {
+    "query": "letenští hrají ve skotsku odvetu, klub radí fanouškům skrývat klubové barvy",
+    "doc_id": 607,
+    "type": "paraphrase"
+  },
+  {
+    "query": "varsti volejbaliste porazili duklu liberec v prvnim superpoharu",
+    "doc_id": 613,
+    "type": "typo"
+  },
+  {
+    "query": "semifinálová prohra české hráčky se sedmnáctiletou američankou na parmském antukovém turnaji",
+    "doc_id": 614,
+    "type": "derived"
+  },
+  {
+    "query": "suomi přetlačili němce o gól a ve finále v lotyšsku čeká kanada",
+    "doc_id": 623,
+    "type": "synonym"
+  },
+  {
+    "query": "votroci v zimní přípravě konečně udrželi čisté konto, porazili béčko sparty 2:0",
+    "doc_id": 631,
+    "type": "paraphrase"
+  },
+  {
+    "query": "jihočeská soutěž neprofesionálních hokejistů pojmenovaná po rybnících se po covidu rozjede znovu",
+    "doc_id": 644,
+    "type": "synonym"
+  },
+  {
+    "query": "jalubí vs stříbrnice, okresní finále poháru na ligovym stadionu, celá dědina jede fandit",
+    "doc_id": 664,
+    "type": "colloquial"
+  },
+  {
+    "query": "mladí baseballisté z vysočiny vyhráli moravské kolo a postupují na republikový šampionát",
+    "doc_id": 667,
+    "type": "paraphrase"
+  },
+  {
+    "query": "tradiční letní fotbalový turnaj lázeňských obcí z podkrkonoší, čtyřicátý čtvrtý",
+    "doc_id": 674,
+    "type": "paraphrase"
+  },
+  {
+    "query": "náš forvard newyorčanů dal bleskům dvě šťavnatý, 6:2 ve finále východu",
+    "doc_id": 689,
+    "type": "colloquial"
+  },
+  {
+    "query": "bergamský tým vyřazen madridským velkoklubem v champions league, pech a sporné pískání",
+    "doc_id": 694,
+    "type": "synonym"
+  },
+  {
+    "query": "výčet slavných incidentů s urážkami černých hráčů, balotelli a další",
+    "doc_id": 699,
+    "type": "paraphrase"
+  },
+  {
+    "query": "pele uzdraveni po chirurgickym zakroku, slape na stacionarnim kole",
+    "doc_id": 705,
+    "type": "typo"
+  },
+  {
+    "query": "desetimilionová oprava fotbalového trávníku na opavsku odhalila válečnou munici",
+    "doc_id": 709,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kde odehráli naši zápas s estonci místo tallinnu",
+    "doc_id": 718,
+    "type": "question"
+  },
+  {
+    "query": "mladý útočník ze sokolova si splnil sen hrát za chemiky, kterým odmala fandil",
+    "doc_id": 721,
+    "type": "synonym"
+  },
+  {
+    "query": "prospal odchází do zámoří, na lavičku jihočechů usedá odchovanec s novými asistenty",
+    "doc_id": 726,
+    "type": "paraphrase"
+  },
+  {
+    "query": "bývalý prvoligový útočník příbrami a bohemky střílí za nováčka z mirovic",
+    "doc_id": 732,
+    "type": "paraphrase"
+  },
+  {
+    "query": "antos dvacet let od zlata 2001, upadek ceskeho hokeje",
+    "doc_id": 746,
+    "type": "typo"
+  },
+  {
+    "query": "pověsí rodák z pelhřimova, mistr světa 2010, brusle na hřebík?",
+    "doc_id": 760,
+    "type": "question"
+  },
+  {
+    "query": "volejbalisté z varů dostali v evropském poháru srbského soupeře z kraljeva",
+    "doc_id": 771,
+    "type": "synonym"
+  },
+  {
+    "query": "radilův návrat do pardubic z ruska",
+    "doc_id": 779,
+    "type": "derived"
+  },
+  {
+    "query": "díl seriálu o fotbalistovi z doks, kterého pronásledovaly úrazy, začínal v bělé pod bezdězem",
+    "doc_id": 782,
+    "type": "paraphrase"
+  },
+  {
+    "query": "rodina bývalého tenisty petra, dcery golfistky a syn tenista sbírají trofeje",
+    "doc_id": 786,
+    "type": "synonym"
+  },
+  {
+    "query": "slezani konečně bodovali v budějcích 1:0, záložník měl doma rodinný trable",
+    "doc_id": 789,
+    "type": "colloquial"
+  },
+  {
+    "query": "s kým se utkají severočeši ve třetím kole kvalifikace evropské ligy, celtic nebo midtjylland?",
+    "doc_id": 790,
+    "type": "question"
+  },
+  {
+    "query": "semanova pred svetovym sampionatem v emiratech, nemoc a zanet dasni",
+    "doc_id": 793,
+    "type": "typo"
+  },
+  {
+    "query": "šéf fačr o úplatkářské kauze a pomalém postupu disciplinárky",
+    "doc_id": 800,
+    "type": "synonym"
+  },
+  {
+    "query": "finálová účast bouzkové po výhře nad kanaďankou",
+    "doc_id": 801,
+    "type": "derived"
+  },
+  {
+    "query": "letní přípravné zápasy komárovských, výhra nad divizním berounem a v poháru čeká žižkov",
+    "doc_id": 802,
+    "type": "paraphrase"
+  },
+  {
+    "query": "sokol z liberecké čtvrti, původní stadion s výčepem musel ustoupit makru, daňový dluh 8,5 milionu",
+    "doc_id": 810,
+    "type": "synonym"
+  },
+  {
+    "query": "vlasim prohrala na zizkove 1:3, konec serie bez porazky",
+    "doc_id": 816,
+    "type": "typo"
+  },
+  {
+    "query": "útočník svoboda pálí za lídra přeboru na vysočině jeden hattrick za druhým",
+    "doc_id": 830,
+    "type": "paraphrase"
+  },
+  {
+    "query": "šéf letenských získal podíl v londýnských hammers",
+    "doc_id": 854,
+    "type": "synonym"
+  },
+  {
+    "query": "devatenáctiletej nigerijec poprvý viděl sníh na testu u votroků a vybojoval smlouvu",
+    "doc_id": 859,
+    "type": "colloquial"
+  },
+  {
+    "query": "simone bilesova se vraci na kladine v tokiu po dusevnich problemech",
+    "doc_id": 864,
+    "type": "typo"
+  },
+  {
+    "query": "africký útočník z police nad metují vzpomíná, jak po něm fanoušci házeli ovoce",
+    "doc_id": 872,
+    "type": "paraphrase"
+  },
+  {
+    "query": "satoranskej zpatky v repre, kvalifikacni okno na mistrak 2023 v basketu",
+    "doc_id": 885,
+    "type": "typo"
+  },
+  {
+    "query": "nymburští košíkáři dostali v losu evropské soutěže fiba soupeře z izmiru",
+    "doc_id": 892,
+    "type": "synonym"
+  },
+  {
+    "query": "aukce hraných národních trikotů z hokejového šampionátu v lotyšsku",
+    "doc_id": 902,
+    "type": "synonym"
+  },
+  {
+    "query": "bráchové z berouna zaplavali v liberci na českým poháru parádně",
+    "doc_id": 912,
+    "type": "colloquial"
+  },
+  {
+    "query": "kdo bral olympijské zlato v dálce, řecký skokan přes kubánce díky druhému pokusu?",
+    "doc_id": 920,
+    "type": "question"
+  },
+  {
+    "query": "čeští reprezentanti po prohře s albionem 0:1 netuší protivníka pro vyřazovací boje evropského šampionátu",
+    "doc_id": 924,
+    "type": "synonym"
+  },
+  {
+    "query": "trenér hokejových dětí v děčíně napsal otevřený dopis radnici kvůli zavřeným tělocvičnám",
+    "doc_id": 953,
+    "type": "synonym"
+  },
+  {
+    "query": "bavoři padli u eintrachtu, bvb nasázela královsky modrým čtyřku",
+    "doc_id": 961,
+    "type": "colloquial"
+  },
+  {
+    "query": "micankuv tym makes vyhral tcr eastern europe, lamborghini trofeo",
+    "doc_id": 991,
+    "type": "typo"
+  },
+  {
+    "query": "sadílkova trefa rozhodla boleslavské utkání pro liberečany, hostování z eindhovenu",
+    "doc_id": 995,
+    "type": "derived"
+  },
+  {
+    "query": "hodnocení letní frašky herecké dvojice dykových",
+    "doc_id": 26,
+    "type": "synonym"
+  },
+  {
+    "query": "v hradci bude přes prázdniny hledačka po muzeích a divadlech, vymyslel to drak",
+    "doc_id": 42,
+    "type": "colloquial"
+  },
+  {
+    "query": "jak dopadla recenze dokumentu o aféře varsity blues s úplatky za studium",
+    "doc_id": 60,
+    "type": "question"
+  },
+  {
+    "query": "kritici vybrali finalisty, spolek jedl má čtyři šance s představením o katolickém spisovateli",
+    "doc_id": 74,
+    "type": "paraphrase"
+  },
+  {
+    "query": "britský elektro duo rozjelo pařbu na metronome, nostalgie devadesátek",
+    "doc_id": 79,
+    "type": "colloquial"
+  },
+  {
+    "query": "zesnul bývalý manžel špinarové, rakovina plic",
+    "doc_id": 83,
+    "type": "paraphrase"
+  },
+  {
+    "query": "severočeský hudební festival chystá taneční dílo komponisty z itálie, premiéra v děčíně",
+    "doc_id": 87,
+    "type": "synonym"
+  },
+  {
+    "query": "animanie detske animovane filmicky rekordnich 700 prihlasek",
+    "doc_id": 92,
+    "type": "typo"
+  },
+  {
+    "query": "nový marvelovský čaroděj překonal tržby netopýřího muže",
+    "doc_id": 100,
+    "type": "synonym"
+  },
+  {
+    "query": "lucka chystá šňůru se symfoňákem a fotkovou knížkou",
+    "doc_id": 106,
+    "type": "colloquial"
+  },
+  {
+    "query": "jak vzpomínají bočan a další filmaři na zemřelého představitele prince ze tří oříšků",
+    "doc_id": 117,
+    "type": "question"
+  },
+  {
+    "query": "otevření biografů bez popcornu podle zaorálkova plánu",
+    "doc_id": 121,
+    "type": "derived"
+  },
+  {
+    "query": "druhá sezóna satiry o ruské carevně kateřině",
+    "doc_id": 128,
+    "type": "synonym"
+  },
+  {
+    "query": "nová inscenace na smíchově o vzájemném nepřátelství mužů a žen od spitfire company",
+    "doc_id": 142,
+    "type": "paraphrase"
+  },
+  {
+    "query": "biografy po covidu bojují s nízkou návštěvností, propad tržeb z 2,6 miliardy",
+    "doc_id": 152,
+    "type": "paraphrase"
+  },
+  {
+    "query": "skonala filmová princezna ze tří oříšků, choť abrháma",
+    "doc_id": 167,
+    "type": "paraphrase"
+  },
+  {
+    "query": "smuteční obřad za satirika vodňanského, dorazil exprimátor",
+    "doc_id": 168,
+    "type": "synonym"
+  },
+  {
+    "query": "kellyho porota uznala vinnym, hrozí mu basa do smrti",
+    "doc_id": 172,
+    "type": "colloquial"
+  },
+  {
+    "query": "kriminální seriál primy s matáskem končí sezónu, bude další",
+    "doc_id": 188,
+    "type": "synonym"
+  },
+  {
+    "query": "kuřácké scény ve francouzské kinematografii, onkologický výzkum",
+    "doc_id": 195,
+    "type": "synonym"
+  },
+  {
+    "query": "kluci z jihlavy chytali v norsku a udělali z toho biják",
+    "doc_id": 236,
+    "type": "colloquial"
+  },
+  {
+    "query": "kdy budou online jarní reprízy dokumentárního festivalu z jihlavy",
+    "doc_id": 247,
+    "type": "question"
+  },
+  {
+    "query": "nahko folk soul hipie koncert v lucerne",
+    "doc_id": 256,
+    "type": "typo"
+  },
+  {
+    "query": "divadelní přehlídka v moravské metropoli dostala od hygieny zelenou hrát pro diváky",
+    "doc_id": 261,
+    "type": "paraphrase"
+  },
+  {
+    "query": "oprava barokních soch v lese u kuksu dokončena",
+    "doc_id": 265,
+    "type": "synonym"
+  },
+  {
+    "query": "na komiksovým srazu v praze vystavěj sporťák škodovku z upírskýho filmu",
+    "doc_id": 267,
+    "type": "colloquial"
+  },
+  {
+    "query": "fotky vytištěných scén z pelíšků a vratných lahví přímo na místech natáčení",
+    "doc_id": 268,
+    "type": "paraphrase"
+  },
+  {
+    "query": "černobílé milostné drama o mileniálech z pařížské čtvrti",
+    "doc_id": 276,
+    "type": "synonym"
+  },
+  {
+    "query": "umrel parizek, heavymetalovy bicista a medialni byznysmen",
+    "doc_id": 280,
+    "type": "typo"
+  },
+  {
+    "query": "jak si vedl gyllenhaal v pořadu muž vs divočina s bearem gryllsem",
+    "doc_id": 296,
+    "type": "question"
+  },
+  {
+    "query": "první výstava malíře hoferika ze sobotky",
+    "doc_id": 305,
+    "type": "derived"
+  },
+  {
+    "query": "při skenování starých kodexů v klementinu našli středověkou polyfonii z paříže",
+    "doc_id": 332,
+    "type": "paraphrase"
+  },
+  {
+    "query": "hodnocení desky good woman sesterského tria z británie",
+    "doc_id": 337,
+    "type": "synonym"
+  },
+  {
+    "query": "v brně bude čtyři dny muzika na každým rohu, hraje i dusilová",
+    "doc_id": 346,
+    "type": "colloquial"
+  },
+  {
+    "query": "zdrcující hodnocení diskotékové desky grohlovy kapely přejmenované na dee gees",
+    "doc_id": 350,
+    "type": "paraphrase"
+  },
+  {
+    "query": "australská hvězda přesouvá štáb akční netflixovky do české metropole",
+    "doc_id": 355,
+    "type": "synonym"
+  },
+  {
+    "query": "úmrtí kritika folla, havlova kamaráda",
+    "doc_id": 359,
+    "type": "derived"
+  },
+  {
+    "query": "britská veřejnoprávka zrušila pořady kvůli úmrtí královnina manžela a sklidila stížnosti",
+    "doc_id": 387,
+    "type": "paraphrase"
+  },
+  {
+    "query": "ocenění mladých kreslířů v kutnohorské galerii, přišel vnuk hanzelky",
+    "doc_id": 397,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kdo překládá francouzskou knihu v bytě po jestřábovi na žižkově",
+    "doc_id": 403,
+    "type": "question"
+  },
+  {
+    "query": "chazarskej slovik mikulasek pavic",
+    "doc_id": 404,
+    "type": "typo"
+  },
+  {
+    "query": "bezosův e-shop pohltí filmovou společnost s řvoucím lvem",
+    "doc_id": 410,
+    "type": "synonym"
+  },
+  {
+    "query": "mozartovská opera o svůdníkovi nastudovaná německými tvůrci pro televizní přenos",
+    "doc_id": 411,
+    "type": "derived"
+  },
+  {
+    "query": "britští rockeři s collinsem po čtrnácti letech znovu koncertují",
+    "doc_id": 425,
+    "type": "paraphrase"
+  },
+  {
+    "query": "tatafest jilove benefit na rakovinu nirvana revivl",
+    "doc_id": 435,
+    "type": "typo"
+  },
+  {
+    "query": "pohádky pro děti zmizí z dvojky a poběží jen na dětském kanálu",
+    "doc_id": 479,
+    "type": "paraphrase"
+  },
+  {
+    "query": "shakespearova tragédie o dánském princi v režii dočekala",
+    "doc_id": 497,
+    "type": "synonym"
+  },
+  {
+    "query": "jakou sbírku esejů vydá allen a kde natočí jubilejní snímek",
+    "doc_id": 505,
+    "type": "question"
+  },
+  {
+    "query": "tylr the creatr call me if you get lost",
+    "doc_id": 509,
+    "type": "typo"
+  },
+  {
+    "query": "rozhovor s bosňanem zahirovičem o čapkovské epidemii",
+    "doc_id": 528,
+    "type": "derived"
+  },
+  {
+    "query": "tuzemská ritchieovská krimikomedie se starým golfem",
+    "doc_id": 529,
+    "type": "synonym"
+  },
+  {
+    "query": "machacek fotky kazdy den kniha potkal sem",
+    "doc_id": 540,
+    "type": "typo"
+  },
+  {
+    "query": "recenze knihy dvou autorů o nahrazení lidské práce stroji a budoucnosti bez zaměstnání",
+    "doc_id": 543,
+    "type": "paraphrase"
+  },
+  {
+    "query": "novácká detektivka z posázaví, konečně se tam nepřehrává",
+    "doc_id": 556,
+    "type": "colloquial"
+  },
+  {
+    "query": "srpnové zahájení varské filmové akce s ohlédnutím do minulosti od roku 1946",
+    "doc_id": 561,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kájova kniha o jeho životě se hned vyprodala",
+    "doc_id": 562,
+    "type": "colloquial"
+  },
+  {
+    "query": "kniha fotografa a filmaře, který prochodil moravské hory a mluvil se třemi sty lidmi",
+    "doc_id": 577,
+    "type": "paraphrase"
+  },
+  {
+    "query": "beny cristo pisnicka omega rotterdam",
+    "doc_id": 608,
+    "type": "typo"
+  },
+  {
+    "query": "milostný snímek s hathawayovou o rozchodu během karantény, posudek",
+    "doc_id": 609,
+    "type": "synonym"
+  },
+  {
+    "query": "tvůrci továrny na debilno udělali parodickou biografii zemanova tiskového tajemníka, ten je nadšený",
+    "doc_id": 620,
+    "type": "paraphrase"
+  },
+  {
+    "query": "románová prvotina delonova potomka o zkaženém dospívání",
+    "doc_id": 632,
+    "type": "derived"
+  },
+  {
+    "query": "ve varech zas červenej koberec, přišli i kopáči, hvězda zaoralová",
+    "doc_id": 634,
+    "type": "colloquial"
+  },
+  {
+    "query": "argentinská parodie na ješitné filmové hvězdy, hraje banderas",
+    "doc_id": 640,
+    "type": "synonym"
+  },
+  {
+    "query": "roman holi solova deska samply prezidenta",
+    "doc_id": 642,
+    "type": "typo"
+  },
+  {
+    "query": "96letá operní pěvkyně ztvární kněžnu ludmilu na hradě",
+    "doc_id": 668,
+    "type": "synonym"
+  },
+  {
+    "query": "nejnákladnější netflixová produkce se bude v létě točit v pražských ulicích",
+    "doc_id": 670,
+    "type": "paraphrase"
+  },
+  {
+    "query": "snímek jabka řeckého debutanta o epidemii amnézie",
+    "doc_id": 680,
+    "type": "derived"
+  },
+  {
+    "query": "jarní hudební festival v praze pustí posluchače do smetanovy síně",
+    "doc_id": 691,
+    "type": "synonym"
+  },
+  {
+    "query": "mejdan s impulzem mirai jelen konfety",
+    "doc_id": 702,
+    "type": "typo"
+  },
+  {
+    "query": "cinestar nepustí lidi do kin, dokud nebude moct žrát popcorn při filmu",
+    "doc_id": 706,
+    "type": "colloquial"
+  },
+  {
+    "query": "kdo zazpívá v česku orchestrální dílo inspirované albem bowieho",
+    "doc_id": 708,
+    "type": "question"
+  },
+  {
+    "query": "dokumentaristka o tom, jak ji dojaly příběhy obětí jihomoravské smršti",
+    "doc_id": 725,
+    "type": "paraphrase"
+  },
+  {
+    "query": "herec javorský o ztvárnění amerického mistra hororu, audio rozhovor",
+    "doc_id": 737,
+    "type": "synonym"
+  },
+  {
+    "query": "hobzikův první celovečerák o dealerech, odstavených policajtech a mafiánovi",
+    "doc_id": 763,
+    "type": "paraphrase"
+  },
+  {
+    "query": "taylorka nahrála znova starou desku, aby měla práva",
+    "doc_id": 776,
+    "type": "colloquial"
+  },
+  {
+    "query": "starší interview s představitelem kancléře riegera z havlova filmu",
+    "doc_id": 777,
+    "type": "paraphrase"
+  },
+  {
+    "query": "vondruškova detektivka spiknutí oběšenců hodnocení",
+    "doc_id": 781,
+    "type": "derived"
+  },
+  {
+    "query": "který snímek radu judeho získal zlatého medvěda v berlíně",
+    "doc_id": 807,
+    "type": "question"
+  },
+  {
+    "query": "starší z bratrů coenových sám zfilmoval shakespearovu skotskou hru",
+    "doc_id": 814,
+    "type": "synonym"
+  },
+  {
+    "query": "kalus orchestr stefanie klip valka",
+    "doc_id": 817,
+    "type": "typo"
+  },
+  {
+    "query": "autorka čarodějnického učně chystá příběh o vánočním čuníkovi pro děti",
+    "doc_id": 818,
+    "type": "synonym"
+  },
+  {
+    "query": "lenny a týpek z linkinů spolu udělali singl",
+    "doc_id": 821,
+    "type": "colloquial"
+  },
+  {
+    "query": "vlašimský koncert vořežprutu a losování s haškovou cenou",
+    "doc_id": 836,
+    "type": "derived"
+  },
+  {
+    "query": "assayasova minisérie o natáčení remaku němého krimi z roku 1915",
+    "doc_id": 842,
+    "type": "synonym"
+  },
+  {
+    "query": "schulhoffův hudební mýtus o svůdníkovi v režii katalánce bieita",
+    "doc_id": 858,
+    "type": "synonym"
+  },
+  {
+    "query": "třetí kanál čt pro důchodce už není pokus, zůstává natrvalo",
+    "doc_id": 862,
+    "type": "paraphrase"
+  },
+  {
+    "query": "dechař, kterému na škole rozmluvili smyčce, vystoupí v anežském klášteře",
+    "doc_id": 882,
+    "type": "paraphrase"
+  },
+  {
+    "query": "americkej herec s ukrajinskými kořeny ve varech, na prezidenta je moc dlouhej",
+    "doc_id": 883,
+    "type": "colloquial"
+  },
+  {
+    "query": "proč se bohnická kulturní akce nemůže konat uvnitř léčebny",
+    "doc_id": 889,
+    "type": "question"
+  },
+  {
+    "query": "sexyfy polskej netflix serial o apce na vyvrcholeni",
+    "doc_id": 906,
+    "type": "typo"
+  },
+  {
+    "query": "měli muzikanti na únorové akci v národním divadle honorář",
+    "doc_id": 907,
+    "type": "question"
+  },
+  {
+    "query": "lynda vysta cinoherni klub ondra sokol",
+    "doc_id": 923,
+    "type": "typo"
+  },
+  {
+    "query": "jazzově školený batiste vede kandidátky na americké hudební ceny, za ním bieber",
+    "doc_id": 936,
+    "type": "paraphrase"
+  },
+  {
+    "query": "západočeský symfonický orchestr chystá novou sezónu s beethovenem a dvořákem",
+    "doc_id": 938,
+    "type": "synonym"
+  },
+  {
+    "query": "grohlova rocková skupina vydává taneční poctu bratrům gibbovým",
+    "doc_id": 940,
+    "type": "synonym"
+  },
+  {
+    "query": "látalův dokument o folkaři nedvědovi",
+    "doc_id": 945,
+    "type": "derived"
+  },
+  {
+    "query": "tipy na sobotní tv program když hraje česko s belgií kvalifikaci",
+    "doc_id": 958,
+    "type": "paraphrase"
+  },
+  {
+    "query": "adéla elbel a další vtipálci zahrajou v nymburským biáku",
+    "doc_id": 977,
+    "type": "colloquial"
+  },
+  {
+    "query": "smrt abrahama rok po safrankove",
+    "doc_id": 994,
+    "type": "typo"
+  },
+  {
+    "query": "amelie syba vyhra apolo",
+    "doc_id": 999,
+    "type": "typo"
+  },
+  {
+    "query": "odpuštění penále dlužníkům nabízejí i komerční peněžní ústavy",
+    "doc_id": 3,
+    "type": "synonym"
+  },
+  {
+    "query": "vlaky z hlavního města do moravské metropole pojedou o půl hodiny déle oklikou přes Vysočinu",
+    "doc_id": 6,
+    "type": "paraphrase"
+  },
+  {
+    "query": "co předvede česká expozice na světové přehlídce v emirátech, třeba systém sawer",
+    "doc_id": 11,
+    "type": "question"
+  },
+  {
+    "query": "bruncklik a jilek billbordy podminecny trest",
+    "doc_id": 37,
+    "type": "typo"
+  },
+  {
+    "query": "supermarkety v Anglii kvůli holčičce z Walesu vyřadí magazíny pro děti s umělohmotnými přílohami",
+    "doc_id": 58,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kabinet Fialy zvedne dávku na nájem kvůli drahé elektřině a plynu",
+    "doc_id": 73,
+    "type": "synonym"
+  },
+  {
+    "query": "polovina byznysmenů má za idol premiéra a v covidu nevidí šanci, anketa",
+    "doc_id": 86,
+    "type": "paraphrase"
+  },
+  {
+    "query": "zdražení úvěrů po zvýšení sazby o 125 bodů nejvíc od devadesátých let",
+    "doc_id": 90,
+    "type": "derived"
+  },
+  {
+    "query": "výkon hospodářství SRN loni plus 2,7 % oživení po covidu",
+    "doc_id": 93,
+    "type": "synonym"
+  },
+  {
+    "query": "zalando teď vykupuje a prodává obnošený hadry",
+    "doc_id": 114,
+    "type": "colloquial"
+  },
+  {
+    "query": "prouza žádá po kabinetu kompenzace pro zamčené krámy po verdiktu ústavních soudců",
+    "doc_id": 118,
+    "type": "paraphrase"
+  },
+  {
+    "query": "fynerdale holdings spor modri mak vyhra statu",
+    "doc_id": 133,
+    "type": "typo"
+  },
+  {
+    "query": "superboháči za koronaviru rekordně navýšili jmění, návrh zdanění klouzavou sazbou",
+    "doc_id": 136,
+    "type": "synonym"
+  },
+  {
+    "query": "samotesty na covid se daj koupit u kasy v kauflandu",
+    "doc_id": 137,
+    "type": "colloquial"
+  },
+  {
+    "query": "zdražení novostaveb v hlavním městě o 9,4 % meziročně, 118 tisíc za metr",
+    "doc_id": 139,
+    "type": "derived"
+  },
+  {
+    "query": "kde jsou v republice nejlacinější nemovitosti k bydlení, uhelné revíry na severu?",
+    "doc_id": 150,
+    "type": "question"
+  },
+  {
+    "query": "OSN: drahota základních komodit srazila 71 milionů do bídy",
+    "doc_id": 153,
+    "type": "synonym"
+  },
+  {
+    "query": "zeman podepsl deficit rozpoctu 500 mld danovy balicek",
+    "doc_id": 154,
+    "type": "typo"
+  },
+  {
+    "query": "tuzemská produkce ve třetím kvartálu vyskočila o 3,1 % díky útratám domácností",
+    "doc_id": 158,
+    "type": "synonym"
+  },
+  {
+    "query": "ta hrbolatá dé jednička u antošovic, stavaři spravěj jen malej kus",
+    "doc_id": 160,
+    "type": "colloquial"
+  },
+  {
+    "query": "za zavřenejch obchodů lidi frčej na přelivech na háro přes net",
+    "doc_id": 166,
+    "type": "colloquial"
+  },
+  {
+    "query": "tomayerova nemocnce uspory energii 365 milonu",
+    "doc_id": 175,
+    "type": "typo"
+  },
+  {
+    "query": "kvótové řešení pro ženské manažerky, Česko za průměrem EU deloitte",
+    "doc_id": 216,
+    "type": "derived"
+  },
+  {
+    "query": "které dny v roce mají hypermarkety nad 200 metrů zavřeno?",
+    "doc_id": 221,
+    "type": "question"
+  },
+  {
+    "query": "stát hlídá přirážky benzínek, denní hlášení cen paliv",
+    "doc_id": 235,
+    "type": "synonym"
+  },
+  {
+    "query": "živnostníci dostanou tisícovku denně místo pětistovky, horní komora souhlasila",
+    "doc_id": 239,
+    "type": "paraphrase"
+  },
+  {
+    "query": "insolvenční soud dovolil českým aerolinkám a sesterskému dopravci zápočet závazků po 72 mil",
+    "doc_id": 242,
+    "type": "paraphrase"
+  },
+  {
+    "query": "zemáky budou dražší i když sou teď v akci, tvrdí sedlák z agrární komory",
+    "doc_id": 262,
+    "type": "colloquial"
+  },
+  {
+    "query": "d55 moravsky pisek bzenc stavebni povoleni pravomocne",
+    "doc_id": 293,
+    "type": "typo"
+  },
+  {
+    "query": "auditoři: stát netuší kolik vybudoval cyklotras, náklady se liší až třicetkrát",
+    "doc_id": 300,
+    "type": "synonym"
+  },
+  {
+    "query": "varšava ustupuje s poplatkem z inzerce po protestu soukromých novin a televizí",
+    "doc_id": 304,
+    "type": "paraphrase"
+  },
+  {
+    "query": "lidi by si klidně cvakli víc, aby moh pejsek s nima do letadla",
+    "doc_id": 320,
+    "type": "colloquial"
+  },
+  {
+    "query": "největší ekonomiky světa v Itálii dohoda o spodní hranici zdanění korporací",
+    "doc_id": 321,
+    "type": "synonym"
+  },
+  {
+    "query": "sdružení dopravců A4E lobuje, aby cestující dostávali méně peněz když jim letadlo nepoletí",
+    "doc_id": 331,
+    "type": "paraphrase"
+  },
+  {
+    "query": "cpi propery group snizeni emisi o 30 % do 2030",
+    "doc_id": 340,
+    "type": "typo"
+  },
+  {
+    "query": "lepší výhled bankéřů pro tuzemské hospodářství 3,4 a 4,5 procenta",
+    "doc_id": 341,
+    "type": "synonym"
+  },
+  {
+    "query": "hrozí po zákazu ruské ropy v Evropě nedostatek nafty?",
+    "doc_id": 345,
+    "type": "question"
+  },
+  {
+    "query": "unijní dozor nad stabilitou varuje, že státní podpory firem z covidu se musí včas utlumit",
+    "doc_id": 380,
+    "type": "paraphrase"
+  },
+  {
+    "query": "chorvatský sabor odhlasoval přijetí eura, dvojí cenovky v kunách",
+    "doc_id": 381,
+    "type": "derived"
+  },
+  {
+    "query": "michal micka insolvnce 120 mil c2h",
+    "doc_id": 382,
+    "type": "typo"
+  },
+  {
+    "query": "Kyjev dodává proud do unie, menší potřeba ruských zdrojů, 100 MW",
+    "doc_id": 388,
+    "type": "synonym"
+  },
+  {
+    "query": "poslanci prosadili novou legislativu o povolování výstavby místo normy z roku 2006",
+    "doc_id": 395,
+    "type": "paraphrase"
+  },
+  {
+    "query": "kolínský výrobce kyanidů oznámil nákup těžařského segmentu od Američanů za 11,3 mld",
+    "doc_id": 398,
+    "type": "synonym"
+  },
+  {
+    "query": "kvůli chybějícím polovodičům přijdou čeští výrobci vozů o 200 miliard",
+    "doc_id": 416,
+    "type": "paraphrase"
+  },
+  {
+    "query": "amazn italie stavka 22 brezna odbory",
+    "doc_id": 421,
+    "type": "typo"
+  },
+  {
+    "query": "ctp grup ipo amsterdm",
+    "doc_id": 466,
+    "type": "typo"
+  },
+  {
+    "query": "zdražování v dubnu nejrychlejší od září, paliva a cigarety, 3,1",
+    "doc_id": 484,
+    "type": "synonym"
+  },
+  {
+    "query": "digitální mince dohnaly pád po zákazu obchodování v Pekingu",
+    "doc_id": 507,
+    "type": "paraphrase"
+  },
+  {
+    "query": "mražený mořský plody z ekvádoru z netu jsou závadný, vibrio",
+    "doc_id": 508,
+    "type": "colloquial"
+  },
+  {
+    "query": "pražské malé pivovárky stojí, místní nechodí a cizinci nejezdí",
+    "doc_id": 519,
+    "type": "paraphrase"
+  },
+  {
+    "query": "označení domácích přístrojů třídami A až G bez plusů, qr kód",
+    "doc_id": 532,
+    "type": "derived"
+  },
+  {
+    "query": "ministr průmyslu představil 13 bodů podpory proti energetické drahotě",
+    "doc_id": 534,
+    "type": "synonym"
+  },
+  {
+    "query": "kolínský nádraží bezbariérovej přístup zase nikdo nepostaví, zrušili tendr",
+    "doc_id": 537,
+    "type": "colloquial"
+  },
+  {
+    "query": "polský terminál na zkapalněný plyn ve Svinoústí, třetí nádrž, náhrada za ruské dodávky",
+    "doc_id": 549,
+    "type": "paraphrase"
+  },
+  {
+    "query": "primagra a mlekarna hlinko zaloba agrofer",
+    "doc_id": 557,
+    "type": "typo"
+  },
+  {
+    "query": "svatý stolec etické investování bez zbrojařů a potratů",
+    "doc_id": 564,
+    "type": "synonym"
+  },
+  {
+    "query": "kolik lidi utratí za dárky pod stromek a berou si na to úvěr?",
+    "doc_id": 573,
+    "type": "question"
+  },
+  {
+    "query": "nový jaderný reaktor zaplatí kompletně vláda, energetická firma se nepodílí",
+    "doc_id": 583,
+    "type": "synonym"
+  },
+  {
+    "query": "vláda chce proplácet podnikům samotesty pro lidi v práci včetně kloktání",
+    "doc_id": 590,
+    "type": "paraphrase"
+  },
+  {
+    "query": "koho viní budoucí předseda vlády z krachů prodejců elektřiny a proč nechce snížit daň?",
+    "doc_id": 606,
+    "type": "question"
+  },
+  {
+    "query": "moskevská potravinová kontrola stopla vývoz krmné směsi z ČR",
+    "doc_id": 612,
+    "type": "synonym"
+  },
+  {
+    "query": "počet nezaměstnaných v únoru stagnoval na 4,3, maláčová",
+    "doc_id": 619,
+    "type": "derived"
+  },
+  {
+    "query": "bitcoin spad za tejden skoro o čtvrtinu, nejhorší tejden za rok",
+    "doc_id": 622,
+    "type": "colloquial"
+  },
+  {
+    "query": "dudenhöffer: celosvětově vznikne kvůli polovodičům o 5 mil vozů míň",
+    "doc_id": 628,
+    "type": "paraphrase"
+  },
+  {
+    "query": "koruna šla dolu když zeman dal michla do čnb",
+    "doc_id": 630,
+    "type": "colloquial"
+  },
+  {
+    "query": "havlíček se s opozicí shodl na znovuotevření krámů od pondělí",
+    "doc_id": 649,
+    "type": "paraphrase"
+  },
+  {
+    "query": "jiri frantisek rozhovor exp dubaj pisecna boure",
+    "doc_id": 651,
+    "type": "typo"
+  },
+  {
+    "query": "dluhva brzda nrr verejny finace",
+    "doc_id": 661,
+    "type": "typo"
+  },
+  {
+    "query": "zvednutí stropu tržeb pro paušálníky na dva miliony",
+    "doc_id": 665,
+    "type": "synonym"
+  },
+  {
+    "query": "lidi vsázej na volby u bookmakerů, někdo dal 1500 euro na okamuru",
+    "doc_id": 682,
+    "type": "colloquial"
+  },
+  {
+    "query": "osamostatnění mladých do 35 let ve městech, viníkem investoři",
+    "doc_id": 692,
+    "type": "derived"
+  },
+  {
+    "query": "květnová drahota šestnáct procent, potraviny a bydlení",
+    "doc_id": 695,
+    "type": "synonym"
+  },
+  {
+    "query": "rianair british airways vysetrovani vouchery",
+    "doc_id": 704,
+    "type": "typo"
+  },
+  {
+    "query": "natural za 37,20 a nafta skoro stejně, už to nepude nahoru",
+    "doc_id": 722,
+    "type": "colloquial"
+  },
+  {
+    "query": "použitý fritovací tuk se bude odevzdávat u pump a v Litvínově z něj udělají plasty",
+    "doc_id": 728,
+    "type": "paraphrase"
+  },
+  {
+    "query": "jak mě můžou okrást když prodávám na bazoši přes platbu na kartu?",
+    "doc_id": 733,
+    "type": "question"
+  },
+  {
+    "query": "kaspersky microsoft exchnage utok magistrat",
+    "doc_id": 740,
+    "type": "typo"
+  },
+  {
+    "query": "řepkový výnos nejmenší od roku 2007 podle statistiků",
+    "doc_id": 743,
+    "type": "derived"
+  },
+  {
+    "query": "kdy kolínská chemička uzavřela koupi amerického byznysu za 521 mil. dolarů?",
+    "doc_id": 749,
+    "type": "question"
+  },
+  {
+    "query": "zelený pivo na velikonoce bude i přes zavřený hospody, z okýnka",
+    "doc_id": 751,
+    "type": "colloquial"
+  },
+  {
+    "query": "lobkowic vysoky chlumec pivovr zavira",
+    "doc_id": 755,
+    "type": "typo"
+  },
+  {
+    "query": "jihomoravská vinařství 31 ocenění v Paříži, nejlepší znojemský podnik",
+    "doc_id": 758,
+    "type": "synonym"
+  },
+  {
+    "query": "kolik dnes stojí metr v sídlištním bytě a o kolik je dražší než loni?",
+    "doc_id": 768,
+    "type": "question"
+  },
+  {
+    "query": "moskevská burza a rubl rostou díky energetické krizi",
+    "doc_id": 788,
+    "type": "paraphrase"
+  },
+  {
+    "query": "splátková společnost PPF zrušila půlku pracovních míst, Bartoníček",
+    "doc_id": 792,
+    "type": "synonym"
+  },
+  {
+    "query": "vyloučení ruských a čínských dodavatelů z jaderného tendru, nízkouhlíkový zákon",
+    "doc_id": 797,
+    "type": "derived"
+  },
+  {
+    "query": "liberecký hejtman doufá v mimosoudní vyrovnání o polskou uhelnou jámu",
+    "doc_id": 806,
+    "type": "paraphrase"
+  },
+  {
+    "query": "podíl dam v boardech tuzemských společností klesl na 10,4",
+    "doc_id": 825,
+    "type": "synonym"
+  },
+  {
+    "query": "ikonka apky amazonu vypadala jak fousy toho nácka",
+    "doc_id": 832,
+    "type": "colloquial"
+  },
+  {
+    "query": "kvůli covidu nesmí prodejny prodávat ani v pátek před Velikonocemi",
+    "doc_id": 848,
+    "type": "paraphrase"
+  },
+  {
+    "query": "průměrný výdělek ve 4. kvartálu 38 525 korun, reálně +3,8",
+    "doc_id": 856,
+    "type": "synonym"
+  },
+  {
+    "query": "na Ruzyni chybí lidi na prohlídky, cestující si postojí ve frontě",
+    "doc_id": 866,
+    "type": "paraphrase"
+  },
+  {
+    "query": "do kdy musí živnostník poslat přehled na čssz a pojišťovnu?",
+    "doc_id": 873,
+    "type": "question"
+  },
+  {
+    "query": "nájemné kleslo na hodnoty z roku 2018, ceny ojetého bydlení +22,5 %",
+    "doc_id": 877,
+    "type": "synonym"
+  },
+  {
+    "query": "microsoft ukázal novou verzi operačního systému s tlačítkem start uprostřed",
+    "doc_id": 884,
+    "type": "paraphrase"
+  },
+  {
+    "query": "Biden pohřbil kanadsko-americké potrubí Keystone XL, TC Energy stavbu ukončuje",
+    "doc_id": 897,
+    "type": "paraphrase"
+  },
+  {
+    "query": "rekordní ziskovost Tesly ve druhém kvartálu, Model 3 a Y",
+    "doc_id": 910,
+    "type": "derived"
+  },
+  {
+    "query": "závod Pfizeru v Kansasu pouštěl léky bez testů podle amerických inspektorů",
+    "doc_id": 950,
+    "type": "synonym"
+  },
+  {
+    "query": "zakladatel amazonu souhlasí s dražším zdaněním korporací kvůli opravám cest",
+    "doc_id": 985,
+    "type": "paraphrase"
+  },
+  {
+    "query": "mattel prodává angličáky hot wheels jako nft za krypto",
+    "doc_id": 998,
+    "type": "colloquial"
+  }
+]

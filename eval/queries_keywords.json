@@ -1,0 +1,802 @@
+[
+  {
+    "query": "Francie Prezidentské volby Marine le pen",
+    "doc_id": 655
+  },
+  {
+    "query": "Česká republika Jihomoravský kraj Knihovny",
+    "doc_id": 54
+  },
+  {
+    "query": "Zdeněk svěrák Spider-man Česko",
+    "doc_id": 268
+  },
+  {
+    "query": "Německo Investice Bitcoin",
+    "doc_id": 251
+  },
+  {
+    "query": "Miloš forman Miroslav krobot Anna polívková",
+    "doc_id": 301
+  },
+  {
+    "query": "Ondřej pivec Grammy award Covid-19",
+    "doc_id": 274
+  },
+  {
+    "query": "Kuchyňský Olej Čerpací",
+    "doc_id": 728
+  },
+  {
+    "query": "Opava Tomáš satoranský Svitava",
+    "doc_id": 452
+  },
+  {
+    "query": "Plzeňský kraj Ústecký kraj Lounsko",
+    "doc_id": 386
+  },
+  {
+    "query": "Nhl New jersey devils Roman málek",
+    "doc_id": 177
+  },
+  {
+    "query": "Petr vondráček Aneta langerová Petr janda",
+    "doc_id": 702
+  },
+  {
+    "query": "Nigérie Únos Abuja",
+    "doc_id": 277
+  },
+  {
+    "query": "Skotsko Jaroslav šilhavý Fk zenit sankt-petěrburg",
+    "doc_id": 218
+  },
+  {
+    "query": "Sucho Usa Klima",
+    "doc_id": 570
+  },
+  {
+    "query": "Ukrajina Válka rusko-ukrajina Rusko",
+    "doc_id": 211
+  },
+  {
+    "query": "Německo Ekonomika Hdp",
+    "doc_id": 93
+  },
+  {
+    "query": "Liev Schreiber Karlovy",
+    "doc_id": 883
+  },
+  {
+    "query": "Norsko Mistrovství světa ve fotbale Katar",
+    "doc_id": 554
+  },
+  {
+    "query": "Josef minařík Český krumlov Slušovice",
+    "doc_id": 503
+  },
+  {
+    "query": "Hudba Jóhann jóhannsson Hollywood",
+    "doc_id": 996
+  },
+  {
+    "query": "Rusko Krmivo Inspekce",
+    "doc_id": 612
+  },
+  {
+    "query": "Jan fischer Vláda Eva zamrazilová",
+    "doc_id": 927
+  },
+  {
+    "query": "Český statistický úřad Jídlo Bydlení",
+    "doc_id": 695
+  },
+  {
+    "query": "Afghánistán Ministerstvo zahraničí Armáda čr",
+    "doc_id": 684
+  },
+  {
+    "query": "Egypt Egyptské muzeum v káhiře Káhira",
+    "doc_id": 33
+  },
+  {
+    "query": "Minimální mzda Evropská unie Česko",
+    "doc_id": 314
+  },
+  {
+    "query": "Odcházení Film Václav",
+    "doc_id": 777
+  },
+  {
+    "query": "Český statistický úřad Pohonné látky Vladimír klimeš",
+    "doc_id": 484
+  },
+  {
+    "query": "Čína Aljaška Petr kellner",
+    "doc_id": 792
+  },
+  {
+    "query": "Taliban Invaze Afghánistán",
+    "doc_id": 598
+  },
+  {
+    "query": "Woody allen Mia farrow Michael žantovský",
+    "doc_id": 463
+  },
+  {
+    "query": "Čína Francie Kurt cobain",
+    "doc_id": 984
+  },
+  {
+    "query": "Volejbal Karlovarsko Čez",
+    "doc_id": 613
+  },
+  {
+    "query": "Hc sparta Bílí tygři liberec Florida panthers",
+    "doc_id": 458
+  },
+  {
+    "query": "Česká republika Základní umělecká škola (zuš) Praha",
+    "doc_id": 126
+  },
+  {
+    "query": "Železnice Správa železniční dopravní cesty České dráhy",
+    "doc_id": 470
+  },
+  {
+    "query": "Martin dvořák Dopravní podnik Ivo rittig",
+    "doc_id": 757
+  },
+  {
+    "query": "Johnny depp Julien temple Hudební skupina",
+    "doc_id": 666
+  },
+  {
+    "query": "Jan košťálek Hc čsob pojišťovna pardubice Dominik frodl",
+    "doc_id": 887
+  },
+  {
+    "query": "Ústecký kraj Martin hausenblas Eva outlá",
+    "doc_id": 379
+  },
+  {
+    "query": "Fbi Vláda Usa",
+    "doc_id": 715
+  },
+  {
+    "query": "Peter handke Zdeněk adamec Nobelova cena",
+    "doc_id": 575
+  },
+  {
+    "query": "Velikonoce Koronavirus Český svaz pivovarů a sladoven",
+    "doc_id": 751
+  },
+  {
+    "query": "Chorvatsko Maďarsko Německo",
+    "doc_id": 951
+  },
+  {
+    "query": "Kinematografie Paříž Film",
+    "doc_id": 842
+  },
+  {
+    "query": "Praha Středočeský kraj Městská policie praha",
+    "doc_id": 650
+  },
+  {
+    "query": "Chudoba Asie Balkán",
+    "doc_id": 153
+  },
+  {
+    "query": "Španělsko Německo Polsko",
+    "doc_id": 114
+  },
+  {
+    "query": "Středočeský kraj Sedlčany Policie",
+    "doc_id": 843
+  },
+  {
+    "query": "Mexiko Věznice Zlatý globus",
+    "doc_id": 105
+  },
+  {
+    "query": "Koalice Saúdská arábie Associated press",
+    "doc_id": 729
+  },
+  {
+    "query": "Josef abrhám Libuše šafránková Herec",
+    "doc_id": 994
+  },
+  {
+    "query": "Vlašim Na Koupáku",
+    "doc_id": 836
+  },
+  {
+    "query": "Homeoffice Práce z domova Práce na dálku",
+    "doc_id": 67
+  },
+  {
+    "query": "Poradna: léky na předpis Poradna: volně prodejné léky Elektronika",
+    "doc_id": 104
+  },
+  {
+    "query": "Jake gyllenhaal Prima zoom Mount everest",
+    "doc_id": 296
+  },
+  {
+    "query": "Bělorusko Evropská unie Alexandr lukašenko",
+    "doc_id": 811
+  },
+  {
+    "query": "Plzeň Dukla praha Karel šmíd",
+    "doc_id": 91
+  },
+  {
+    "query": "Bělorusko Sankce Evropská unie",
+    "doc_id": 327
+  },
+  {
+    "query": "Spojené státy americké Itálie Německo",
+    "doc_id": 740
+  },
+  {
+    "query": "Hokej Motor Novotný",
+    "doc_id": 760
+  },
+  {
+    "query": "Hypoteční úvěr Úvěr Bydlení",
+    "doc_id": 676
+  },
+  {
+    "query": "Herec Divadlo Martin mcdonagh",
+    "doc_id": 40
+  },
+  {
+    "query": "French open Barbora krejčíková Finále",
+    "doc_id": 766
+  },
+  {
+    "query": "Film Divadlo na fidlovačce Šimon caban",
+    "doc_id": 46
+  },
+  {
+    "query": "Dominik stroukal Investice Spoření",
+    "doc_id": 41
+  },
+  {
+    "query": "Alexej navalnyj Reuters Moskevský kreml",
+    "doc_id": 376
+  },
+  {
+    "query": "Kuba Protest Usa",
+    "doc_id": 372
+  },
+  {
+    "query": "Tipsport Extraliga Hokeje",
+    "doc_id": 555
+  },
+  {
+    "query": "Harry potter J. k. rowlingová Daniel radcliffe",
+    "doc_id": 611
+  },
+  {
+    "query": "Benzín Motorová nafta Palivo",
+    "doc_id": 572
+  },
+  {
+    "query": "Ukrajina Vojsko Přesun",
+    "doc_id": 485
+  },
+  {
+    "query": "Dynamo pardubice Pardubický kraj San jose sharks",
+    "doc_id": 779
+  },
+  {
+    "query": "Líšeň Ludmila macešková Fc vysočina jihlava",
+    "doc_id": 487
+  },
+  {
+    "query": "Bulharsko Parlamentní volby Volby",
+    "doc_id": 837
+  },
+  {
+    "query": "Jozef chovanec Roman berbr Fotbalová asociace čr (fačr)",
+    "doc_id": 419
+  },
+  {
+    "query": "Evropská unie Nejvyšší kontrolní úřad (nkú) Ministerstvo pro místní rozvoj",
+    "doc_id": 300
+  },
+  {
+    "query": "Tomáš vaclík Fotbal Olympiakos pireus fc",
+    "doc_id": 568
+  },
+  {
+    "query": "Rusko Covid-19 Pandemie",
+    "doc_id": 468
+  },
+  {
+    "query": "Český Brod Kouřim",
+    "doc_id": 438
+  },
+  {
+    "query": "Praha Analýza Česko",
+    "doc_id": 139
+  },
+  {
+    "query": "Opera Cena divadelní kritiky Jan zahradníček",
+    "doc_id": 74
+  },
+  {
+    "query": "Tomáš satoranský New orleans hornets Los angeles clippers",
+    "doc_id": 943
+  },
+  {
+    "query": "České aerolinie Smartwings Městský soud v praze",
+    "doc_id": 242
+  },
+  {
+    "query": "Český statistický úřad Evropa Praha",
+    "doc_id": 944
+  },
+  {
+    "query": "Nemovitost Nemovitosti Prodej nemovitostí",
+    "doc_id": 150
+  },
+  {
+    "query": "Roman dragoun Josef buchta B-side band",
+    "doc_id": 736
+  },
+  {
+    "query": "Válka rusko-ukrajina Ukrajina Bělorusko",
+    "doc_id": 524
+  },
+  {
+    "query": "Česká republika Praha Divadla",
+    "doc_id": 959
+  },
+  {
+    "query": "Michal horáček Hana hegerová Revoluce",
+    "doc_id": 759
+  },
+  {
+    "query": "Francie Velká británie Severní irsko",
+    "doc_id": 455
+  },
+  {
+    "query": "Pfizer Koronavirus Izrael",
+    "doc_id": 429
+  },
+  {
+    "query": "Filmový festival 55. mezinárodní filmový festival karlovy vary Karlovy vary",
+    "doc_id": 561
+  },
+  {
+    "query": "Idnes tv - podcasty Karel havlíček Rozstřel",
+    "doc_id": 112
+  },
+  {
+    "query": "Tenis Davis cup Fotbal",
+    "doc_id": 16
+  },
+  {
+    "query": "Středoafrická republika Zdravotnictví Siriri",
+    "doc_id": 798
+  },
+  {
+    "query": "Velká británie Evropská unie Vízum",
+    "doc_id": 941
+  },
+  {
+    "query": "Ac sparta praha Sk slavia praha Slovácko",
+    "doc_id": 954
+  },
+  {
+    "query": "Ombudsman Univerzita Pohlavní zneužívání",
+    "doc_id": 675
+  },
+  {
+    "query": "Petr fousek Korupce Roman berbr",
+    "doc_id": 800
+  },
+  {
+    "query": "Polsko Netflix Orgasmus",
+    "doc_id": 906
+  },
+  {
+    "query": "Mateusz morawiecki Důl turów Budapešť",
+    "doc_id": 39
+  },
+  {
+    "query": "Divadlo Kultura Magazín.aktuálně.cz",
+    "doc_id": 279
+  },
+  {
+    "query": "Tradice Národní divadlo v praze Divadelní fakulta akademie múzických umění",
+    "doc_id": 417
+  },
+  {
+    "query": "Barrandovský most Barrandov Oprava",
+    "doc_id": 89
+  },
+  {
+    "query": "Umění Výstava Malování",
+    "doc_id": 305
+  },
+  {
+    "query": "Rumunsko Festival berlinale Jiří konečný",
+    "doc_id": 807
+  },
+  {
+    "query": "Velká británie Indie Spojené státy americké",
+    "doc_id": 818
+  },
+  {
+    "query": "Covid-19 Koronavirus Pandemie",
+    "doc_id": 109
+  },
+  {
+    "query": "Lesy české republiky Šumava Krkonoše",
+    "doc_id": 626
+  },
+  {
+    "query": "Ac sparta praha Glen kamara Jaroslav tvrdík",
+    "doc_id": 753
+  },
+  {
+    "query": "Francie Velká británie Řecko",
+    "doc_id": 890
+  },
+  {
+    "query": "Pelhřimov Rekord Křest",
+    "doc_id": 335
+  },
+  {
+    "query": "Hokej Milan antoš David moravec",
+    "doc_id": 746
+  },
+  {
+    "query": "Eutanazie Švýcarsko Evropa",
+    "doc_id": 690
+  },
+  {
+    "query": "Francie Paříž Lékaři bez hranic",
+    "doc_id": 420
+  },
+  {
+    "query": "Central intelligence agency Rusko Fbi",
+    "doc_id": 103
+  },
+  {
+    "query": "Televizní seriál Tv nova Netflix",
+    "doc_id": 963
+  },
+  {
+    "query": "Motor české budějovice Jihočeský kraj Karel pražák",
+    "doc_id": 246
+  },
+  {
+    "query": "Doksy Tuchlovice Sk kladno",
+    "doc_id": 392
+  },
+  {
+    "query": "Metallica Sokol Nejdek",
+    "doc_id": 99
+  },
+  {
+    "query": "Čssd Jan hamáček Tomáš petříček",
+    "doc_id": 635
+  },
+  {
+    "query": "Lodě Plavidlo Chemikálie",
+    "doc_id": 973
+  },
+  {
+    "query": "Volejbal Karlovarsko Čez",
+    "doc_id": 771
+  },
+  {
+    "query": "Ústecký kraj Komunální odpad Úštěk",
+    "doc_id": 259
+  },
+  {
+    "query": "Premiéra Mezinárodní hudební festival lípa musica Stabat mater",
+    "doc_id": 87
+  },
+  {
+    "query": "Kutná Hora Gask",
+    "doc_id": 397
+  },
+  {
+    "query": "Simone biles Gymnastika Olympiáda",
+    "doc_id": 864
+  },
+  {
+    "query": "Nymburk Výročí Miroslav macháček",
+    "doc_id": 829
+  },
+  {
+    "query": "Airbnb Krize Bydlení",
+    "doc_id": 900
+  },
+  {
+    "query": "Film Cate blanchettová Jablko",
+    "doc_id": 680
+  },
+  {
+    "query": "Orchestr Tokio Česká filharmonie",
+    "doc_id": 544
+  },
+  {
+    "query": "Královská rodina Monarchie Princ",
+    "doc_id": 898
+  },
+  {
+    "query": "Rusko Jan hamáček Vítězslav pivoňka",
+    "doc_id": 428
+  },
+  {
+    "query": "Malajsie Spojené arabské emiráty Miloš vystrčil",
+    "doc_id": 11
+  },
+  {
+    "query": "Írán Teherán Velká británie",
+    "doc_id": 947
+  },
+  {
+    "query": "Baťa Obuvnictví Ševci",
+    "doc_id": 130
+  },
+  {
+    "query": "Jihomoravský kraj Masarykova univerzita Hospodářská komora čr",
+    "doc_id": 402
+  },
+  {
+    "query": "Ukrajina Nato Rusko",
+    "doc_id": 434
+  },
+  {
+    "query": "Středočeský kraj Labe Trója",
+    "doc_id": 784
+  },
+  {
+    "query": "Francie Itálie Španělsko",
+    "doc_id": 4
+  },
+  {
+    "query": "Fotbal Fortuna liga Zlín",
+    "doc_id": 522
+  },
+  {
+    "query": "Mali Evropská unie Lubomír metnar",
+    "doc_id": 911
+  },
+  {
+    "query": "Who Epidemie Nemoc",
+    "doc_id": 908
+  },
+  {
+    "query": "Karel holas Čechomor Hudební skupina",
+    "doc_id": 264
+  },
+  {
+    "query": "Dovolená Vodáci Zdražení",
+    "doc_id": 541
+  },
+  {
+    "query": "Taylor swift Ye (kanye west) Grammy award",
+    "doc_id": 936
+  },
+  {
+    "query": "Krym Rusko Ukrajina",
+    "doc_id": 875
+  },
+  {
+    "query": "Francie Afp Ipsos",
+    "doc_id": 195
+  },
+  {
+    "query": "Jan hamáček Martin netolický Česká pošta",
+    "doc_id": 426
+  },
+  {
+    "query": "Recenze Drama Spisovatel",
+    "doc_id": 550
+  },
+  {
+    "query": "Karol mondek Sk dynamo české budějovice Sfc opava",
+    "doc_id": 789
+  },
+  {
+    "query": "Olomoucký kraj Sex Olomouc",
+    "doc_id": 459
+  },
+  {
+    "query": "Michal dvořák Drfg Turné",
+    "doc_id": 106
+  },
+  {
+    "query": "Radim fiala (herec) David matásek Vladimír polívka",
+    "doc_id": 188
+  },
+  {
+    "query": "Itálie Rakousko Jihlava",
+    "doc_id": 432
+  },
+  {
+    "query": "Korda Rodina Sebastian",
+    "doc_id": 786
+  },
+  {
+    "query": "Vlastislav bříza Martin hájek Michal mička",
+    "doc_id": 382
+  },
+  {
+    "query": "Comic Con Praha",
+    "doc_id": 267
+  },
+  {
+    "query": "Pavel bém Jan hřebejk Jan kačer",
+    "doc_id": 168
+  },
+  {
+    "query": "Polsko Pavel novotný Ivan bartoš (česká pirátská strana)",
+    "doc_id": 948
+  },
+  {
+    "query": "Vakcína Seychely Covid-19",
+    "doc_id": 688
+  },
+  {
+    "query": "Notičky Fotbalová asociace čr (fačr) Petr fousek",
+    "doc_id": 75
+  },
+  {
+    "query": "Fc bayern mnichov Borussia dortmund Bielefeld",
+    "doc_id": 961
+  },
+  {
+    "query": "Taylor swiftová Grammy award Love story",
+    "doc_id": 776
+  },
+  {
+    "query": "Zlín Rekonstrukce Tržiště",
+    "doc_id": 791
+  },
+  {
+    "query": "Chotouň Svatoprokopská Pouť",
+    "doc_id": 703
+  },
+  {
+    "query": "Hana hegerová Jiří suchý Petr malásek",
+    "doc_id": 464
+  },
+  {
+    "query": "Koronavirus Koronavirus česko Koronavirus v česku",
+    "doc_id": 339
+  },
+  {
+    "query": "Netflix Virus Dobrodružství",
+    "doc_id": 365
+  },
+  {
+    "query": "Potrat Interrupce Polsko",
+    "doc_id": 925
+  },
+  {
+    "query": "Ester ledecká Finále Lenzerheide",
+    "doc_id": 82
+  },
+  {
+    "query": "Robert lewandowski Patrik schick Fifa",
+    "doc_id": 734
+  },
+  {
+    "query": "Vysočina Vysočina Žďársko",
+    "doc_id": 677
+  },
+  {
+    "query": "Ústecký kraj Petr globočník Litvínov",
+    "doc_id": 317
+  },
+  {
+    "query": "Restaurování Kuks Litomyšl",
+    "doc_id": 265
+  },
+  {
+    "query": "Čez Dukovany Stavba",
+    "doc_id": 583
+  },
+  {
+    "query": "Rusko Elektřina Dukovany",
+    "doc_id": 797
+  },
+  {
+    "query": "Afghánistán Kábul Usa",
+    "doc_id": 804
+  },
+  {
+    "query": "Severní makedonie Uli hoeness Ilkay gündogan",
+    "doc_id": 272
+  },
+  {
+    "query": "1. fk příbram Rakousko Fc viktoria plzeň",
+    "doc_id": 423
+  },
+  {
+    "query": "Festival Annecy Režisér",
+    "doc_id": 119
+  },
+  {
+    "query": "Evropská unie Microsoft Osobní data",
+    "doc_id": 658
+  },
+  {
+    "query": "Vladimir putin Rusko Prezident",
+    "doc_id": 227
+  },
+  {
+    "query": "Woody allen Kniha Film",
+    "doc_id": 505
+  },
+  {
+    "query": "Rusko Alexej anatoljevič navalnyj Volby",
+    "doc_id": 326
+  },
+  {
+    "query": "Česká spořitelna Čsob - československá obchodní banka Finanční úřad",
+    "doc_id": 198
+  },
+  {
+    "query": "Würzburg Erfurt Policie",
+    "doc_id": 96
+  },
+  {
+    "query": "Svatá ludmila Soňa červená Jan zástěra",
+    "doc_id": 668
+  },
+  {
+    "query": "Velikonoce Koronavirus Respirator ffp3",
+    "doc_id": 166
+  },
+  {
+    "query": "Dolar Netflix Federální úřad pro vyšetřování (fbi)",
+    "doc_id": 60
+  },
+  {
+    "query": "Očkování Formule 1 Bahrajn",
+    "doc_id": 97
+  },
+  {
+    "query": "Olympijské hry 2020 Atletika Skok daleký",
+    "doc_id": 920
+  },
+  {
+    "query": "Hudba Anežský klášter Soutěž",
+    "doc_id": 882
+  },
+  {
+    "query": "Maďarsko Moldavsko Rumunsko",
+    "doc_id": 388
+  },
+  {
+    "query": "Ekonomika Aktuálně.cz Daně",
+    "doc_id": 665
+  },
+  {
+    "query": "Evropská unie Daniel beneš Čez",
+    "doc_id": 175
+  },
+  {
+    "query": "Opava Brno Nymburk",
+    "doc_id": 553
+  },
+  {
+    "query": "Írán Hidžáb Islám",
+    "doc_id": 206
+  },
+  {
+    "query": "Maďarsko Péter márki-zay Viktor orbán",
+    "doc_id": 205
+  }
+]

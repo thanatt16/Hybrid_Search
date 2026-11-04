@@ -1,0 +1,202 @@
+[
+  {
+    "query": "hokejová reprezentace",
+    "category": "Sport"
+  },
+  {
+    "query": "fotbalová liga gól",
+    "category": "Sport"
+  },
+  {
+    "query": "tenisový turnaj",
+    "category": "Sport"
+  },
+  {
+    "query": "olympijské hry medaile",
+    "category": "Sport"
+  },
+  {
+    "query": "trenér mužstva",
+    "category": "Sport"
+  },
+  {
+    "query": "přestup hráče do klubu",
+    "category": "Sport"
+  },
+  {
+    "query": "mistrovství světa v hokeji",
+    "category": "Sport"
+  },
+  {
+    "query": "zápas skončil remízou",
+    "category": "Sport"
+  },
+  {
+    "query": "basketbal NBA",
+    "category": "Sport"
+  },
+  {
+    "query": "atletika závod",
+    "category": "Sport"
+  },
+  {
+    "query": "inflace a úrokové sazby",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "ceny energií",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "akcie burza investoři",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "banka úvěr",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "tržby firmy zisk",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "daně a státní rozpočet",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "kryptoměny bitcoin",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "nezaměstnanost a mzdy",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "ceny nemovitostí a bytů",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "dodavatel elektřiny zkrachoval",
+    "category": "Ekonomika"
+  },
+  {
+    "query": "divadelní premiéra",
+    "category": "Kultura"
+  },
+  {
+    "query": "koncert kapela album",
+    "category": "Kultura"
+  },
+  {
+    "query": "filmový festival",
+    "category": "Kultura"
+  },
+  {
+    "query": "výstava galerie",
+    "category": "Kultura"
+  },
+  {
+    "query": "recenze nového filmu",
+    "category": "Kultura"
+  },
+  {
+    "query": "spisovatel kniha román",
+    "category": "Kultura"
+  },
+  {
+    "query": "herečka seriál",
+    "category": "Kultura"
+  },
+  {
+    "query": "opera orchestr dirigent",
+    "category": "Kultura"
+  },
+  {
+    "query": "hudební skupina nová deska",
+    "category": "Kultura"
+  },
+  {
+    "query": "režisér natáčí film",
+    "category": "Kultura"
+  },
+  {
+    "query": "dopravní nehoda policie",
+    "category": "Domácí"
+  },
+  {
+    "query": "krajský úřad hejtman",
+    "category": "Domácí"
+  },
+  {
+    "query": "volby do sněmovny",
+    "category": "Domácí"
+  },
+  {
+    "query": "starosta obce zastupitelstvo",
+    "category": "Domácí"
+  },
+  {
+    "query": "hasiči zasahovali u požáru",
+    "category": "Domácí"
+  },
+  {
+    "query": "ministr zdravotnictví opatření",
+    "category": "Domácí"
+  },
+  {
+    "query": "oprava silnice uzavírka",
+    "category": "Domácí"
+  },
+  {
+    "query": "soud odsoudil obžalovaného",
+    "category": "Domácí"
+  },
+  {
+    "query": "nemocnice v kraji",
+    "category": "Domácí"
+  },
+  {
+    "query": "škola žáci učitelé",
+    "category": "Domácí"
+  },
+  {
+    "query": "americký prezident Biden",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "Putin Kreml",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "válka na Ukrajině",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "Evropská komise Brusel",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "Čína Tchaj-wan",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "německý kancléř",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "uprchlíci na hranicích",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "britská vláda Johnson",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "francouzský prezident Macron",
+    "category": "Zahraniční"
+  },
+  {
+    "query": "Izrael a Palestinci",
+    "category": "Zahraniční"
+  }
+]

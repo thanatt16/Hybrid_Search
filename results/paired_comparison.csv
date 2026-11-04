@@ -1,0 +1,25 @@
+srovnání,sada,ΔMRR@10,95% CI,lepší,horší,stejně
+BM25 5 + lemma + stem (full) vs BM25 0 baseline (raw),ruční(přirozené),0.185,"[+0.138, +0.235]",64,9,167
+BM25 5 + lemma + stem (full) vs BM25 0 baseline (raw),ruční bez diakritiky,0.422,"[+0.365, +0.485]",128,6,106
+BM25 5 + lemma + stem (full) vs BM25 0 baseline (raw),keywords (auto),0.31,"[+0.249, +0.369]",93,13,94
+BM25 5 + lemma + stem (full) vs BM25 0 baseline (raw),těžké (500),0.388,"[+0.349, +0.429]",276,27,197
+embeddings (bge-m3) vs BM25 5 + lemma + stem (full),ruční(přirozené),0.054,"[+0.025, +0.085]",25,6,209
+embeddings (bge-m3) vs BM25 5 + lemma + stem (full),ruční bez diakritiky,0.053,"[+0.014, +0.093]",31,12,197
+embeddings (bge-m3) vs BM25 5 + lemma + stem (full),keywords (auto),-0.137,"[-0.188, -0.087]",16,56,128
+embeddings (bge-m3) vs BM25 5 + lemma + stem (full),těžké (500),0.156,"[+0.125, +0.187]",122,20,358
+hybrid (RRF) vs BM25 5 + lemma + stem (full),ruční(přirozené),0.033,"[+0.017, +0.051]",18,0,222
+hybrid (RRF) vs BM25 5 + lemma + stem (full),ruční bez diakritiky,0.041,"[+0.019, +0.067]",25,3,212
+hybrid (RRF) vs BM25 5 + lemma + stem (full),keywords (auto),-0.046,"[-0.082, -0.008]",14,24,162
+hybrid (RRF) vs BM25 5 + lemma + stem (full),těžké (500),0.096,"[+0.078, +0.115]",107,3,390
+hybrid (RRF) vs embeddings (bge-m3),ruční(přirozené),-0.021,"[-0.045, +0.002]",6,16,218
+hybrid (RRF) vs embeddings (bge-m3),ruční bez diakritiky,-0.012,"[-0.039, +0.015]",13,18,209
+hybrid (RRF) vs embeddings (bge-m3),keywords (auto),0.091,"[+0.056, +0.128]",51,11,138
+hybrid (RRF) vs embeddings (bge-m3),těžké (500),-0.059,"[-0.083, -0.036]",24,66,410
+hybrid RRF dense=0.7 vs BM25 5 + lemma + stem (full),ruční(přirozené),0.05,"[+0.027, +0.074]",25,3,212
+hybrid RRF dense=0.7 vs BM25 5 + lemma + stem (full),ruční bez diakritiky,0.06,"[+0.032, +0.089]",32,5,203
+hybrid RRF dense=0.7 vs BM25 5 + lemma + stem (full),keywords (auto),-0.065,"[-0.111, -0.020]",20,39,141
+hybrid RRF dense=0.7 vs BM25 5 + lemma + stem (full),těžké (500),0.124,"[+0.099, +0.150]",122,13,365
+hybrid RRF dense=0.7 vs embeddings (bge-m3),ruční(přirozené),-0.004,"[-0.021, +0.013]",3,6,231
+hybrid RRF dense=0.7 vs embeddings (bge-m3),ruční bez diakritiky,0.006,"[-0.014, +0.028]",11,8,221
+hybrid RRF dense=0.7 vs embeddings (bge-m3),keywords (auto),0.072,"[+0.047, +0.100]",39,2,159
+hybrid RRF dense=0.7 vs embeddings (bge-m3),těžké (500),-0.031,"[-0.050, -0.013]",13,34,453
