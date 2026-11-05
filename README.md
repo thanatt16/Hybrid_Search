@@ -232,3 +232,21 @@ MRR@10 každého dotazu u každého systému v `results/per_query.csv`.
 - **Závěr:** hybrid (dense = 0.7) je nejrobustnější volba pro různé typy dotazů. Webová
   aplikace nasazená na Azure používá kvůli nákladům jen BM25 (bez GPU a 2+ GB modelu),
   hybrid běží lokálně.
+
+## Possible production
+
+![Možná produkční architektura](production_diagram.png)
+
+Jak řešení běží v produkci na Azure:
+
+1. **Vývojář (PC)** postaví Docker image (`docker build`) a kód nahraje na **GitHub**
+   (bez datasetu, ten je v `.gitignore`).
+2. Image se pomocí `docker push` nahraje do soukromého **Azure Container Registry**.
+3. **Container App** si image z registru stáhne a spustí FastAPI aplikaci
+   s vyhledáváním BM25 (případně hybridem). Při startu se načtou data a postaví index.
+4. **Prohlížeč uživatele** posílá dotazy přes HTTPS, např. `/?q=citibank`. HTTPS
+   certifikát zajišťuje Azure automaticky.
+5. Výstup aplikace (požadavky, `print`, chyby) se ukládá do **Log Analytics**.
+
+Aktuálně nasazená verze používá jen BM25. Hybrid by v cloudu vyžadoval stroj s GPU
+a model bge-m3 (2+ GB), takže je výrazně dražší a běží lokálně.
