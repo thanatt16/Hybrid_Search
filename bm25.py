@@ -53,7 +53,6 @@ def score(query, doc, doc_length, avgdl, doc_freqs, N):
 #print(score(preprocessed_query, docs[0], docs_lengths[0], avgdl, doc_freqs, len(docs)))
 
 def search_tokens(preprocessed_query, index, top_n=5):
-    """hledání s už předzpracovaným dotazem, vrací list (doc_id, skóre)"""
     docs = index["docs"]
     vysledky = []
     for i, doc in enumerate(docs):
