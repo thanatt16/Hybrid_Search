@@ -55,16 +55,16 @@ háčků a čárek.
 
 ### Typy dotazů (pole `type`)
 
-| `type` | Co testuje | Příklad situace |
+| `type` | Co testuje | Příklady dotazů z testovacích sad |
 |---|---|---|
-| `lexical` | dotaz používá stejná slova jako článek | přesná shoda slov |
-| `short` | krátký dotaz (1–3 slova) | „citibank okd“ |
-| `typo` | překlepy | chybějící nebo prohozená písmena |
-| `derived` | odvozená slova | učitel → učitelka, soud → soudní |
-| `synonym` | jiná slova se stejným významem | auto → vůz |
-| `paraphrase` | celá myšlenka formulovaná jinak | jiná stavba věty |
-| `colloquial` | hovorová čeština | „angličáky“ místo „autíčka“ |
-| `question` | dotaz ve formě otázky (jen v těžké sadě) | „proč…“, „kdo…“ |
+| `lexical` | dotaz používá stejná slova jako článek | „výstava Josef Váchal“, „letiště Vodochody nebude“ |
+| `short` | krátký dotaz (1–3 slova) | „Hřebeč“, „Bechný“ |
+| `typo` | překlepy | „skoda enyak cena prodej“, „twiter klubhouse akvizice“ |
+| `derived` | odvozená slova | „Avast fúzuje s Nortonem ekonom lituje“, „radilův návrat do pardubic z ruska“ |
+| `synonym` | jiná slova se stejným významem | „rozvoz kanabisu přes Uber v Kanadě“, „útok střelce v dánském obchodním domě“ |
+| `paraphrase` | celá myšlenka formulovaná jinak | „kdo převzal vedení PPF po smrti zakladatele“, „zesnul bývalý manžel špinarové, rakovina plic“ |
+| `colloquial` | hovorová čeština | „proč jsou papriky tak drahý“, „lenny a týpek z linkinů spolu udělali singl“ |
+| `question` | dotaz ve formě otázky (jen v těžké sadě) | „kde odehráli naši zápas s estonci místo tallinnu“, „hrozí po zákazu ruské ropy v Evropě nedostatek nafty?“ |
 
 ### Metriky
 
