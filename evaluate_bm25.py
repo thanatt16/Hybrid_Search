@@ -9,15 +9,15 @@ from preprocessing import (preprocess, remove_punctuation, tokenize, lemmatize, 
                         strip_diacritics, remove_stopwords, stem)
 
 K = 10
-# varianty preprocessingu pro ablaci (0 = jen tokenizace, od 1 je lowercase vždy zapnutý)
+# varianty preprocessingu pro ablaci (0 = jen interpunkce + tokenizace, každá další přidá jeden krok)
 CONFIGS = {
-    "0 baseline (raw)":          dict(lower=False, lemma=False, fold_diacritics=False, stopwords=False, stemming=False),
-    "1 tokens":                  dict(lemma=False, fold_diacritics=False, stopwords=False, stemming=False),
-    "2 + bez diakritiky":        dict(lemma=False, fold_diacritics=True,  stopwords=False, stemming=False),
-    "3 + stopwords":             dict(lemma=False, fold_diacritics=True,  stopwords=True,  stemming=False),
-    "4 + lemma":                 dict(lemma=True,  fold_diacritics=True,  stopwords=True,  stemming=False),
-    "5 + lemma + stem (full)":   dict(lemma=True,  fold_diacritics=True,  stopwords=True,  stemming=True),
-    "6 stem bez lemma":          dict(lemma=False, fold_diacritics=True,  stopwords=True,  stemming=True),
+    "0 baseline":                 dict(lower=False, lemma=False, fold_diacritics=False, stopwords=False, stemming=False),
+    "1 + malá písmena":           dict(lower=True,  lemma=False, fold_diacritics=False, stopwords=False, stemming=False),
+    "2 + bez diakritiky":         dict(lower=True,  lemma=False, fold_diacritics=True,  stopwords=False, stemming=False),
+    "3 + stopwords":              dict(lower=True,  lemma=False, fold_diacritics=True,  stopwords=True,  stemming=False),
+    "4 + lemmatizace":            dict(lower=True,  lemma=True,  fold_diacritics=True,  stopwords=True,  stemming=False),
+    "5 + stemming (full)":        dict(lower=True,  lemma=True,  fold_diacritics=True,  stopwords=True,  stemming=True),
+    "6 stemming bez lemmatizace": dict(lower=True,  lemma=False, fold_diacritics=True,  stopwords=True,  stemming=True),
 }
 
 

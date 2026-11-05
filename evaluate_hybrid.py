@@ -15,7 +15,7 @@ from evaluate_bm25 import CONFIGS, K, preprocess_variant, load_known_item_querie
 
 RESULTS_DIR = r"E:\Machine_learning\NLP\Project\Hybrid_search\results"
 # varianta BM25, která jde do hybridu a do párového srovnání (preprocess s výchozími parametry)
-BEST_CONFIG = "5 + lemma + stem (full)"
+BEST_CONFIG = "5 + stemming (full)"
 
 
 def bm25_rankings(texts, params, queries):
@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     best_name = f"BM25 {BEST_CONFIG}"
     hybrid_name = f"hybrid RRF dense={W_DENSE}"
-    comparisons = [("BM25 0 baseline (raw)", best_name), (best_name, "embeddings (bge-m3)"), (best_name, "hybrid (RRF)"),
+    comparisons = [("BM25 0 baseline", best_name), (best_name, "embeddings (bge-m3)"), (best_name, "hybrid (RRF)"),
                    ("embeddings (bge-m3)", "hybrid (RRF)"),
                    (best_name, hybrid_name), ("embeddings (bge-m3)", hybrid_name)]
     compare = pd.DataFrame([

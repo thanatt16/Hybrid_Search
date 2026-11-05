@@ -29,7 +29,7 @@ Vyhledávač nad 1000 českými zpravodajskými články.
 Evaluace je typu **known-item**: každý testovací dotaz má přesně jeden správný článek
 (`doc_id`) a měří se, na kolikátém místě ho vyhledávač vrátí v top 10.
 
-- `evaluate_bm25.py` – ablace předzpracování: BM25 se spustí se 7 variantami
+- `evaluate_bm25.py` – BM25 se spustí se 7 variantami předzpracování
   preprocessingu (kroky se postupně zapínají) a měří se přínos každého kroku.
   Výsledek: `results/results_bm25.csv`.
 - `evaluate_hybrid.py` – srovnání BM25, embeddingů (bge-m3) a hybridu (RRF s různými
@@ -83,31 +83,31 @@ zprůměrují přes celou sadu. Příklad: správný článek je na **3. místě
 Když správný článek v top 10 není, jsou všechny metriky dotazu 0. U sad s polem
 `type` se MRR@10 počítá navíc zvlášť pro každý typ dotazu.
 
-### Výsledky BM25 – ablace předzpracování
+### Výsledky BM25 – varianty předzpracování
 
 Varianty (kroky se postupně přidávají):
 
 | Varianta | Předzpracování |
 |---|---|
-| 0 baseline (raw) | jen odstranění interpunkce a tokenizace |
-| 1 tokens | + malá písmena |
+| 0 baseline | jen odstranění interpunkce a tokenizace |
+| 1 + malá písmena | + převod na malá písmena |
 | 2 + bez diakritiky | + odstranění diakritiky |
 | 3 + stopwords | + odstranění stopslov |
-| 4 + lemma | + lemmatizace |
-| 5 + lemma + stem (full) | + stemming (= `preprocess()` v projektu) |
-| 6 stem bez lemma | jako 5, ale bez lemmatizace |
+| 4 + lemmatizace | + lemmatizace |
+| 5 + stemming (full) | + stemming (= `preprocess()` v projektu) |
+| 6 stemming bez lemmatizace | jako 5, ale bez lemmatizace |
 
 MRR@10 podle sady (P@10 u kategorií):
 
 | Varianta | ruční | ruční bez diakritiky | keywords | těžké (500) | kategorie P@10 |
 |---|---|---|---|---|---|
-| 0 baseline (raw) | 0.738 | 0.477 | 0.537 | 0.418 | 0.742 |
-| 1 tokens | 0.767 | 0.498 | 0.718 | 0.632 | 0.760 |
+| 0 baseline | 0.738 | 0.477 | 0.537 | 0.418 | 0.742 |
+| 1 + malá písmena | 0.767 | 0.498 | 0.718 | 0.632 | 0.760 |
 | 2 + bez diakritiky | 0.802 | 0.802 | 0.723 | 0.669 | 0.758 |
 | 3 + stopwords | 0.804 | 0.804 | 0.723 | 0.665 | 0.760 |
-| 4 + lemma | 0.890 | 0.792 | 0.839 | 0.749 | 0.812 |
-| **5 + lemma + stem (full)** | **0.923** | 0.899 | **0.848** | **0.806** | **0.814** |
-| 6 stem bez lemma | 0.906 | **0.906** | 0.846 | 0.787 | 0.812 |
+| 4 + lemmatizace | 0.890 | 0.792 | 0.839 | 0.749 | 0.812 |
+| **5 + stemming (full)** | **0.923** | 0.899 | **0.848** | **0.806** | **0.814** |
+| 6 stemming bez lemmatizace | 0.906 | **0.906** | 0.846 | 0.787 | 0.812 |
 
 MRR@10 podle typu dotazu, baseline vs. plné předzpracování:
 
@@ -126,6 +126,9 @@ Hlavní zjištění:
 
 - **Plné předzpracování (varianta 5) je nejlepší téměř všude.** Oproti baseline zvýší
   MRR@10 o +0.19 (ruční), +0.42 (bez diakritiky), +0.31 (keywords) a +0.39 (těžké).
+- **Převod na malá písmena** výrazně pomůže u keywords (0.537 → 0.718) a těžkých
+  dotazů (0.418 → 0.632), kde jsou jména často psaná malými písmeny, zatímco
+  v článcích velkými.
 - **Odstranění diakritiky** má největší efekt na dotazy bez háčků a čárek
   (0.498 → 0.802) a na překlepy (ruční `typo` 0.589 → 0.917).
 - **Odstranění stopslov** nemá téměř žádný vliv (změny do ±0.004). BM25 časté slova
@@ -147,7 +150,7 @@ Hlavní zjištění:
 
 Srovnávané systémy:
 
-- **BM25 (full)** – BM25 s plným předzpracováním (varianta 5 z ablace).
+- **BM25 (full)** – BM25 s plným předzpracováním.
 - **Embeddingy (bge-m3)** – jen sémantické vyhledávání: kosinová podobnost vektoru
   dotazu a vektorů článků.
 - **Hybrid (RRF)** – z BM25 i z embeddingů se vezme 100 nejlepších článků a pořadí se

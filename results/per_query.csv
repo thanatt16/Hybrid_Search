@@ -1,4 +1,4 @@
-sada,query,doc_id,type,BM25 0 baseline (raw),BM25 1 tokens,BM25 2 + bez diakritiky,BM25 3 + stopwords,BM25 4 + lemma,BM25 5 + lemma + stem (full),BM25 6 stem bez lemma,embeddings (bge-m3),hybrid (RRF),hybrid RRF dense=0.6,hybrid RRF dense=0.7,hybrid RRF dense=0.8,hybrid RRF dense=0.9
+sada,query,doc_id,type,BM25 0 baseline,BM25 1 + malá písmena,BM25 2 + bez diakritiky,BM25 3 + stopwords,BM25 4 + lemmatizace,BM25 5 + stemming (full),BM25 6 stemming bez lemmatizace,embeddings (bge-m3),hybrid (RRF),hybrid RRF dense=0.6,hybrid RRF dense=0.7,hybrid RRF dense=0.8,hybrid RRF dense=0.9
 ruční(přirozené),přetížená dodávka zastavena policií na dálnici,443,lexical,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0
 ruční(přirozené),Hamáček odvolal Petříčka z ČSSD,635,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 ruční(přirozené),nedostatek veřejných záchodů v Liberci,157,lexical,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
