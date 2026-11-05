@@ -233,7 +233,7 @@ MRR@10 každého dotazu u každého systému v `results/per_query.csv`.
   aplikace nasazená na Azure používá kvůli nákladům jen BM25 (bez GPU a 2+ GB modelu),
   hybrid běží lokálně.
 
-## Possible production
+## Možné nasazení do produkce
 
 ![Možná produkční architektura](production_diagram.png)
 
