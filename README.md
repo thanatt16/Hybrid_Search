@@ -233,7 +233,7 @@ MRR@10 každého dotazu u každého systému v `results/per_query.csv`.
   u synonym (`synonym` 0.912 vs. 0.976) a otázek (`question` 0.868 vs. 0.913). BM25
   u nich nenajde shodná slova, nebo se chytá slov z otázky, která o tématu článku
   nevypovídají, a do fúze tak přidává šum.
-- **Závěr:** hybrid (dense = 0.7) je nejrobustnější volba pro různé typy dotazů. Webová
+- **Závěr:** hybrid (dense = 0.7) má nejlepší průměr pro různé typy dotazů. Webová
   aplikace nasazená na Azure používá kvůli nákladům jen BM25 (bez GPU a 2+ GB modelu),
   hybrid běží lokálně.
 
