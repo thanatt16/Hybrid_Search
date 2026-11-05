@@ -130,15 +130,16 @@ Hlavní zjištění:
   dotazů (0.418 → 0.632), kde jsou jména často psaná malými písmeny, zatímco
   v článcích velkými.
 - **Odstranění diakritiky** má největší efekt na dotazy bez háčků a čárek
-  (0.498 → 0.802) a na překlepy (ruční `typo` 0.589 → 0.917).
+  (0.498 → 0.802).
 - **Odstranění stopslov** nemá téměř žádný vliv (změny do ±0.004). BM25 časté slova
   sám potlačuje přes IDF.
 - **Lemmatizace** je největší jednotlivé zlepšení u ručních dotazů (0.804 → 0.890)
-  a odvozených slov (`derived` 0.751 → 0.880). U dotazů bez diakritiky ale mírně
+  a pomáhá hlavně u odvozených tvarů slov. U dotazů bez diakritiky ale mírně
   škodí (0.804 → 0.792), protože lemmatizátor slova bez háčků nepozná. To vyrovná
   až stemming.
-- **Stemming** přidává další zlepšení nad lemmatizací (`derived` 0.880 → 0.960,
-  ruční `typo` až 1.000).
+- **Stemming** přidává další zlepšení nad lemmatizací (ruční 0.890 → 0.923, těžké
+  0.749 → 0.806). S plným předzpracováním dosáhnou ruční `typo` 1.000 a `derived`
+  0.960 (baseline 0.423 a 0.762).
 - **Stemming bez lemmatizace (varianta 6)** je skoro stejně dobrý, na dotazech bez
   diakritiky dokonce o kousek lepší, ale na těžké sadě horší (0.787 vs. 0.806). Proto
   projekt používá variantu 5.
@@ -219,16 +220,19 @@ MRR@10 každého dotazu u každého systému v `results/per_query.csv`.
 - **Hybrid spojuje silné stránky obou metod.** Na ručních dotazech je statisticky
   stejně dobrý jako embeddingy (rozdíl −0.004, interval obsahuje 0), na keywords je
   významně lepší než embeddingy (+0.072) a na těžkých dotazech výrazně lepší než BM25
-  (+0.124). Ani na jedné sadě výrazně nepropadne.
-- **Hybrid je nejlepší u překlepů** (`typo` 0.980) a u kategorií (P@10 0.832). U ručních
-  dotazů s váhou 0.6–0.7 najde správný článek v top 10 vždy (R@10 = 1.000).
+  (+0.124). Na žádné sadě není nejhorší ze tří systémů. Proti nejlepšímu systému
+  dané sady ztrácí málo (−0.065 proti BM25 na keywords, −0.031 proti embeddingům na
+  těžké sadě), zatímco samotné embeddingy ztrácí na keywords −0.137 a samotné BM25
+  na těžké sadě −0.156.
+- **Hybrid je nejlepší u překlepů** (`typo` 0.980) a u kategorií (P@10 0.832).
 - **Váha embeddingů je kompromis**: vyšší váha zlepšuje těžké dotazy
   (0.903 → 0.954), ale zhoršuje keywords (0.802 → 0.746). Váha **0.7** drží
   keywords výrazně nad samotnými embeddingy (0.783 vs. 0.711) a těžké dotazy blízko
   nim (0.931 vs. 0.962).
 - **Cena hybridu**: na těžké sadě je o 0.031 horší než samotné embeddingy, nejvíc
-  u dotazů ve formě otázky (`question` 0.868 vs. 0.913). BM25 sem pravděpodobně přidává
-  šum ze slov otázky, která o tématu článku nevypovídají.
+  u synonym (`synonym` 0.912 vs. 0.976) a otázek (`question` 0.868 vs. 0.913). BM25
+  u nich nenajde shodná slova, nebo se chytá slov z otázky, která o tématu článku
+  nevypovídají, a do fúze tak přidává šum.
 - **Závěr:** hybrid (dense = 0.7) je nejrobustnější volba pro různé typy dotazů. Webová
   aplikace nasazená na Azure používá kvůli nákladům jen BM25 (bez GPU a 2+ GB modelu),
   hybrid běží lokálně.
