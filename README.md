@@ -42,7 +42,7 @@ tokeny dotazu a článku nemohly shodovat.
 
 ### Testovací sady (`eval/`)
 
-Testovací sady byly vygenerovány pomocí LLM. Nejde tedy o přesné měření kvality vyhledávání v reálném provozu, ale o orientační srovnání: slouží hlavně k tomu, abych viděl, jestli a jak moc se vyhledávání zlepšuje mezi jednotlivými variantami (předzpracování, BM25, embeddingy, hybrid).
+Testovací sady byly generovány pomocí LLM. Nejde tedy o přesné měření kvality vyhledávání v reálném provozu, ale o orientační srovnání: slouží hlavně k tomu, abych viděl, jestli a jak moc se vyhledávání zlepšuje mezi jednotlivými variantami (předzpracování, BM25, embeddingy, hybrid).
 
 | Soubor | Počet | Pole | Popis |
 |---|---|---|---|
