@@ -67,7 +67,7 @@ Stejná funkce `preprocess()` se použije na články i na dotazy (jen pro BM25)
   (`k1 = 1.5`, `b = 0.75`). Vrátí se články se skóre > 0 seřazené sestupně.
 - **Embeddingy** – dotaz se tím samým modelem převede na vektor (1024,). Kosinová
   podobnost se všemi články se spočítá jedním násobením matice
-  `embeddings @ query_vector` (vektory mají délku 1, takže stačí skalární součin).
+  `embeddings @ query_vector` 
 
 #### 4. Hybrid – spojení výsledků (`hybrid.py`)
 
