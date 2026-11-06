@@ -24,6 +24,16 @@ Vyhledávač nad 1000 českými zpravodajskými články.
 | `eval/` | testovací dotazy |
 | `results/` | výsledky evaluace |
 
+### Co se indexuje
+
+Každý článek se pro vyhledávání skládá ze tří polí: `headline`, `brief` a `content`.
+
+- **BM25:** pole se spojí mezerou (`headline + " " + brief + " " + content`) a poté
+  projdou předzpracováním.
+- **Embeddingy (bge-m3):** pole se spojí s oddělením řádků
+  (`headline + "\n" + brief + "\n\n" + content`), aby model rozlišil titulek,
+  perex a tělo článku.
+
 ## Evaluace
 
 Evaluace je typu **known-item**: každý testovací dotaz má přesně jeden správný článek
