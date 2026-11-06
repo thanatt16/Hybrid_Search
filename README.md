@@ -34,6 +34,53 @@ Každý článek se pro vyhledávání skládá ze tří polí: `headline`, `bri
   (`headline + "\n" + brief + "\n\n" + content`), aby model rozlišil titulek,
   perex a tělo článku.
 
+### Jak vyhledávání funguje
+
+#### 1. Předzpracování textu (`preprocessing.py`)
+
+Stejná funkce `preprocess()` se použije na články i na dotazy (jen pro BM25):
+
+1. **Odstranění interpunkce**
+2. **Tokenizace** 
+3. **Lemmatizace**
+4. **Malá písmena.**
+5. **Odstranění diakritiky** 
+6. **Odstranění stopslov** 
+7. **Stemming** 
+
+
+#### 2. Indexace článků
+
+- **BM25 (`bm25.py`)** – pro každý článek se uloží slovník četností slov
+  `{slovo: počet}` a délka článku. Pro celý korpus se spočítá, v kolika článcích se
+  každé slovo vyskytuje, a průměrná délka článku.
+
+- **Embeddingy (`embeddings.py`)** – každý článek se modelem `BAAI/bge-m3` převede na
+  normalizovaný vektor o 1024 číslech. Vznikne hustá matice **1000 × 1024**, která se
+  uloží do `artifacts/embeddings.npy`, aby se nemusela počítat znovu. Model čte
+  maximálně 1024 tokenů; delší články se oříznou, díky pořadí
+  headline → brief → content se ale vždy zachová titulek a perex.
+
+#### 3. Vyhledávání
+
+- **BM25** – dotaz projde předzpracováním a pro každý článek se spočítá BM25 skóre
+  (`k1 = 1.5`, `b = 0.75`). Vrátí se články se skóre > 0 seřazené sestupně.
+- **Embeddingy** – dotaz se tím samým modelem převede na vektor (1024,). Kosinová
+  podobnost se všemi články se spočítá jedním násobením matice
+  `embeddings @ query_vector` (vektory mají délku 1, takže stačí skalární součin).
+
+#### 4. Hybrid – spojení výsledků (`hybrid.py`)
+
+1. Z BM25 i z embeddingů se vezme **100 nejlepších článků**.
+2. Pořadí se spojí pomocí **Reciprocal Rank Fusion**:
+   `skóre = 0.3 / (60 + pořadí v BM25) + 0.7 / (60 + pořadí v embeddingech)`.
+3. Výsledky se seřadí podle skóre a vrátí se top N.
+
+#### Webová aplikace (`main.py`)
+
+Aplikace nasazená na Azure používá kvůli nákladům jen BM25 (kroky 1–3 bez
+embeddingů).
+
 ## Evaluace
 
 Evaluace je typu **known-item**: každý testovací dotaz má přesně jeden správný článek
