@@ -32,7 +32,7 @@ Každý článek se pro vyhledávání skládá ze tří polí: `headline`, `bri
   projdou předzpracováním.
 - **Embeddingy (bge-m3):** pole se spojí s oddělením řádků
   (`headline + "\n" + brief + "\n\n" + content`), aby model rozlišil titulek,
-  perex a tělo článku.
+  brief a content.
 
 ### Jak vyhledávání funguje
 
@@ -59,7 +59,7 @@ Stejná funkce `preprocess()` se použije na články i na dotazy (jen pro BM25)
   normalizovaný vektor o 1024 číslech. Vznikne hustá matice **1000 × 1024**, která se
   uloží do `artifacts/embeddings.npy`, aby se nemusela počítat znovu. Model čte
   maximálně 1024 tokenů; delší články se oříznou, díky pořadí
-  headline → brief → content se ale vždy zachová titulek a perex.
+  headline → brief → content se ale vždy zachová titulek a brief.
 
 #### 3. Vyhledávání
 
@@ -102,7 +102,7 @@ tokeny dotazu a článku nemohly shodovat.
 | Soubor | Počet | Pole | Popis |
 |---|---|---|---|
 | `queries_known_item.json` | 240 | `query`, `doc_id`, `type` | ručně psané, přirozené dotazy |
-| `queries_hard.json` | 500 | `query`, `doc_id`, `type` | těžké dotazy s malým překryvem slov s titulkem a perexem, jiné články než ruční sada |
+| `queries_hard.json` | 500 | `query`, `doc_id`, `type` | těžké dotazy s malým překryvem slov s titulkem a briefem, jiné články než ruční sada |
 | `queries_keywords.json` | 200 | `query`, `doc_id` | automaticky vytvořené z klíčových slov článků (sloupec `keywords`) |
 | `queries_category.json` | 50 | `query`, `category` | obecné dotazy, např. „hokejová reprezentace“ → očekávaná kategorie `Sport` |
 
