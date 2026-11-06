@@ -42,8 +42,6 @@ tokeny dotazu a článku nemohly shodovat.
 
 ### Testovací sady (`eval/`)
 
-Testovací sady byly generovány pomocí LLM. Nejde tedy o přesné měření kvality vyhledávání v reálném provozu, ale o orientační srovnání: slouží hlavně k tomu, abych viděl, jestli a jak moc se vyhledávání zlepšuje mezi jednotlivými variantami (předzpracování, BM25, embeddingy, hybrid).
-
 | Soubor | Počet | Pole | Popis |
 |---|---|---|---|
 | `queries_known_item.json` | 240 | `query`, `doc_id`, `type` | ručně psané, přirozené dotazy |
@@ -55,12 +53,10 @@ Pátá sada **„ruční bez diakritiky“** se nenačítá ze souboru, vzniká 
 `queries_known_item.json` odstraněním diakritiky. Simuluje uživatele, který píše bez
 háčků a čárek.
 
-**Poznámka k původu dat:** Testovací sady byly vygenerovány pomocí LLM, ne anotovány
-lidmi. Nejde tedy o přesné měření kvality vyhledávání v reálném provozu, ale o
-orientační srovnání: slouží hlavně k tomu, abychom viděli, jestli a jak moc se
+**Poznámka k původu dat:** Testovací sady byly vygenerovány pomocí LLM. Nejde tedy o přesné měření kvality vyhledávání v reálném provozu, ale o
+orientační srovnání: slouží hlavně k tomu, abych viděl, jestli a jak moc se
 vyhledávání zlepšuje mezi jednotlivými variantami (předzpracování, BM25, embeddingy,
-hybrid). Absolutní hodnoty metrik je proto potřeba brát s rezervou, důležitější jsou
-rozdíly mezi systémy na stejných dotazech.
+hybrid). Absolutní hodnoty metrik je proto potřeba brát s rezervou.
 
 ### Typy dotazů (pole `type`)
 
