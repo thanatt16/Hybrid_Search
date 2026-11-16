@@ -114,9 +114,7 @@ Evaluace je typu **known-item**: každý testovací dotaz má přesně jeden spr
   (kroky se postupně zapínají) a měří se přínos každého kroku.
   Výsledek: `eval_results/results_bm25.csv`.
 - `eval_scripts/evaluate_hybrid.py` – srovnání tří řešení A, B a C na stejných dotazech
-  a metrikách, včetně párového srovnání s 95% bootstrap intervalem spolehlivosti.
-  Výsledky: `eval_results/results.csv`, `eval_results/paired_comparison.csv`,
-  `eval_results/per_query.csv`.
+  a metrikách. Výsledky: `eval_results/results.csv`, `eval_results/per_query.csv`.
 
 Dotazy i články procházejí vždy **stejnou** variantou předzpracování, jinak by se
 tokeny dotazu a článku nemohly shodovat.
@@ -284,13 +282,13 @@ Všechny metriky, průměr přes 5 sad:
   1024 tokenů a konec dlouhého textu v něm zanikne.
 - **Chunking (C) tuto slabinu odstraní**: na sadě střed a konec stoupne MRR@10
   z 0.754 na 0.904, nejvíc u parafrázovaných pasáží. Na ostatních sadách jsou B a C
-  prakticky stejné (rozdíly do 0.01, statisticky nevýznamné).
+  prakticky stejné (rozdíly do 0.01).
 - **Pořadí A < B < C platí ve všech metrikách** (MRR, R@1, R@5, R@10, nDCG), takže
   závěr nezávisí na volbě metriky. S řešením C je správný článek na 1. místě
   v 86 % dotazů (BM25 80 %) a v top 10 v 98 % dotazů (BM25 95 %).
 - **Velikost chunku** 256 místo 512 tokenů výsledky prakticky nemění (průměr 0.912
   vs. 0.908), 512 dává menší index a rychlejší kódování.
-- **Závěr:** nejlepší je řešení C (průměr 0.908), oproti BM25 je statisticky významně
-  lepší na 4 z 5 sad. Webová aplikace nasazená na Azure používá kvůli nákladům jen
+- **Závěr:** nejlepší je řešení C (průměr 0.908), oproti BM25 je lepší na 4 z 5 sad.
+  Webová aplikace nasazená na Azure používá kvůli nákladům jen
   BM25 (bez GPU a 2+ GB modelu), hybrid běží lokálně.
 
