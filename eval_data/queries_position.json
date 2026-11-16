@@ -1,0 +1,722 @@
+[
+  {
+    "query": "Wilczek místopředseda, Mareš na delegáty a Hrubeš na video",
+    "doc_id": 419,
+    "type": "middle",
+    "token_pos": 1812
+  },
+  {
+    "query": "šéf komise chtěl dosadit své lidi na místa pro sudí, delegáty a videorozhodčí",
+    "doc_id": 419,
+    "type": "middle_paraphrase",
+    "token_pos": 1812
+  },
+  {
+    "query": "rozhodčí Proske dostal jen suspendaci na čtyři kola místo vyškrtnutí z listiny",
+    "doc_id": 419,
+    "type": "end",
+    "token_pos": 2899
+  },
+  {
+    "query": "sudí, který ovlivnil utkání, dostal jen krátký zákaz a na jaře zase pískal",
+    "doc_id": 419,
+    "type": "end_paraphrase",
+    "token_pos": 2899
+  },
+  {
+    "query": "biotechnologická firma Sotio vyvíjí lék na rakovinu ve třetí fázi testů",
+    "doc_id": 657,
+    "type": "middle",
+    "token_pos": 1393
+  },
+  {
+    "query": "nový šéf finanční skupiny dřív pracoval ve firmě vyvíjející protinádorový lék",
+    "doc_id": 657,
+    "type": "middle_paraphrase",
+    "token_pos": 1393
+  },
+  {
+    "query": "finanční ředitelka PPF Jirásková: Ladislav je první a logická volba",
+    "doc_id": 657,
+    "type": "end",
+    "token_pos": 2229
+  },
+  {
+    "query": "manažerka skupiny tvrdí, že nástupce firmu fakticky řídí už delší dobu",
+    "doc_id": 657,
+    "type": "end_paraphrase",
+    "token_pos": 2229
+  },
+  {
+    "query": "Márki-Zay podporuje kroky EU, Putina je třeba zastavit na Ukrajině, jinak půjde do Maďarska",
+    "doc_id": 205,
+    "type": "middle",
+    "token_pos": 1586
+  },
+  {
+    "query": "opoziční kandidát vyčítá premiérovi, že sám schválil posílání zbraní, a chce zastavit ruského prezidenta",
+    "doc_id": 205,
+    "type": "middle_paraphrase",
+    "token_pos": 1586
+  },
+  {
+    "query": "učitel s britským i maďarským občanstvím se považuje za brexitového uprchlíka",
+    "doc_id": 205,
+    "type": "end",
+    "token_pos": 2537
+  },
+  {
+    "query": "učitel, který kvůli odchodu Británie z unie odešel na venkov, kritizuje vládní stranu za oportunismus",
+    "doc_id": 205,
+    "type": "end_paraphrase",
+    "token_pos": 2537
+  },
+  {
+    "query": "arbitrem mezivládní dohody o Turówu má být evropský soudní dvůr",
+    "doc_id": 806,
+    "type": "middle",
+    "token_pos": 1832
+  },
+  {
+    "query": "kdo bude dohlížet na dodržování dohody o dole u hranic, když ji nikdo nevymůže",
+    "doc_id": 806,
+    "type": "middle_paraphrase",
+    "token_pos": 1832
+  },
+  {
+    "query": "státní PGE se k sousedům nechová slušně, ale aspoň začala jednání",
+    "doc_id": 806,
+    "type": "end",
+    "token_pos": 2932
+  },
+  {
+    "query": "hejtman je zklamaný chováním polské energetické firmy, ale věří v restart komunikace",
+    "doc_id": 806,
+    "type": "end_paraphrase",
+    "token_pos": 2932
+  },
+  {
+    "query": "Fiala prý Bartošovi řekl, že je mu koalice s Piráty nejbližší",
+    "doc_id": 946,
+    "type": "middle",
+    "token_pos": 2920
+  },
+  {
+    "query": "lídr pirátů doufá, že občanští demokraté se nespojí s hnutím premiéra",
+    "doc_id": 946,
+    "type": "middle_paraphrase",
+    "token_pos": 2920
+  },
+  {
+    "query": "Bartoš po eurovolbách se 4,78 procenty oznámil odchod z čela strany, byl unavený a otrávený",
+    "doc_id": 946,
+    "type": "end",
+    "token_pos": 4672
+  },
+  {
+    "query": "proč předseda pirátů po neúspěchu ve volbách do europarlamentu rezignoval",
+    "doc_id": 946,
+    "type": "end_paraphrase",
+    "token_pos": 4672
+  },
+  {
+    "query": "fotbalistu chtěl v pražském metru jeden muž zatlačit zpátky do vagonu",
+    "doc_id": 872,
+    "type": "middle",
+    "token_pos": 1397
+  },
+  {
+    "query": "hráč z Ghany zažil v Praze napadení u podzemky kvůli barvě pleti",
+    "doc_id": 872,
+    "type": "middle_paraphrase",
+    "token_pos": 1397
+  },
+  {
+    "query": "Nessoumou hrál v PSG s Anelkou a myslí si, že Mbappé žárlí na Messiho",
+    "doc_id": 872,
+    "type": "end",
+    "token_pos": 2236
+  },
+  {
+    "query": "bývalý hráč pařížského klubu mu dál fandí a komentuje příchod Argentince",
+    "doc_id": 872,
+    "type": "end_paraphrase",
+    "token_pos": 2236
+  },
+  {
+    "query": "třetina tržeb kin pochází z občerstvení, Cinestar otevřel s bary a poloviční kapacitou",
+    "doc_id": 152,
+    "type": "middle",
+    "token_pos": 1128
+  },
+  {
+    "query": "kinům chyběly peníze z prodeje popcornu a pití během zákazu",
+    "doc_id": 152,
+    "type": "middle_paraphrase",
+    "token_pos": 1128
+  },
+  {
+    "query": "kino Aero by kvůli divákům mohlo promítat i komerční Black Widow od Marvelu",
+    "doc_id": 152,
+    "type": "end",
+    "token_pos": 1805
+  },
+  {
+    "query": "artové kino zvažuje promítat superhrdinský film, aby přilákalo aspoň dvacet lidí",
+    "doc_id": 152,
+    "type": "end_paraphrase",
+    "token_pos": 1805
+  },
+  {
+    "query": "Todd Boehly nový předseda Chelsea, z vedení odešla Abramovičova asistentka Granovská",
+    "doc_id": 75,
+    "type": "middle",
+    "token_pos": 1180
+  },
+  {
+    "query": "kdo po odchodu ruského majitele usedl do vedení londýnského klubu",
+    "doc_id": 75,
+    "type": "middle_paraphrase",
+    "token_pos": 1180
+  },
+  {
+    "query": "Malinovskij zveřejnil fotku stadionu v Mykolajivu kousek od Chersonu",
+    "doc_id": 75,
+    "type": "end",
+    "token_pos": 1889
+  },
+  {
+    "query": "ukrajinský záložník z Bergama ukázal válkou poničené fotbalové hřiště",
+    "doc_id": 75,
+    "type": "end_paraphrase",
+    "token_pos": 1889
+  },
+  {
+    "query": "úředníci nového stavebního úřadu mají sídlit v pronajatých nádražních budovách Správy železnic",
+    "doc_id": 395,
+    "type": "middle",
+    "token_pos": 1233
+  },
+  {
+    "query": "zaměstnanci nového úřadu nebudou mít nové budovy, ale pronajmou si prostory od železnic",
+    "doc_id": 395,
+    "type": "middle_paraphrase",
+    "token_pos": 1233
+  },
+  {
+    "query": "Asociace krajů pošle připomínky ke stavebnímu zákonu Senátu, Kuba kritizuje drahý úřad",
+    "doc_id": 395,
+    "type": "end",
+    "token_pos": 1973
+  },
+  {
+    "query": "hejtmani chtějí, aby horní komora zákon o stavění zamítla",
+    "doc_id": 395,
+    "type": "end_paraphrase",
+    "token_pos": 1973
+  },
+  {
+    "query": "nezletilá migrantka zjistila v nemocnici, že je těhotná, po tom co se jí stalo v lese v Maroku",
+    "doc_id": 420,
+    "type": "middle",
+    "token_pos": 1329
+  },
+  {
+    "query": "dívka na útěku přes Afriku otěhotněla po znásilnění a dostala psychologickou péči",
+    "doc_id": 420,
+    "type": "middle_paraphrase",
+    "token_pos": 1329
+  },
+  {
+    "query": "francouzské croissanty dnes pečou hlavně cizinci, migranti se učí řemeslům",
+    "doc_id": 420,
+    "type": "end",
+    "token_pos": 2126
+  },
+  {
+    "query": "mladí běženci se ve Francii učí na pekaře a instalatéry, protože domácí o tyto obory nestojí",
+    "doc_id": 420,
+    "type": "end_paraphrase",
+    "token_pos": 2126
+  },
+  {
+    "query": "zápas PSG s Basaksehirem se dohrával o pár dní později kvůli výroku čtvrtého rozhodčího",
+    "doc_id": 699,
+    "type": "middle",
+    "token_pos": 1520
+  },
+  {
+    "query": "zápas Ligy mistrů přerušený, když hráči odešli ze hřiště kvůli urážce trenéra",
+    "doc_id": 699,
+    "type": "middle_paraphrase",
+    "token_pos": 1520
+  },
+  {
+    "query": "Gardyne z Ross County obviněn z rasistických narážek na Morelose z Rangers",
+    "doc_id": 699,
+    "type": "end",
+    "token_pos": 2432
+  },
+  {
+    "query": "trenér skotského klubu obvinil protihráče z urážek s rasovým a homofobním podtextem",
+    "doc_id": 699,
+    "type": "end_paraphrase",
+    "token_pos": 2432
+  },
+  {
+    "query": "v Kanadě v roce 1993 zatkli přes 900 lidí při protestech proti kácení lesů",
+    "doc_id": 747,
+    "type": "middle",
+    "token_pos": 1406
+  },
+  {
+    "query": "největší občanská neposlušnost v historii kanadských protestů za lesy",
+    "doc_id": 747,
+    "type": "middle_paraphrase",
+    "token_pos": 1406
+  },
+  {
+    "query": "na blokádě lesů pomáhá táborová máma náctiletým, aktivisté používají přezdívky jako Strawberry",
+    "doc_id": 747,
+    "type": "end",
+    "token_pos": 2251
+  },
+  {
+    "query": "jak se v protestních kempech starají o mladistvé a proč aktivisté nepoužívají svá jména",
+    "doc_id": 747,
+    "type": "end_paraphrase",
+    "token_pos": 2251
+  },
+  {
+    "query": "Lazorčáková, Fialová a Lustyk hrají progresivní spolubydlící v pronajatém bytě",
+    "doc_id": 417,
+    "type": "middle",
+    "token_pos": 1175
+  },
+  {
+    "query": "mladý hrdina hry pronajme byt po rodičích kamarádům, kteří chtějí žít moderně",
+    "doc_id": 417,
+    "type": "middle_paraphrase",
+    "token_pos": 1175
+  },
+  {
+    "query": "inscenace končí pohřbíváním husy, text Říhové měl dostat jiný režisér",
+    "doc_id": 417,
+    "type": "end",
+    "token_pos": 1881
+  },
+  {
+    "query": "recenzentka si myslí, že by hru měl režírovat někdo s čerstvým pohledem",
+    "doc_id": 417,
+    "type": "end_paraphrase",
+    "token_pos": 1881
+  },
+  {
+    "query": "Newcastle musí v zahraničí kupovat místo hostování, domácí kluby nechtějí pomáhat bohatému soupeři",
+    "doc_id": 604,
+    "type": "middle",
+    "token_pos": 1348
+  },
+  {
+    "query": "anglické kluby nechtějí půjčovat hráče novému miliardářskému klubu",
+    "doc_id": 604,
+    "type": "middle_paraphrase",
+    "token_pos": 1348
+  },
+  {
+    "query": "Newcastle by mohl získat Rodona ze Spurs, Denayera z Lyonu nebo Aubameyanga z Arsenalu",
+    "doc_id": 604,
+    "type": "end",
+    "token_pos": 2156
+  },
+  {
+    "query": "který útočník londýnského klubu by mohl posílit tým ze severu Anglie",
+    "doc_id": 604,
+    "type": "end_paraphrase",
+    "token_pos": 2156
+  },
+  {
+    "query": "Tonya Graves zpívala Red House od Hendrixe na albu Live from Bunkr",
+    "doc_id": 77,
+    "type": "middle",
+    "token_pos": 1889
+  },
+  {
+    "query": "americká zpěvačka, později tvář známé české kapely, zpívala v klubu skladbu slavného kytaristy",
+    "doc_id": 77,
+    "type": "middle_paraphrase",
+    "token_pos": 1889
+  },
+  {
+    "query": "při vyklízení klubu v Lodecké stěhováci odmítli pracovat a policie sháněla jinou firmu",
+    "doc_id": 77,
+    "type": "end",
+    "token_pos": 3022
+  },
+  {
+    "query": "hudebníci bránili klub vlastními těly a jeden si urval záda při nošení magnetofonu",
+    "doc_id": 77,
+    "type": "end_paraphrase",
+    "token_pos": 3022
+  },
+  {
+    "query": "Alžběta I. se bála, že se její katolická sestřenice zmocní anglického trůnu",
+    "doc_id": 638,
+    "type": "middle",
+    "token_pos": 1137
+  },
+  {
+    "query": "proč anglická panovnice považovala skotskou královnu za hrozbu",
+    "doc_id": 638,
+    "type": "middle_paraphrase",
+    "token_pos": 1137
+  },
+  {
+    "query": "katovi po popravě zůstala v ruce jen zrzavá paruka",
+    "doc_id": 638,
+    "type": "end",
+    "token_pos": 1819
+  },
+  {
+    "query": "po stětí zvedl popravčí hlavu a zůstaly mu v ruce jen vlasy",
+    "doc_id": 638,
+    "type": "end_paraphrase",
+    "token_pos": 1819
+  },
+  {
+    "query": "Kalousek považuje zvyšování důchodů nad valorizační vzorec za absurdní populismus",
+    "doc_id": 756,
+    "type": "middle",
+    "token_pos": 2133
+  },
+  {
+    "query": "bývalý ministr financí chce nejdřív škrtat výdaje, teprve pak se bavit o daních",
+    "doc_id": 756,
+    "type": "middle_paraphrase",
+    "token_pos": 2133
+  },
+  {
+    "query": "TOP 09 si neumí představit vládu s ANO ani bez Babiše, byla by to zrada voličů",
+    "doc_id": 756,
+    "type": "end",
+    "token_pos": 3413
+  },
+  {
+    "query": "šéf pravicové strany odmítá spolupráci s hnutím současného premiéra i po jeho odchodu",
+    "doc_id": 756,
+    "type": "end_paraphrase",
+    "token_pos": 3413
+  },
+  {
+    "query": "Nosek v Bostonu jako soupeř nikdy nevyhrál, ani s Detroitem ani s Vegas",
+    "doc_id": 285,
+    "type": "middle",
+    "token_pos": 1642
+  },
+  {
+    "query": "kteří čeští hokejisté hráli za bostonský tým a proč tam má Česko dobré jméno",
+    "doc_id": 285,
+    "type": "middle_paraphrase",
+    "token_pos": 1642
+  },
+  {
+    "query": "proč hokejista nosí číslo 92, devatenáctka byla v Pardubicích obsazená",
+    "doc_id": 285,
+    "type": "end",
+    "token_pos": 2627
+  },
+  {
+    "query": "útočník si vybral číslo dresu podle roku narození",
+    "doc_id": 285,
+    "type": "end_paraphrase",
+    "token_pos": 2627
+  },
+  {
+    "query": "Slovinsko vstoupilo do eurozóny v roce 2007 a opustilo tolar",
+    "doc_id": 478,
+    "type": "middle",
+    "token_pos": 1450
+  },
+  {
+    "query": "kdy malá alpská republika vstoupila do unie a aliance a začala platit eurem",
+    "doc_id": 478,
+    "type": "middle_paraphrase",
+    "token_pos": 1450
+  },
+  {
+    "query": "turistický ruch tvoří pětinu chorvatského HDP, hlavní menšinou jsou Srbové",
+    "doc_id": 478,
+    "type": "end",
+    "token_pos": 2321
+  },
+  {
+    "query": "lidé odcházejí z jaderské země za prací a ekonomika stojí na turistech",
+    "doc_id": 478,
+    "type": "end_paraphrase",
+    "token_pos": 2321
+  },
+  {
+    "query": "Živanice uprostřed tabulky se čtyřmi výhrami a čtyřmi prohrami jsou k restartu skeptické",
+    "doc_id": 413,
+    "type": "middle",
+    "token_pos": 1240
+  },
+  {
+    "query": "klub z nižší soutěže nevěří, že se sezona po pandemii ještě dohraje",
+    "doc_id": 413,
+    "type": "middle_paraphrase",
+    "token_pos": 1240
+  },
+  {
+    "query": "aby soutěž platila, chybí osm kol a trénovat bez omezení by se muselo nejpozději 12. dubna",
+    "doc_id": 413,
+    "type": "end",
+    "token_pos": 1985
+  },
+  {
+    "query": "trenér tvrdí, že stihnout zbylé zápasy do konce června je nereálné",
+    "doc_id": 413,
+    "type": "end_paraphrase",
+    "token_pos": 1985
+  },
+  {
+    "query": "dárce nechtěl posílat peníze přes transparentní účet, televize Prima mu pomohla vybrat rodinu ze Stebna",
+    "doc_id": 386,
+    "type": "middle",
+    "token_pos": 984
+  },
+  {
+    "query": "muž s amputovanou nohou chtěl pomoct obětem tornáda a požádal redakci o výběr rodiny",
+    "doc_id": 386,
+    "type": "middle_paraphrase",
+    "token_pos": 984
+  },
+  {
+    "query": "vedení obce Kryry reagovalo na bouři pomalu, stavební firma nabízí 80procentní slevu na materiál",
+    "doc_id": 386,
+    "type": "end",
+    "token_pos": 1575
+  },
+  {
+    "query": "obec po vichřici nebyla schopná rychle založit sbírku, na rozdíl od Moravy",
+    "doc_id": 386,
+    "type": "end_paraphrase",
+    "token_pos": 1575
+  },
+  {
+    "query": "paušální daň se nevyplatí živnostníkům, kteří uplatňují slevy na děti a manželku",
+    "doc_id": 665,
+    "type": "middle",
+    "token_pos": 931
+  },
+  {
+    "query": "komu se po zvýšení hranice vyplatí přejít na jednu měsíční platbu daně a pojištění",
+    "doc_id": 665,
+    "type": "middle_paraphrase",
+    "token_pos": 931
+  },
+  {
+    "query": "zvýšení limitu pro plátce DPH na dva miliony musí schválit EU, výpadek rozpočtu 6,4 miliardy",
+    "doc_id": 665,
+    "type": "end",
+    "token_pos": 1489
+  },
+  {
+    "query": "o kolik přijdou obce a kraje, když se zvýší hranice obratu pro plátcovství",
+    "doc_id": 665,
+    "type": "end_paraphrase",
+    "token_pos": 1489
+  },
+  {
+    "query": "hudba k Sicariu s perkusemi a pětašedesátičlenným orchestrem",
+    "doc_id": 996,
+    "type": "middle",
+    "token_pos": 847
+  },
+  {
+    "query": "skladatel použil velký orchestr ke stupňování napětí ve filmu o drogových kartelech",
+    "doc_id": 996,
+    "type": "middle_paraphrase",
+    "token_pos": 847
+  },
+  {
+    "query": "Tilda Swintonová propůjčila hlas posledním lidem ve sci-fi eseji",
+    "doc_id": 996,
+    "type": "end",
+    "token_pos": 1355
+  },
+  {
+    "query": "hlas britské herečky provází diváky filmovou esejí o konci lidstva",
+    "doc_id": 996,
+    "type": "end_paraphrase",
+    "token_pos": 1355
+  },
+  {
+    "query": "na červeném koberci Bartoška s manželkou a Eben s Livií Klausovou",
+    "doc_id": 634,
+    "type": "middle",
+    "token_pos": 833
+  },
+  {
+    "query": "kdo se prošel po koberci před hotelem na zahájení festivalu v Karlových Varech",
+    "doc_id": 634,
+    "type": "middle_paraphrase",
+    "token_pos": 833
+  },
+  {
+    "query": "nový KVIFF.TV Park připomínající kolonádu, výkonný ředitel Kryštof Mucha",
+    "doc_id": 634,
+    "type": "end",
+    "token_pos": 1334
+  },
+  {
+    "query": "festival letos poprvé postavil dočasný pavilon s vlastní televizí a programem",
+    "doc_id": 634,
+    "type": "end_paraphrase",
+    "token_pos": 1334
+  },
+  {
+    "query": "Blatný podepsal výjimky na volný prodej kloktacích a žvýkacích antigenních testů",
+    "doc_id": 112,
+    "type": "middle",
+    "token_pos": 917
+  },
+  {
+    "query": "lidé si budou moci sami testovat koronavirus pomocí kloktání nebo žvýkání",
+    "doc_id": 112,
+    "type": "middle_paraphrase",
+    "token_pos": 917
+  },
+  {
+    "query": "s negativním testem by lidé mohli od druhého čtvrtletí do hotelů a divadel",
+    "doc_id": 112,
+    "type": "end",
+    "token_pos": 1467
+  },
+  {
+    "query": "ministr slibuje vstup do divadel a na sport po předložení testu, až se zlepší situace",
+    "doc_id": 112,
+    "type": "end_paraphrase",
+    "token_pos": 1467
+  },
+  {
+    "query": "Praze chybí zahraniční turisté, prázdné byty zlevňují nájmy",
+    "doc_id": 903,
+    "type": "middle",
+    "token_pos": 965
+  },
+  {
+    "query": "kvůli chybějícím turistům je víc bytů k pronájmu a nájmy v hlavním městě klesají",
+    "doc_id": 903,
+    "type": "middle_paraphrase",
+    "token_pos": 965
+  },
+  {
+    "query": "podle Deloitte ceny bytů od roku 2015 vzrostly o 86 procent, metr stojí 77 800 korun",
+    "doc_id": 903,
+    "type": "end",
+    "token_pos": 1544
+  },
+  {
+    "query": "o kolik zdražily nemovitosti od roku 2015 a kolik stojí metr čtvereční v krajských městech",
+    "doc_id": 903,
+    "type": "end_paraphrase",
+    "token_pos": 1544
+  },
+  {
+    "query": "dcera dělá uzlíčkovou výšivku a síťování, matka pere, škrobí a žehlí",
+    "doc_id": 677,
+    "type": "middle",
+    "token_pos": 933
+  },
+  {
+    "query": "jak si matka s dcerou dělí práci na výrobě miniaturních oblečků",
+    "doc_id": 677,
+    "type": "middle_paraphrase",
+    "token_pos": 933
+  },
+  {
+    "query": "panenky v krojích nesmí na slunce a po každé výstavě je třeba polovinu opravit",
+    "doc_id": 677,
+    "type": "end",
+    "token_pos": 1493
+  },
+  {
+    "query": "proč musí být sbírka figurek chráněna před sluncem a vlhkem",
+    "doc_id": 677,
+    "type": "end_paraphrase",
+    "token_pos": 1493
+  },
+  {
+    "query": "Polsko odmítá platit pokutu půl milionu eur za Turów",
+    "doc_id": 203,
+    "type": "middle",
+    "token_pos": 971
+  },
+  {
+    "query": "sousední země ignoruje evropský soud a nechce platit denní pokutu za důl",
+    "doc_id": 203,
+    "type": "middle_paraphrase",
+    "token_pos": 971
+  },
+  {
+    "query": "Kratochvíl varuje před malou unií kolem eurozóny, Česko skončí tam co Maďaři",
+    "doc_id": 203,
+    "type": "end",
+    "token_pos": 1554
+  },
+  {
+    "query": "expert předpovídá, že bohaté státy vytvoří užší jádro a sníží peníze ostatním",
+    "doc_id": 203,
+    "type": "end_paraphrase",
+    "token_pos": 1554
+  },
+  {
+    "query": "v Českých Budějovicích vznikne půdní holubník, nejlevnější typ",
+    "doc_id": 965,
+    "type": "middle",
+    "token_pos": 1079
+  },
+  {
+    "query": "jihočeské město chce postavit levný chov ptáků na půdě podle německého vzoru",
+    "doc_id": 965,
+    "type": "middle_paraphrase",
+    "token_pos": 1079
+  },
+  {
+    "query": "holubník na Praze 3 má stát asi 200 tisíc ročně jako dřívější plynování",
+    "doc_id": 965,
+    "type": "end",
+    "token_pos": 1726
+  },
+  {
+    "query": "pražská městská část dá peníze dřív utracené za otrávení ptáků na humánnější řešení",
+    "doc_id": 965,
+    "type": "end_paraphrase",
+    "token_pos": 1726
+  },
+  {
+    "query": "hrdina hlídá matce papouška a pracuje v pizzerii, gangster Bulhar se sekáčkem na maso",
+    "doc_id": 529,
+    "type": "middle",
+    "token_pos": 979
+  },
+  {
+    "query": "mladík prodává konopí, aby utekl od kontrolující matky a koupil si karavan",
+    "doc_id": 529,
+    "type": "middle_paraphrase",
+    "token_pos": 979
+  },
+  {
+    "query": "červená corvetta s 500 koňmi v honičce s policií na Žižkově a v Holešovicích",
+    "doc_id": 529,
+    "type": "end",
+    "token_pos": 1566
+  },
+  {
+    "query": "recenzent chválí, že film umí načasovat vtip a honička se sporťákem nepůsobí trapně",
+    "doc_id": 529,
+    "type": "end_paraphrase",
+    "token_pos": 1566
+  }
+]

@@ -2,13 +2,17 @@
 
 Vyhledávač nad 1000 českými zpravodajskými články.
 
-Řešení vznikalo ve dvou fázích:
+Řešení vznikalo ve třech iteracích:
 
-1. **BM25 (fulltextové vyhledávání).** Nejdříve jsem implementoval klasické
-   vyhledávání BM25 včetně předzpracování češtiny (odstranění interpunkce, tokenizace, lemmatizace, malá písmena, odstranění diakritiky, odstranění stopslov, stemming)
-2. **Hybridní vyhledávání.** Na základě pomocných výsledků evaluačních metrik jsem projekt
+- **A · BM25 (fulltextové vyhledávání).** Nejdříve jsem implementoval klasické
+   vyhledávání BM25 včetně předzpracování češtiny (odstranění interpunkce, tokenizace, lemmatizace, malá písmena, odstranění diakritiky, odstranění stopslov, stemming).
+- **B · BM25 + embeddingy (hybrid).** Na základě výsledků evaluace jsem projekt
    rozšířil o hybridní vyhledávání, které kombinuje BM25 s embeddingy modelu
-   `BAAI/bge-m3`. Výsledky obou metod se spojují pomocí Reciprocal Rank Fusion (RRF).
+   `BAAI/bge-m3`. Každý článek má jeden vektor. Výsledky obou metod se spojují pomocí
+   Reciprocal Rank Fusion (RRF).
+- **C · BM25 + embeddingy s chunkingem.** Embedding celého článku nevidí dobře na
+   střed a konec dlouhých článků. Proto se články pro embeddingy rozdělí na chunky
+   (max. 512 tokenů) a každý chunk má vlastní vektor. BM25 i RRF zůstávají stejné jako v B.
 
 ## Struktura projektu
 
@@ -16,13 +20,16 @@ Vyhledávač nad 1000 českými zpravodajskými články.
 |---|---|
 | `_data.ipynb` | průzkum a úprava datasetu |
 | `preprocessing.py` | odstranění interpunkce, tokenizace, lemmatizace, malá písmena, odstranění diakritiky, odstranění stopslov, stemming |
-| `bm25.py` | implementace BM25 |
-| `embeddings.py` | embeddingy článků a dotazů (bge-m3) |
-| `hybrid.py` | hybridní vyhledávání (BM25 + embeddingy, RRF) |
+| `bm25.py` | implementace BM25 (řešení A) |
+| `embeddings.py` | embeddingy celých článků a dotazů (bge-m3) |
+| `hybrid.py` | hybridní vyhledávání nad celými články (řešení B) |
+| `chunker/chunking.py` | rozdělení článků na chunky (`SentenceSplitter` z LlamaIndex) |
+| `chunker/embeddings.py` | embeddingy chunků a vyhledávání článků podle nejlepšího chunku |
+| `chunker/hybrid.py` | hybridní vyhledávání s chunky (řešení C) |
 | `main.py` | webová aplikace (FastAPI) s vyhledáváním BM25 |
-| `evaluate_bm25.py`, `evaluate_hybrid.py` | LLM vygenerované pomocné skripty pro evaluaci na testovacích dotazech |
-| `eval/` | testovací dotazy |
-| `results/` | výsledky evaluace |
+| `eval_scripts/evaluate_bm25.py`, `eval_scripts/evaluate_hybrid.py` | LLM vygenerované pomocné skripty pro evaluaci na testovacích dotazech |
+| `eval_data/` | testovací dotazy |
+
 
 ### Co se indexuje
 
@@ -34,6 +41,9 @@ Každý článek se pro vyhledávání skládá ze tří polí: `headline`, `bri
   (`headline + "\n" + brief + "\n\n" + content`), aby model rozlišil titulek,
   brief a content.
 
+Délka textu v tokenech modelu bge-m3: min 181, medián 786, průměr 915, max 5 308.
+Nad 1024 tokenů má 29 % článků, nad 512 tokenů 78 %.
+
 ### Jak vyhledávání funguje
 
 #### 1. Předzpracování textu (`preprocessing.py`)
@@ -41,39 +51,53 @@ Každý článek se pro vyhledávání skládá ze tří polí: `headline`, `bri
 Stejná funkce `preprocess()` se použije na články i na dotazy (jen pro BM25):
 
 1. **Odstranění interpunkce**
-2. **Tokenizace** 
+2. **Tokenizace**
 3. **Lemmatizace**
-4. **Malá písmena.**
-5. **Odstranění diakritiky** 
-6. **Odstranění stopslov** 
-7. **Stemming** 
+4. **Malá písmena**
+5. **Odstranění diakritiky**
+6. **Odstranění stopslov**
+7. **Stemming**
 
 
 #### 2. Indexace článků
 
 - **BM25 (`bm25.py`)** – pro každý článek se uloží slovník četností slov
   `{slovo: počet}` a délka článku. Pro celý korpus se spočítá, v kolika článcích se
-  každé slovo vyskytuje, a průměrná délka článku.
+  každé slovo vyskytuje, a průměrná délka článku. Stejný index používají všechna tři
+  řešení.
 
-- **Embeddingy (`embeddings.py`)** – každý článek se modelem `BAAI/bge-m3` převede na
-  normalizovaný vektor o 1024 číslech. Vznikne hustá matice **1000 × 1024**, která se
-  uloží do `artifacts/embeddings.npy`, aby se nemusela počítat znovu. Model čte
-  maximálně 1024 tokenů; delší články se oříznou, díky pořadí
-  headline → brief → content se ale vždy zachová titulek a brief.
+- **Embeddingy celých článků (`embeddings.py`, řešení B)** – každý článek se modelem
+  `BAAI/bge-m3` převede na normalizovaný vektor o 1024 číslech. Vznikne hustá matice
+  **1000 × 1024**, která se uloží do `artifacts/embeddings.npy`, aby se nemusela
+  počítat znovu. Model čte maximálně 1024 tokenů; delší články se oříznou, díky
+  pořadí headline → brief → content se ale vždy zachová titulek a brief.
+
+- **Embeddingy chunků (`chunker/`, řešení C)** – `content` každého článku se rozdělí
+  po větách na chunky o max. 512 tokenech (tokenizer bge-m3) s překryvem 64 tokenů.
+  První chunk dostane titulek + brief + text, další chunky titulek + text, aby každý
+  chunk věděl, o čem článek je. Z 1000 článků vznikne **2167 chunků**, každý má vlastní
+  vektor. Matice **2167 × 1024** se uloží do `artifacts/embeddings_chunks.npy` a vedle
+  ní `artifacts/chunk_doc_ids.npy`, které ke každému chunku říká, ze kterého článku je.
+  Nic se neořezává.
 
 #### 3. Vyhledávání
 
 - **BM25** – dotaz projde předzpracováním a pro každý článek se spočítá BM25 skóre
   (`k1 = 1.5`, `b = 0.75`). Vrátí se články se skóre > 0 seřazené sestupně.
-- **Embeddingy** – dotaz se tím samým modelem převede na vektor (1024,). Kosinová
-  podobnost se všemi články se spočítá jedním násobením matice
-  `embeddings @ query_vector` 
+- **Embeddingy celých článků (B)** – dotaz se tím samým modelem převede na vektor
+  (1024,). Kosinová podobnost se všemi články se spočítá jedním násobením matice
+  `embeddings @ query_vector`.
+- **Embeddingy chunků (C)** – vektor dotazu se porovná se všemi 2167 chunky. Článek
+  dostane pořadí podle svého nejpodobnějšího chunku (MaxP) a každý článek se ve
+  výsledku objeví jen jednou. Výstup je seznam `doc_id` ve stejném formátu jako v B.
 
-#### 4. Hybrid – spojení výsledků (`hybrid.py`)
+#### 4. Hybrid – spojení výsledků (`hybrid.py`, `chunker/hybrid.py`)
 
 1. Z BM25 i z embeddingů se vezme **100 nejlepších článků**.
 2. Pořadí se spojí pomocí **Reciprocal Rank Fusion**:
    `skóre = 0.3 / (60 + pořadí v BM25) + 0.7 / (60 + pořadí v embeddingech)`.
+   Spojují se pořadí, ne skóre, protože skóre BM25 a kosinová podobnost nejsou
+   srovnatelné.
 3. Výsledky se seřadí podle skóre a vrátí se top N.
 
 #### Webová aplikace (`main.py`)
@@ -86,34 +110,44 @@ embeddingů).
 Evaluace je typu **known-item**: každý testovací dotaz má přesně jeden správný článek
 (`doc_id`) a měří se, na kolikátém místě ho vyhledávač vrátí v top 10.
 
-- `evaluate_bm25.py` – BM25 se spustí se 7 variantami předzpracování
-  preprocessingu (kroky se postupně zapínají) a měří se přínos každého kroku.
-  Výsledek: `results/results_bm25.csv`.
-- `evaluate_hybrid.py` – srovnání BM25, embeddingů (bge-m3) a hybridu (RRF s různými
-  váhami) na stejných dotazech a metrikách, včetně párového srovnání s 95% bootstrap
-  intervalem spolehlivosti. Výsledky: `results/results.csv`,
-  `results/paired_comparison.csv`, `results/per_query.csv`.
+- `eval_scripts/evaluate_bm25.py` – BM25 se spustí se 7 variantami předzpracování
+  (kroky se postupně zapínají) a měří se přínos každého kroku.
+  Výsledek: `eval_results/results_bm25.csv`.
+- `eval_scripts/evaluate_hybrid.py` – srovnání tří řešení A, B a C na stejných dotazech
+  a metrikách, včetně párového srovnání s 95% bootstrap intervalem spolehlivosti.
+  Výsledky: `eval_results/results.csv`, `eval_results/paired_comparison.csv`,
+  `eval_results/per_query.csv`.
 
 Dotazy i články procházejí vždy **stejnou** variantou předzpracování, jinak by se
 tokeny dotazu a článku nemohly shodovat.
 
-### Testovací sady (`eval/`)
+### Testovací sady (`eval_data/`)
 
 | Soubor | Počet | Pole | Popis |
 |---|---|---|---|
 | `queries_known_item.json` | 240 | `query`, `doc_id`, `type` | ručně psané, přirozené dotazy |
 | `queries_hard.json` | 500 | `query`, `doc_id`, `type` | těžké dotazy s malým překryvem slov s titulkem a briefem, jiné články než ruční sada |
 | `queries_keywords.json` | 200 | `query`, `doc_id` | automaticky vytvořené z klíčových slov článků (sloupec `keywords`) |
-| `queries_category.json` | 50 | `query`, `category` | obecné dotazy, např. „hokejová reprezentace“ → očekávaná kategorie `Sport` |
+| `queries_position.json` | 120 | `query`, `doc_id`, `type`, `token_pos` | dotazy na informace ze středu a konce 30 dlouhých článků (1500+ tokenů) |
 
-Pátá sada **„ruční bez diakritiky“** se nenačítá ze souboru, vzniká v kódu ze sady
+Další sada **„ruční bez diakritiky“** se nenačítá ze souboru, vzniká v kódu ze sady
 `queries_known_item.json` odstraněním diakritiky. Simuluje uživatele, který píše bez
 háčků a čárek.
 
+Ukázkový dotaz z každé sady:
+
+| Sada | Příklad dotazu |
+|---|---|
+| ruční | „kdo převzal vedení PPF po smrti zakladatele“ |
+| ruční bez diakritiky | „kdo prevzal vedeni PPF po smrti zakladatele“ |
+| keywords | „Francie Prezidentské volby Marine le pen“ |
+| těžké | „mattel prodává angličáky hot wheels jako nft za krypto“ |
+| střed a konec | „katovi po popravě zůstala v ruce jen zrzavá paruka“ |
+
 **Poznámka k původu dat:** Testovací sady byly vygenerovány pomocí LLM. Nejde tedy o přesné měření kvality vyhledávání v reálném provozu, ale o
 orientační srovnání: slouží hlavně k tomu, abych viděl, jestli a jak moc se
-vyhledávání zlepšuje mezi jednotlivými variantami (předzpracování, BM25, embeddingy,
-hybrid). Absolutní hodnoty metrik je proto potřeba brát s rezervou.
+vyhledávání zlepšuje mezi jednotlivými variantami (předzpracování, BM25, hybrid,
+chunking). Absolutní hodnoty metrik je proto potřeba brát s rezervou.
 
 ### Typy dotazů (pole `type`)
 
@@ -127,6 +161,8 @@ hybrid). Absolutní hodnoty metrik je proto potřeba brát s rezervou.
 | `paraphrase` | celá myšlenka formulovaná jinak | „kdo převzal vedení PPF po smrti zakladatele“, „zesnul bývalý manžel špinarové, rakovina plic“ |
 | `colloquial` | hovorová čeština | „proč jsou papriky tak drahý“, „lenny a týpek z linkinů spolu udělali singl“ |
 | `question` | dotaz ve formě otázky (jen v těžké sadě) | „kde odehráli naši zápas s estonci místo tallinnu“, „hrozí po zákazu ruské ropy v Evropě nedostatek nafty?“ |
+| `middle`, `end` | informace ze středu / konce dlouhého článku, se jmény a názvy z pasáže (jen v sadě střed a konec) | „katovi po popravě zůstala v ruce jen zrzavá paruka“ |
+| `middle_paraphrase`, `end_paraphrase` | stejná pasáž popsaná jinými slovy (jen v sadě střed a konec) | – |
 
 ### Metriky
 
@@ -140,7 +176,6 @@ zprůměrují přes celou sadu. Příklad: správný článek je na **3. místě
 | **R@5** | je v top 5? | 1 | uživatel článek uvidí bez scrollování |
 | **R@10** | je v top 10? | 1 | článek se vůbec našel |
 | **nDCG@10** | 1 / log₂(pořadí + 1) | 0,5 | jako MRR, ale mírnější trest za nižší místa |
-| **P@10** | podíl článků se správnou kategorií v top 10 | – | jen pro `queries_category.json` |
 
 Když správný článek v top 10 není, jsou všechny metriky dotazu 0. U sad s polem
 `type` se MRR@10 počítá navíc zvlášť pro každý typ dotazu.
@@ -159,17 +194,17 @@ Varianty (kroky se postupně přidávají):
 | 5 + stemming (full) | + stemming (= `preprocess()` v projektu) |
 | 6 stemming bez lemmatizace | jako 5, ale bez lemmatizace |
 
-MRR@10 podle sady (P@10 u kategorií):
+MRR@10 podle sady:
 
-| Varianta | ruční | ruční bez diakritiky | keywords | těžké (500) | kategorie P@10 |
-|---|---|---|---|---|---|
-| 0 baseline | 0.738 | 0.477 | 0.537 | 0.418 | 0.742 |
-| 1 + malá písmena | 0.767 | 0.498 | 0.718 | 0.632 | 0.760 |
-| 2 + bez diakritiky | 0.802 | 0.802 | 0.723 | 0.669 | 0.758 |
-| 3 + stopwords | 0.804 | 0.804 | 0.723 | 0.665 | 0.760 |
-| 4 + lemmatizace | 0.890 | 0.792 | 0.839 | 0.749 | 0.812 |
-| **5 + stemming (full)** | **0.923** | 0.899 | **0.848** | **0.806** | **0.814** |
-| 6 stemming bez lemmatizace | 0.906 | **0.906** | 0.846 | 0.787 | 0.812 |
+| Varianta | ruční | ruční bez diakritiky | keywords | těžké (500) |
+|---|---|---|---|---|
+| 0 baseline | 0.738 | 0.477 | 0.537 | 0.418 |
+| 1 + malá písmena | 0.767 | 0.498 | 0.718 | 0.632 |
+| 2 + bez diakritiky | 0.802 | 0.802 | 0.723 | 0.669 |
+| 3 + stopwords | 0.804 | 0.804 | 0.723 | 0.665 |
+| 4 + lemmatizace | 0.890 | 0.792 | 0.839 | 0.749 |
+| **5 + stemming (full)** | **0.923** | 0.899 | **0.848** | **0.806** |
+| 6 stemming bez lemmatizace | 0.906 | **0.906** | 0.846 | 0.787 |
 
 MRR@10 podle typu dotazu, baseline vs. plné předzpracování:
 
@@ -209,107 +244,53 @@ Hlavní zjištění:
   hovorová čeština a parafráze v těžké sadě. BM25 umí najít jen shodná slova, ne
   shodný význam. To byl důvod pro rozšíření o hybridní vyhledávání s embeddingy.
 
-### Výsledky: BM25 vs. embeddingy vs. hybrid
+### Výsledky: A vs. B vs. C
 
-Srovnávané systémy:
+Srovnávaná řešení:
 
-- **BM25 (full)** – BM25 s plným předzpracováním.
-- **Embeddingy (bge-m3)** – jen sémantické vyhledávání: kosinová podobnost vektoru
-  dotazu a vektorů článků.
-- **Hybrid (RRF)** – z BM25 i z embeddingů se vezme 100 nejlepších článků a pořadí se
-  spojí pomocí Reciprocal Rank Fusion:
-  `skóre = w_bm25 / (60 + pořadí v BM25) + w_dense / (60 + pořadí v embeddingech)`.
-  Spojují se pořadí, ne skóre, protože skóre BM25 a kosinová podobnost nejsou
-  srovnatelné. Testovaly se váhy embeddingů `dense` = 0.5 (bez vah) až 0.9,
-  váha BM25 je `1 - dense`.
+- **A · BM25 (full)** – BM25 s plným předzpracováním.
+- **B · hybrid, dense 0.7** – BM25 + embeddingy celých článků spojené přes RRF
+  (váha embeddingů 0.7, BM25 0.3).
+- **C · hybrid + chunky, dense 0.7** – stejné jako B, ale embeddingy se počítají
+  nad chunky (max. 512 tokenů) a článek dostane pořadí svého nejlepšího chunku.
 
-MRR@10 podle sady (P@10 u kategorií):
+MRR@10 podle sady (průměr = MRR@10 přes 5 sad):
 
-| Systém | ruční | ruční bez diakritiky | keywords | těžké (500) | kategorie P@10 |
+| Řešení | ruční | ruční bez diakritiky | keywords | těžké (500) | střed a konec (120) | průměr |
+|---|---|---|---|---|---|---|
+| A · BM25 (full) | 0.923 | 0.899 | **0.848** | 0.806 | 0.810 | 0.857 |
+| B · hybrid, dense 0.7 | **0.977** | **0.961** | 0.787 | **0.933** | 0.754 | 0.882 |
+| **C · hybrid + chunky, dense 0.7** | 0.972 | 0.954 | 0.782 | 0.926 | **0.904** | **0.908** |
+
+Všechny metriky, průměr přes 5 sad:
+
+| Řešení | MRR@10 | R@1 | R@5 | R@10 | nDCG@10 |
 |---|---|---|---|---|---|
-| BM25 (full) | 0.923 | 0.899 | **0.848** | 0.806 | 0.814 |
-| embeddingy (bge-m3) | 0.977 | 0.952 | 0.711 | **0.962** | 0.814 |
-| hybrid RRF (dense = 0.5) | 0.956 | 0.940 | 0.802 | 0.903 | **0.832** |
-| hybrid RRF (dense = 0.6) | 0.970 | 0.954 | 0.791 | 0.917 | **0.832** |
-| **hybrid RRF (dense = 0.7)** – použitý v `hybrid.py` | 0.973 | 0.958 | 0.783 | 0.931 | **0.832** |
-| hybrid RRF (dense = 0.8) | 0.976 | 0.959 | 0.768 | 0.938 | **0.832** |
-| hybrid RRF (dense = 0.9) | **0.978** | **0.960** | 0.746 | 0.954 | 0.830 |
+| A · BM25 (full) | 0.857 | 0.804 | 0.930 | 0.950 | 0.880 |
+| B · hybrid, dense 0.7 | 0.882 | 0.834 | 0.947 | 0.964 | 0.903 |
+| **C · hybrid + chunky, dense 0.7** | **0.908** | **0.861** | **0.965** | **0.979** | **0.925** |
 
-MRR@10 podle typu dotazu na těžké sadě (500 dotazů):
 
-| `type` | BM25 (full) | embeddingy | hybrid (dense = 0.7) |
-|---|---|---|---|
-| colloquial | 0.748 | **0.943** | 0.924 |
-| derived | 0.887 | **1.000** | 0.962 |
-| paraphrase | 0.804 | **0.975** | 0.936 |
-| question | 0.815 | **0.913** | 0.868 |
-| synonym | 0.757 | **0.976** | 0.912 |
-| typo | 0.893 | 0.944 | **0.980** |
-
-#### Párové srovnání
-
-Pro každý dotaz se spočítá rozdíl MRR@10 mezi dvěma systémy a z rozdílů se pomocí
-bootstrapu (2000 převzorkování) určí 95% interval spolehlivosti. **Když interval
-neobsahuje 0, rozdíl je statisticky významný**, jinak může jít o náhodu. Sloupec
-„lepší / horší / stejně“ udává počet dotazů, kde se nový systém zlepšil, zhoršil nebo
-zůstal stejný.
-
-| Srovnání | Sada | ΔMRR@10 | 95% CI | lepší / horší / stejně |
-|---|---|---|---|---|
-| embeddingy vs. BM25 (full) | ruční | +0.054 | [+0.025, +0.085] | 25 / 6 / 209 |
-| | keywords | −0.137 | [−0.188, −0.087] | 16 / 56 / 128 |
-| | těžké | +0.156 | [+0.125, +0.187] | 122 / 20 / 358 |
-| hybrid 0.7 vs. BM25 (full) | ruční | +0.050 | [+0.027, +0.074] | 25 / 3 / 212 |
-| | ruční bez diakritiky | +0.060 | [+0.032, +0.089] | 32 / 5 / 203 |
-| | keywords | −0.065 | [−0.111, −0.020] | 20 / 39 / 141 |
-| | těžké | +0.124 | [+0.099, +0.150] | 122 / 13 / 365 |
-| hybrid 0.7 vs. embeddingy | ruční | −0.004 | [−0.021, +0.013] | 3 / 6 / 231 |
-| | ruční bez diakritiky | +0.006 | [−0.014, +0.028] | 11 / 8 / 221 |
-| | keywords | +0.072 | [+0.047, +0.100] | 39 / 2 / 159 |
-| | těžké | −0.031 | [−0.050, −0.013] | 13 / 34 / 453 |
-
-Kompletní tabulky jsou v `results/results.csv` a `results/paired_comparison.csv`,
-MRR@10 každého dotazu u každého systému v `results/per_query.csv`.
 
 #### Hlavní zjištění
 
-- **Embeddingy výrazně překonávají BM25 u přirozených a těžkých dotazů** (těžká sada
-  0.806 → 0.962). Rozumí významu, takže zvládají synonyma, parafráze i hovorovou
-  češtinu, kde BM25 selhává.
-- **U dotazů z klíčových slov je naopak nejlepší BM25** (0.848 vs. 0.711 u embeddingů).
-  Seznam jmen a pojmů bez souvislé věty („Maďarsko Péter márki-zay Viktor orbán“)
-  embeddingy zachytí hůř než přesná shoda slov.
-- **Hybrid spojuje silné stránky obou metod.** Na ručních dotazech je statisticky
-  stejně dobrý jako embeddingy (rozdíl −0.004, interval obsahuje 0), na keywords je
-  významně lepší než embeddingy (+0.072) a na těžkých dotazech výrazně lepší než BM25
-  (+0.124). Na žádné sadě není nejhorší ze tří systémů. Proti nejlepšímu systému
-  dané sady ztrácí málo (−0.065 proti BM25 na keywords, −0.031 proti embeddingům na
-  těžké sadě), zatímco samotné embeddingy ztrácí na keywords −0.137 a samotné BM25
-  na těžké sadě −0.156.
-- **Hybrid je nejlepší u překlepů** (`typo` 0.980) a u kategorií (P@10 0.832).
-- **Váha embeddingů je kompromis**: vyšší váha zlepšuje těžké dotazy
-  (0.903 → 0.954), ale zhoršuje keywords (0.802 → 0.746). Váha **0.7** drží
-  keywords výrazně nad samotnými embeddingy (0.783 vs. 0.711) a těžké dotazy blízko
-  nim (0.931 vs. 0.962).
-- **Cena hybridu**: na těžké sadě je o 0.031 horší než samotné embeddingy, nejvíc
-  u synonym (`synonym` 0.912 vs. 0.976) a otázek (`question` 0.868 vs. 0.913). BM25
-  u nich nenajde shodná slova, nebo se chytá slov z otázky, která o tématu článku
-  nevypovídají, a do fúze tak přidává šum.
-- **Závěr:** hybrid (dense = 0.7) má nejlepší průměr pro různé typy dotazů. Webová
-  aplikace nasazená na Azure používá kvůli nákladům jen BM25 (bez GPU a 2+ GB modelu),
-  hybrid běží lokálně.
+- **Hybrid (B) výrazně zlepší BM25 u přirozených a těžkých dotazů** (těžká sada
+  0.806 → 0.933). Embeddingy rozumí významu, takže zvládají synonyma, parafráze
+  i hovorovou češtinu, kde BM25 selhává.
+- **U dotazů z klíčových slov zůstává nejlepší BM25** (0.848 vs. 0.787 u B). Seznam
+  jmen a pojmů bez souvislé věty embeddingy zachytí hůř než přesná shoda slov.
+- **B je slabé na dlouhých článcích.** Na sadě střed a konec je dokonce horší než
+  samotné BM25 (0.754 vs. 0.810), protože embedding celého článku se ořízne na
+  1024 tokenů a konec dlouhého textu v něm zanikne.
+- **Chunking (C) tuto slabinu odstraní**: na sadě střed a konec stoupne MRR@10
+  z 0.754 na 0.904, nejvíc u parafrázovaných pasáží. Na ostatních sadách jsou B a C
+  prakticky stejné (rozdíly do 0.01, statisticky nevýznamné).
+- **Pořadí A < B < C platí ve všech metrikách** (MRR, R@1, R@5, R@10, nDCG), takže
+  závěr nezávisí na volbě metriky. S řešením C je správný článek na 1. místě
+  v 86 % dotazů (BM25 80 %) a v top 10 v 98 % dotazů (BM25 95 %).
+- **Velikost chunku** 256 místo 512 tokenů výsledky prakticky nemění (průměr 0.912
+  vs. 0.908), 512 dává menší index a rychlejší kódování.
+- **Závěr:** nejlepší je řešení C (průměr 0.908), oproti BM25 je statisticky významně
+  lepší na 4 z 5 sad. Webová aplikace nasazená na Azure používá kvůli nákladům jen
+  BM25 (bez GPU a 2+ GB modelu), hybrid běží lokálně.
 
-## Možné nasazení do produkce  
-
-![Možná produkční architektura](production_diagram.png)
-
-Jak řešení běží v produkci na Azure:
-
-1. **Vývojář (PC)** postaví Docker image (`docker build`) a kód nahraje na **GitHub**
-2. Image se pomocí `docker push` nahraje do soukromého **Azure Container Registry**.
-3. **Container App** si image z registru stáhne a spustí FastAPI aplikaci.
-4. **Prohlížeč uživatele** posílá dotazy přes HTTPS
-5. Výstup aplikace  se ukládá do **Log Analytics**.
-
-Aktuálně nasazená verze používá jen BM25. Hybrid by v cloudu vyžadoval stroj s GPU
-a model bge-m3 (2+ GB), takže je výrazně dražší a běží lokálně.

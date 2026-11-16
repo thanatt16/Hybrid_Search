@@ -1,12 +1,18 @@
 import json
 import math
+import sys
 import time
+from pathlib import Path
 
 import pandas as pd
 
+# kořen projektu (o složku výš než eval_scripts/), aby šly importy bm25/preprocessing a relativní cesty k datům
+ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from bm25 import build_index, search_tokens
-from preprocessing import (preprocess, remove_punctuation, tokenize, lemmatize, lowercase,
-                        strip_diacritics, remove_stopwords, stem)
+from preprocessing import (preprocess, remove_punctuation, tokenize, lemmatize, lowercase, strip_diacritics, remove_stopwords, stem)
 
 K = 10
 # varianty preprocessingu pro ablaci (0 = jen interpunkce + tokenizace, každá další přidá jeden krok)
@@ -42,22 +48,27 @@ def preprocess_variant(text, lower=True, lemma=True, fold_diacritics=True, stopw
 
 
 def load_known_item_queries() -> dict[str, list[dict]]:
-    with open(r"E:\Machine_learning\NLP\Project\Hybrid_search\eval\queries_known_item.json", encoding="utf-8") as f:
+    with open(ROOT / "eval_data" / "queries_known_item.json", encoding="utf-8") as f:
         manual = json.load(f)
 
     # stejné dotazy, jak by je napsal uživatel bez háčků a čárek
     manual_ascii = [{"query": strip_diacritics(q["query"]), "doc_id": q["doc_id"]} for q in manual]
 
     # automatická sada z keywords, vytvořená skriptem make_keyword_queries.py
-    with open(r"E:\Machine_learning\NLP\Project\Hybrid_search\eval\queries_keywords.json", encoding="utf-8") as f:
+    with open(ROOT / "eval_data" / "queries_keywords.json", encoding="utf-8") as f:
         keywords = json.load(f)
 
     # 500 těžkých dotazů s malým překryvem s titulkem a perexem, jiné články než ruční sada
-    with open(r"E:\Machine_learning\NLP\Project\Hybrid_search\eval\queries_hard.json", encoding="utf-8") as f:
+    with open(ROOT / "eval_data" / "queries_hard.json", encoding="utf-8") as f:
         hard = json.load(f)
 
+    # 120 dotazů na střed a konec 30 dlouhých článků (1500+ tokenů), kam embeddingy s krátkým limitem nedohlédnou
+    # type: middle / end = s názvy a jmény z pasáže, *_paraphrase = stejná pasáž jinými slovy
+    with open(ROOT / "eval_data" / "queries_position.json", encoding="utf-8") as f:
+        position = json.load(f)
+
     return {"ruční(přirozené)": manual, "ruční bez diakritiky": manual_ascii, "keywords (auto)": keywords,
-            "těžké (500)": hard}
+            "těžké (500)": hard, "střed a konec (120)": position}
 
 
 def known_item_metrics(ranking: list[int], relevant: int) -> dict[str, float]:
@@ -77,7 +88,7 @@ def rank_docs(index: dict, query_tokens: list[str]) -> list[int]:
     return [i for i, _ in search_tokens(query_tokens, index, top_n=K)]
 
 
-def evaluate_config(categories: pd.Series, texts: pd.Series, params: dict, query_sets: dict, category_queries: list) -> dict:
+def evaluate_config(texts: pd.Series, params: dict, query_sets: dict) -> dict:
     corpus = [preprocess_variant(t, **params) for t in texts]
     index = build_index(corpus)
 
@@ -95,29 +106,21 @@ def evaluate_config(categories: pd.Series, texts: pd.Series, params: dict, query
             for qtype, value in per_query.groupby("type")["MRR@10"].mean().items():
                 result[(f"{name} MRR@10 podle typu", qtype)] = value
 
-    # kategorie: kolik z top 10 výsledků patří do očekávané kategorie
-    precisions = []
-    for q in category_queries:
-        ranking = rank_docs(index, preprocess_variant(q["query"], **params))
-        precisions.append(sum(categories.iloc[i] == q["category"] for i in ranking) / K)
-    result[("kategorie", "P@10")] = sum(precisions) / len(precisions)
     return result
 
 
 if __name__ == "__main__":
-    df = pd.read_parquet(r"E:\Machine_learning\NLP\Project\Hybrid_search\dataset\articles.parquet")
+    df = pd.read_parquet(ROOT / "dataset" / "articles.parquet")
     texts = df["headline"] + " " + df["brief"] + " " + df["content"]
     # doc_id v dotazech = pozice článku v indexu, musí sedět s pořadím v df
     assert (df["doc_id"].to_numpy() == range(len(df))).all(), "doc_id neodpovídá pozici článku"
 
     query_sets = load_known_item_queries()
-    with open(r"E:\Machine_learning\NLP\Project\Hybrid_search\eval\queries_category.json", encoding="utf-8") as f:
-        category_queries = json.load(f)
 
     rows = {}
     for name, params in CONFIGS.items():
         start = time.time()
-        rows[name] = evaluate_config(df["category"], texts, params, query_sets, category_queries)
+        rows[name] = evaluate_config(texts, params, query_sets)
         print(f"{name:28} hotovo za {time.time() - start:.1f} s")
 
     results = pd.DataFrame(rows).T
@@ -131,4 +134,4 @@ if __name__ == "__main__":
         print(results[group].round(3).to_string())
         print()
 
-    results.to_csv(r"E:\Machine_learning\NLP\Project\Hybrid_search\results\results_bm25.csv")
+    results.to_csv(ROOT / "eval_results" / "results_bm25.csv")
