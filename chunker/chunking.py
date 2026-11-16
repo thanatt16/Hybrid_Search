@@ -5,10 +5,14 @@ from transformers import AutoTokenizer
 
 
 def make_splitter():
-    # chunk_size se pocita tokenizerem bge-m3, ne vychozim tokenizerem LlamaIndexu (OpenAI), jinak by 512 neodpovidalo modelu
-    tokenizer = AutoTokenizer.from_pretrained("BAAI/bge-m3")
-    return SentenceSplitter(chunk_size=256,chunk_overlap=64,tokenizer=lambda text: tokenizer.encode(text, add_special_tokens=False),
-)
+    # chunk_size se pocita tokenizerem bge-m3, ne vychozim tokenizerem LlamaIndexu (OpenAI), jinak by 256 neodpovidalo modelu
+    bge_tok = AutoTokenizer.from_pretrained("BAAI/bge-m3")
+
+    def count_tokens(text):
+        # vrati seznam token ID; SentenceSplitter si z nej vezme delku (bez specialnich tokenu <s> a </s>)
+        return bge_tok.encode(text, add_special_tokens=False)
+
+    return SentenceSplitter(chunk_size=256, chunk_overlap=64, tokenizer=count_tokens)
 
 def chunk_articles(df):
     splitter = make_splitter()

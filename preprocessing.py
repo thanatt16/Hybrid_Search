@@ -89,6 +89,8 @@ if __name__ == "__main__":
     df = pd.read_parquet(r"E:\Machine_learning\NLP\Project\Hybrid_search\dataset\articles.parquet")
     texts = df["headline"] + " " + df["brief"] + " " + df["content"]
 
+    print(texts[0])
+
     all_tokens = []
     for text in texts:
         tokens = preprocess(text)
@@ -100,5 +102,6 @@ if __name__ == "__main__":
             counts[token] = counts.get(token, 0) + 1
     serazene = sorted(counts.items(), key=lambda x: x[1], reverse=True)
 
-    print(serazene[:20])   # 20 nejcastejsich tokenu
-    print(serazene[-20:])  
+    #print(serazene[:20])   # 20 nejcastejsich tokenu
+    #print(serazene[-20:])  
+    #print((all_tokens[0]))
