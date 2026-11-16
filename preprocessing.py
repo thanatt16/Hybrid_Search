@@ -100,5 +100,5 @@ if __name__ == "__main__":
             counts[token] = counts.get(token, 0) + 1
     serazene = sorted(counts.items(), key=lambda x: x[1], reverse=True)
 
-    print(serazene[:20])   # 20 nejčastějších tokenů
+    print(serazene[:20])   # 20 nejcastejsich tokenu
     print(serazene[-20:])  

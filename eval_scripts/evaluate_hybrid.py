@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-# kořen projektu (o složku výš než eval_scripts/), aby šly importy modulů z kořene a relativní cesty k datům
+# koren projektu, at jdou importy a cesty k datum
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = Path(__file__).resolve().parent
 for p in (ROOT, SCRIPTS_DIR):
@@ -16,30 +16,30 @@ for p in (ROOT, SCRIPTS_DIR):
 from bm25 import build_index, search_tokens
 from embeddings import load_model, load_embeddings, embed_queries, dense_search
 from hybrid import CANDIDATES, reciprocal_rank_fusion, W_DENSE
-# stejné varianty preprocessingu, dotazy a metriky jako evaluate_bm25 -> výsledky BM25 jsou přímo srovnatelné
+# stejne dotazy a metriky jako v evaluate_bm25 at se to da porovnat
 from evaluate_bm25 import CONFIGS, K, preprocess_variant, load_known_item_queries, known_item_metrics
 
-# embeddingy chunků z chunker/; chunker/embeddings.py si importuje chunking.py ze své složky, proto ji přidáme do cesty.
-# Import přes "chunker." kvůli stejnému jménu embeddings.py v kořeni a v chunker/.
+# chunker/embeddings.py importuje chunking.py ze sve slozky, proto ji pridavam do cesty
+# import pres "chunker." protoze embeddings.py je i v rootu
 sys.path.append(str(ROOT / "chunker"))
 from chunker.embeddings import load_embeddings as load_chunk_embeddings, dense_search as dense_search_chunks
 
-# Porovnání BM25 s plným preprocessingem a dvou hybridů (RRF, váha embeddingů 0.7): nad celými články a nad chunky.
+# porovnani bm25, hybridu nad celymi clanky a hybridu nad chunky
 
 RESULTS_DIR = ROOT / "eval_results"
-# varianta BM25, která jde do hybridu a do párového srovnání (preprocess s výchozími parametry)
+# varianta bm25 co jde do hybridu
 BEST_CONFIG = "5 + stemming (full)"
 
 
 def bm25_rankings(texts, params, queries):
-    """pořadí článků z BM25 pro každý dotaz; počítá se jednou a pak se jen čte"""
+    """poradi clanku z bm25 pro kazdy dotaz, spocita se jednou"""
     index = build_index([preprocess_variant(t, **params) for t in texts])
     return {q: [i for i, _ in search_tokens(preprocess_variant(q, **params), index, top_n=CANDIDATES)] for q in queries}
 
 
 def evaluate_system(search, query_sets):
-    """search(query) -> pozice článků seřazené podle relevance.
-    Vrací souhrnné metriky a MRR@10 po jednotlivých dotazech (pro párové srovnání)."""
+    """search(query) -> serazene doc_id
+    vraci metriky a mrr@10 pro kazdy dotaz (pro parove srovnani)"""
     result, per_query_mrr = {}, {}
 
     for name, queries in query_sets.items():
@@ -48,7 +48,7 @@ def evaluate_system(search, query_sets):
         for metric, value in per_query.mean().items():
             result[(name, metric)] = value
 
-        # u sad s typem dotazu navíc MRR podle typu (synonym, typo, ...)
+        # mrr i podle typu dotazu (synonym, typo, ...)
         if "type" in queries[0]:
             per_query["type"] = [q["type"] for q in queries]
             for qtype, value in per_query.groupby("type")["MRR@10"].mean().items():
@@ -58,8 +58,8 @@ def evaluate_system(search, query_sets):
 
 
 def paired_comparison(base, new, n_boot=2000):
-    """Rozdíl MRR po dotazech (new - base) s 95% bootstrap intervalem.
-    Když interval obsahuje 0, rozdíl může být jen náhoda."""
+    """rozdil mrr po dotazech (new - base) + 95% bootstrap interval
+    kdyz je v intervalu 0 tak to muze byt nahoda"""
     diff = new - base
     boot = np.random.default_rng(0).choice(diff, size=(n_boot, len(diff))).mean(axis=1)
     low, high = np.percentile(boot, [2.5, 97.5])
@@ -75,7 +75,7 @@ def paired_comparison(base, new, n_boot=2000):
 if __name__ == "__main__":
     df = pd.read_parquet(ROOT / "dataset" / "articles.parquet")
     texts = df["headline"] + " " + df["brief"] + " " + df["content"]
-    # doc_id v dotazech = pozice článku v indexu i v embeddings.npy, musí sedět s pořadím v df
+    # doc_id musi sedet s poradim v df i v embeddings.npy
     assert (df["doc_id"].to_numpy() == range(len(df))).all(), "doc_id neodpovídá pozici článku"
 
     query_sets = load_known_item_queries()
@@ -85,14 +85,14 @@ if __name__ == "__main__":
     embeddings = load_embeddings(model, df)
     assert len(embeddings) == len(df), "embeddings.npy neodpovídá datasetu, smaž ho a spočítej znovu"
 
-    # chunky: stejný model, jen místo 1 vektoru na článek 1 vektor na chunk (artifacts/embeddings_chunks.npy)
+    # chunky - stejny model, jen 1 vektor na chunk misto na clanek
     chunk_embeddings, chunk_doc_ids = load_chunk_embeddings(model, df)
     assert chunk_doc_ids.max() == len(df) - 1, "chunk_doc_ids neodpovídá datasetu, smaž embeddings_chunks.npy a chunk_doc_ids.npy"
 
-    # všechny dotazy se zakódují najednou, je to mnohem rychlejší než po jednom
+    # vsechny dotazy najednou, je to rychlejsi
     query_vectors = embed_queries(model, all_queries)
     dense = {q: dense_search(embeddings, v, top_k=CANDIDATES) for q, v in zip(all_queries, query_vectors)}
-    # stejné vektory dotazů, hledá se v chunkách a článek dostane pořadí svého nejlepšího chunku
+    # stejne vektory dotazu, clanek dostane poradi podle nejlepsiho chunku
     dense_chunks = {q: dense_search_chunks(chunk_embeddings, chunk_doc_ids, v, top_k=CANDIDATES)
                     for q, v in zip(all_queries, query_vectors)}
 
@@ -100,8 +100,8 @@ if __name__ == "__main__":
     best = bm25_rankings(texts, CONFIGS[BEST_CONFIG], all_queries)
     print(f"BM25 {BEST_CONFIG} index + dotazy za {time.time() - start:.1f} s")
 
-    # BM25 full, hybrid nad celými články a hybrid nad chunky (BM25 zůstává nad celými články, mění se jen embeddingová část)
-    # w_dense = W_DENSE (0.7) = váha embeddingů, 1 - W_DENSE = váha BM25
+    # bm25, hybrid nad clanky a hybrid nad chunky (bm25 je porad nad celymi clanky)
+    # vaha embeddingu 0.7, bm25 0.3
     best_name = f"BM25 {BEST_CONFIG}"
     hybrid_name = f"hybrid RRF dense={W_DENSE}"
     chunky_name = f"hybrid chunky dense={W_DENSE}"
@@ -128,7 +128,7 @@ if __name__ == "__main__":
         print(results[group].round(3).to_string())
         print()
 
-    # (základ, nový systém): hybridy proti BM25 a chunky proti celým článkům
+    # (zaklad, novy): hybridy proti bm25 a chunky proti celym clankum
     comparisons = [(best_name, hybrid_name), (best_name, chunky_name), (hybrid_name, chunky_name)]
     compare = pd.DataFrame([
         {"srovnání": f"{new} vs {base}", "sada": name, **paired_comparison(per_query[base][name], per_query[new][name])}
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     print("=== párové srovnání (MRR@10 po dotazech) ===")
     print(compare.to_string(index=False))
 
-    # MRR@10 každého dotazu u každého systému -> je vidět, které dotazy kde selhávají
+    # mrr@10 pro kazdy dotaz, at je videt co kde selhava
     per_query_table = pd.DataFrame([
         {"sada": name, "query": q["query"], "doc_id": q["doc_id"], "type": q.get("type", ""),
          **{system: per_query[system][name][i] for system in systems}}

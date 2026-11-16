@@ -31,11 +31,11 @@ def load_embeddings(model, df):
     return embeddings, chunk_doc_ids
 
 def embed_queries(model, queries):
-    #stejný model a normalizace jako u chunků, jinak by vektory nešly porovnat
-    return model.encode(queries, batch_size=32, normalize_embeddings=True) # (počet dotazů, 1024), pro 1 dotaz (1, 1024)
+    # stejny model i normalizace jako u chunku, jinak by to neslo porovnat
+    return model.encode(queries, batch_size=32, normalize_embeddings=True) # 1 dotaz = (1, 1024)
 
 def dense_search(embeddings, chunk_doc_ids, query_vector, top_k=100):
-    # kosinová podobnost dotazu se všemi chunky najednou (vektory mají délku 1, takže stačí skalární součin)
+    # kosinova podobnost se vsema chunkama najednou, vektory jsou normalizovane takze staci skalarni soucin
     scores = embeddings @ query_vector # (pocet chunku x 1024) x (1024,) -> jedno cislo na chunk
     best = np.argsort(-scores)         # chunky od nejpodobnejsiho
 

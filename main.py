@@ -19,7 +19,7 @@ app = FastAPI()
 
 
 def get_results(q, top_n=5):
-    """Vyhledá dotaz a vrátí seznam výsledků jako slovníky."""
+    """vyhleda dotaz a vrati vysledky jako list slovniku"""
     answer = search(q, index, top_n=top_n)
     results = []
     for poradi, (i, score_value) in enumerate(answer, start=1):

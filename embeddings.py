@@ -26,15 +26,15 @@ def load_embeddings(model, df):
     return embeddings
 
 def embed_queries(model, queries):
-    #stejný model a normalizace jako u článků, jinak by vektory nešly porovnat
-    return model.encode(queries, batch_size=32, normalize_embeddings=True)# otazka se taky prevede na matici 1 dotaz (1,1024). # (počet dotazů, 1024), pro 1 dotaz (1, 1024)
+    # stejny model i normalizace jako u clanku, jinak by to neslo porovnat
+    return model.encode(queries, batch_size=32, normalize_embeddings=True)# otazka se taky prevede na matici, 1 dotaz = (1, 1024)
 
 def dense_search(embeddings, query_vector, top_k=100):
-    # kosinová podobnost dotazu se všemi články najednou (vektory mají délku 1, takže stačí skalární součin)
+    # kosinova podobnost se vsema clankama najednou, vektory jsou normalizovane takze staci skalarni soucin
     scores = embeddings @ query_vector # (1000x1024) x (1024,) -> jedno cislo na clanek
     best = np.argsort(-scores)[:top_k] # vracim podobnost (100,) od nejmensi hodnoty, proto "-" at se to obrati od nejvetsi
     
     vysledek = []
-    for i in best:              # projde každé doc_id v poli
-        vysledek.append(int(i)) # převede numpy.int64 na obyčejný Python int a přidá do listu
+    for i in best:              # projdu doc_id
+        vysledek.append(int(i)) # numpy int64 -> normalni int
     return vysledek

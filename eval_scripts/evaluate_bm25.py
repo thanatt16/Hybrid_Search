@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-# kořen projektu (o složku výš než eval_scripts/), aby šly importy bm25/preprocessing a relativní cesty k datům
+# koren projektu, at jdou importy bm25/preprocessing a cesty k datum
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -15,7 +15,7 @@ from bm25 import build_index, search_tokens
 from preprocessing import (preprocess, remove_punctuation, tokenize, lemmatize, lowercase, strip_diacritics, remove_stopwords, stem)
 
 K = 10
-# varianty preprocessingu pro ablaci (0 = jen interpunkce + tokenizace, každá další přidá jeden krok)
+# varianty preprocessingu, 0 = jen interpunkce + tokenizace, kazda dalsi prida jeden krok
 CONFIGS = {
     "0 baseline":                 dict(lower=False, lemma=False, fold_diacritics=False, stopwords=False, stemming=False),
     "1 + malá písmena":           dict(lower=True,  lemma=False, fold_diacritics=False, stopwords=False, stemming=False),
@@ -28,7 +28,7 @@ CONFIGS = {
 
 
 def preprocess_variant(text, lower=True, lemma=True, fold_diacritics=True, stopwords=True, stemming=True):
-    """stejné kroky a pořadí jako preprocess.preprocess, jen jdou jednotlivě vypnout"""
+    """to same co preprocess() ale jde vypnout kazdy krok"""
     if lower and fold_diacritics and stopwords:
         return preprocess(text, lemma=lemma, stemming=stemming)
 
@@ -51,19 +51,19 @@ def load_known_item_queries() -> dict[str, list[dict]]:
     with open(ROOT / "eval_data" / "queries_known_item.json", encoding="utf-8") as f:
         manual = json.load(f)
 
-    # stejné dotazy, jak by je napsal uživatel bez háčků a čárek
+    # stejne dotazy bez diakritiky
     manual_ascii = [{"query": strip_diacritics(q["query"]), "doc_id": q["doc_id"]} for q in manual]
 
-    # automatická sada z keywords, vytvořená skriptem make_keyword_queries.py
+    # dotazy z keywords clanku
     with open(ROOT / "eval_data" / "queries_keywords.json", encoding="utf-8") as f:
         keywords = json.load(f)
 
-    # 500 těžkých dotazů s malým překryvem s titulkem a perexem, jiné články než ruční sada
+    # 500 tezkych dotazu, malo spolecnych slov s titulkem a perexem
     with open(ROOT / "eval_data" / "queries_hard.json", encoding="utf-8") as f:
         hard = json.load(f)
 
-    # 120 dotazů na střed a konec 30 dlouhých článků (1500+ tokenů), kam embeddingy s krátkým limitem nedohlédnou
-    # type: middle / end = s názvy a jmény z pasáže, *_paraphrase = stejná pasáž jinými slovy
+    # 120 dotazu na stred a konec dlouhych clanku (1500+ tokenu)
+    # middle / end = se jmeny z pasaze, *_paraphrase = stejna pasaz jinymi slovy
     with open(ROOT / "eval_data" / "queries_position.json", encoding="utf-8") as f:
         position = json.load(f)
 
@@ -72,14 +72,14 @@ def load_known_item_queries() -> dict[str, list[dict]]:
 
 
 def known_item_metrics(ranking: list[int], relevant: int) -> dict[str, float]:
-    """ranking = doc_id seřazené podle skóre, relevant = jediný správný doc_id"""
+    """ranking = serazene doc_id, relevant = spravny doc_id"""
     rank = ranking.index(relevant) + 1 if relevant in ranking[:K] else None
     return {
         "MRR@10": 1 / rank if rank else 0.0,
         "R@1": float(rank == 1),
         "R@5": float(rank is not None and rank <= 5),
         "R@10": float(rank is not None),
-        # jeden relevantní dokument -> ideální DCG = 1
+        # jen 1 spravny clanek takze idealni dcg = 1
         "nDCG@10": 1 / math.log2(rank + 1) if rank else 0.0,
     }
 
@@ -100,7 +100,7 @@ def evaluate_config(texts: pd.Series, params: dict, query_sets: dict) -> dict:
         for metric, value in per_query.mean().items():
             result[(name, metric)] = value
 
-        # u sad s typem dotazu navíc MRR podle typu (synonym, typo, ...)
+        # mrr i podle typu dotazu (synonym, typo, ...)
         if "type" in queries[0]:
             per_query["type"] = [q["type"] for q in queries]
             for qtype, value in per_query.groupby("type")["MRR@10"].mean().items():
@@ -112,7 +112,7 @@ def evaluate_config(texts: pd.Series, params: dict, query_sets: dict) -> dict:
 if __name__ == "__main__":
     df = pd.read_parquet(ROOT / "dataset" / "articles.parquet")
     texts = df["headline"] + " " + df["brief"] + " " + df["content"]
-    # doc_id v dotazech = pozice článku v indexu, musí sedět s pořadím v df
+    # doc_id musi sedet s poradim v df
     assert (df["doc_id"].to_numpy() == range(len(df))).all(), "doc_id neodpovídá pozici článku"
 
     query_sets = load_known_item_queries()
